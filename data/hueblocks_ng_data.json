@@ -1,0 +1,6792 @@
+{
+    "nationsglory_ardoise": {
+        "name": "ardoise",
+        "category": "nationsglory",
+        "rgb": {
+            "r": 66,
+            "g": 70,
+            "b": 83
+        },
+        "lab": {
+            "L": 29.8203,
+            "a": 1.5656,
+            "b": -8.3045
+        }
+    },
+    "nationsglory_brique1": {
+        "name": "brique1",
+        "category": "nationsglory",
+        "rgb": {
+            "r": 89,
+            "g": 84,
+            "b": 71
+        },
+        "lab": {
+            "L": 35.8287,
+            "a": -0.4416,
+            "b": 8.339
+        }
+    },
+    "westeros_bark_birch": {
+        "name": "bark_birch",
+        "category": "westeros",
+        "rgb": {
+            "r": 165,
+            "g": 163,
+            "b": 156
+        },
+        "lab": {
+            "L": 66.9713,
+            "a": -0.5717,
+            "b": 3.8778
+        }
+    },
+    "westeros_bark_jungle": {
+        "name": "bark_jungle",
+        "category": "westeros",
+        "rgb": {
+            "r": 65,
+            "g": 68,
+            "b": 57
+        },
+        "lab": {
+            "L": 28.2567,
+            "a": -3.5945,
+            "b": 6.2463
+        }
+    },
+    "westeros_bark_oak": {
+        "name": "bark_oak",
+        "category": "westeros",
+        "rgb": {
+            "r": 93,
+            "g": 77,
+            "b": 52
+        },
+        "lab": {
+            "L": 33.7377,
+            "a": 2.7822,
+            "b": 17.3317
+        }
+    },
+    "westeros_bark_spruce": {
+        "name": "bark_spruce",
+        "category": "westeros",
+        "rgb": {
+            "r": 62,
+            "g": 48,
+            "b": 42
+        },
+        "lab": {
+            "L": 21.227,
+            "a": 5.2728,
+            "b": 6.2539
+        }
+    },
+    "westeros_blades_molten": {
+        "name": "blades_molten",
+        "category": "westeros",
+        "rgb": {
+            "r": 74,
+            "g": 77,
+            "b": 74
+        },
+        "lab": {
+            "L": 32.3872,
+            "a": -1.877,
+            "b": 1.3487
+        }
+    },
+    "westeros_bricks_stone_small_smooth": {
+        "name": "bricks_stone_small_smooth",
+        "category": "westeros",
+        "rgb": {
+            "r": 127,
+            "g": 130,
+            "b": 117
+        },
+        "lab": {
+            "L": 53.7732,
+            "a": -3.6197,
+            "b": 6.6494
+        }
+    },
+    "westeros_bricks_white_small": {
+        "name": "bricks_white_small",
+        "category": "westeros",
+        "rgb": {
+            "r": 169,
+            "g": 166,
+            "b": 161
+        },
+        "lab": {
+            "L": 68.227,
+            "a": 0.1556,
+            "b": 2.9564
+        }
+    },
+    "westeros_brick_basalt": {
+        "name": "brick_basalt",
+        "category": "westeros",
+        "rgb": {
+            "r": 59,
+            "g": 58,
+            "b": 52
+        },
+        "lab": {
+            "L": 24.3342,
+            "a": -0.8616,
+            "b": 3.8818
+        }
+    },
+    "westeros_brick_dark_red": {
+        "name": "brick_dark_red",
+        "category": "westeros",
+        "rgb": {
+            "r": 96,
+            "g": 52,
+            "b": 45
+        },
+        "lab": {
+            "L": 27.1082,
+            "a": 18.9252,
+            "b": 13.0623
+        }
+    },
+    "westeros_brick_dun": {
+        "name": "brick_dun",
+        "category": "westeros",
+        "rgb": {
+            "r": 108,
+            "g": 79,
+            "b": 62
+        },
+        "lab": {
+            "L": 36.2294,
+            "a": 9.7284,
+            "b": 14.7978
+        }
+    },
+    "westeros_brick_dun_cobble": {
+        "name": "brick_dun_cobble",
+        "category": "westeros",
+        "rgb": {
+            "r": 105,
+            "g": 74,
+            "b": 57
+        },
+        "lab": {
+            "L": 34.3882,
+            "a": 10.8156,
+            "b": 15.3622
+        }
+    },
+    "westeros_brick_dun_ornate": {
+        "name": "brick_dun_ornate",
+        "category": "westeros",
+        "rgb": {
+            "r": 108,
+            "g": 79,
+            "b": 60
+        },
+        "lab": {
+            "L": 36.1883,
+            "a": 9.4766,
+            "b": 15.9748
+        }
+    },
+    "westeros_brick_lannisport": {
+        "name": "brick_lannisport",
+        "category": "westeros",
+        "rgb": {
+            "r": 170,
+            "g": 149,
+            "b": 120
+        },
+        "lab": {
+            "L": 62.8414,
+            "a": 3.283,
+            "b": 18.2007
+        }
+    },
+    "westeros_brick_light_grey": {
+        "name": "brick_light_grey",
+        "category": "westeros",
+        "rgb": {
+            "r": 163,
+            "g": 164,
+            "b": 151
+        },
+        "lab": {
+            "L": 66.9545,
+            "a": -2.7462,
+            "b": 6.6148
+        }
+    },
+    "westeros_brick_metal_normal_gold": {
+        "name": "brick_metal_normal_gold",
+        "category": "westeros",
+        "rgb": {
+            "r": 208,
+            "g": 183,
+            "b": 93
+        },
+        "lab": {
+            "L": 74.8673,
+            "a": -2.1976,
+            "b": 48.4142
+        }
+    },
+    "westeros_brick_nether": {
+        "name": "brick_nether",
+        "category": "westeros",
+        "rgb": {
+            "r": 37,
+            "g": 37,
+            "b": 32
+        },
+        "lab": {
+            "L": 14.5169,
+            "a": -1.1586,
+            "b": 3.3327
+        }
+    },
+    "westeros_brick_orange_large": {
+        "name": "brick_orange_large",
+        "category": "westeros",
+        "rgb": {
+            "r": 183,
+            "g": 130,
+            "b": 88
+        },
+        "lab": {
+            "L": 58.7302,
+            "a": 15.5452,
+            "b": 30.742
+        }
+    },
+    "westeros_brick_orange_small_side": {
+        "name": "brick_orange_small_side",
+        "category": "westeros",
+        "rgb": {
+            "r": 177,
+            "g": 126,
+            "b": 84
+        },
+        "lab": {
+            "L": 56.9866,
+            "a": 14.8661,
+            "b": 30.5872
+        }
+    },
+    "westeros_brick_orange_small_top_ornate": {
+        "name": "brick_orange_small_top_ornate",
+        "category": "westeros",
+        "rgb": {
+            "r": 178,
+            "g": 126,
+            "b": 83
+        },
+        "lab": {
+            "L": 57.0864,
+            "a": 15.2005,
+            "b": 31.2862
+        }
+    },
+    "westeros_brick_reach_light": {
+        "name": "brick_reach_light",
+        "category": "westeros",
+        "rgb": {
+            "r": 169,
+            "g": 168,
+            "b": 159
+        },
+        "lab": {
+            "L": 68.7103,
+            "a": -1.2928,
+            "b": 4.7638
+        }
+    },
+    "westeros_brick_reach_light_pink": {
+        "name": "brick_reach_light_pink",
+        "category": "westeros",
+        "rgb": {
+            "r": 155,
+            "g": 148,
+            "b": 135
+        },
+        "lab": {
+            "L": 61.5658,
+            "a": 0.2502,
+            "b": 7.7873
+        }
+    },
+    "westeros_brick_reach_pink": {
+        "name": "brick_reach_pink",
+        "category": "westeros",
+        "rgb": {
+            "r": 159,
+            "g": 151,
+            "b": 138
+        },
+        "lab": {
+            "L": 62.7929,
+            "a": 0.6268,
+            "b": 7.8914
+        }
+    },
+    "westeros_brick_stone_large_unshaded": {
+        "name": "brick_stone_large_unshaded",
+        "category": "westeros",
+        "rgb": {
+            "r": 150,
+            "g": 150,
+            "b": 150
+        },
+        "lab": {
+            "L": 62.0822,
+            "a": 0.0035,
+            "b": -0.007
+        }
+    },
+    "westeros_brick_stone_small": {
+        "name": "brick_stone_small",
+        "category": "westeros",
+        "rgb": {
+            "r": 124,
+            "g": 130,
+            "b": 119
+        },
+        "lab": {
+            "L": 53.5809,
+            "a": -4.3952,
+            "b": 5.1813
+        }
+    },
+    "westeros_brick_stone_small_mossy": {
+        "name": "brick_stone_small_mossy",
+        "category": "westeros",
+        "rgb": {
+            "r": 74,
+            "g": 79,
+            "b": 68
+        },
+        "lab": {
+            "L": 32.8432,
+            "a": -4.3625,
+            "b": 5.8131
+        }
+    },
+    "westeros_brick_stone_small_smooth": {
+        "name": "brick_stone_small_smooth",
+        "category": "westeros",
+        "rgb": {
+            "r": 127,
+            "g": 130,
+            "b": 117
+        },
+        "lab": {
+            "L": 53.7732,
+            "a": -3.6197,
+            "b": 6.6494
+        }
+    },
+    "westeros_brick_stormlands_large": {
+        "name": "brick_stormlands_large",
+        "category": "westeros",
+        "rgb": {
+            "r": 97,
+            "g": 83,
+            "b": 67
+        },
+        "lab": {
+            "L": 36.2394,
+            "a": 3.0315,
+            "b": 11.5164
+        }
+    },
+    "westeros_brick_stormlands_small": {
+        "name": "brick_stormlands_small",
+        "category": "westeros",
+        "rgb": {
+            "r": 82,
+            "g": 70,
+            "b": 53
+        },
+        "lab": {
+            "L": 30.4753,
+            "a": 2.159,
+            "b": 12.1443
+        }
+    },
+    "westeros_brick_whiteharbor_granite": {
+        "name": "brick_whiteharbor_granite",
+        "category": "westeros",
+        "rgb": {
+            "r": 225,
+            "g": 225,
+            "b": 222
+        },
+        "lab": {
+            "L": 89.4547,
+            "a": -0.5295,
+            "b": 1.4543
+        }
+    },
+    "westeros_brick_whiteharbor_granite_top": {
+        "name": "brick_whiteharbor_granite_top",
+        "category": "westeros",
+        "rgb": {
+            "r": 229,
+            "g": 229,
+            "b": 226
+        },
+        "lab": {
+            "L": 90.8655,
+            "a": -0.5277,
+            "b": 1.4493
+        }
+    },
+    "westeros_brick_white_small": {
+        "name": "brick_white_small",
+        "category": "westeros",
+        "rgb": {
+            "r": 169,
+            "g": 166,
+            "b": 161
+        },
+        "lab": {
+            "L": 68.227,
+            "a": 0.1556,
+            "b": 2.9564
+        }
+    },
+    "westeros_brick_winterfell_granite": {
+        "name": "brick_winterfell_granite",
+        "category": "westeros",
+        "rgb": {
+            "r": 78,
+            "g": 81,
+            "b": 76
+        },
+        "lab": {
+            "L": 34.0377,
+            "a": -2.2858,
+            "b": 2.5144
+        }
+    },
+    "westeros_brick_winterfell_granite_top": {
+        "name": "brick_winterfell_granite_top",
+        "category": "westeros",
+        "rgb": {
+            "r": 74,
+            "g": 75,
+            "b": 68
+        },
+        "lab": {
+            "L": 31.5905,
+            "a": -1.8908,
+            "b": 4.0267
+        }
+    },
+    "westeros_column_block_marble_side": {
+        "name": "column_block_marble_side",
+        "category": "westeros",
+        "rgb": {
+            "r": 221,
+            "g": 218,
+            "b": 212
+        },
+        "lab": {
+            "L": 87.1283,
+            "a": -0.0314,
+            "b": 3.2983
+        }
+    },
+    "westeros_dates_side": {
+        "name": "dates_side",
+        "category": "westeros",
+        "rgb": {
+            "r": 144,
+            "g": 48,
+            "b": 29
+        },
+        "lab": {
+            "L": 34.2561,
+            "a": 39.5349,
+            "b": 33.3697
+        }
+    },
+    "westeros_daub_brick_crossed": {
+        "name": "daub_brick_crossed",
+        "category": "westeros",
+        "rgb": {
+            "r": 82,
+            "g": 64,
+            "b": 45
+        },
+        "lab": {
+            "L": 28.5119,
+            "a": 4.8369,
+            "b": 14.5892
+        }
+    },
+    "westeros_daub_brick_left": {
+        "name": "daub_brick_left",
+        "category": "westeros",
+        "rgb": {
+            "r": 179,
+            "g": 128,
+            "b": 85
+        },
+        "lab": {
+            "L": 57.7301,
+            "a": 14.6896,
+            "b": 31.0253
+        }
+    },
+    "westeros_daub_brick_open": {
+        "name": "daub_brick_open",
+        "category": "westeros",
+        "rgb": {
+            "r": 86,
+            "g": 61,
+            "b": 43
+        },
+        "lab": {
+            "L": 28.0884,
+            "a": 8.4123,
+            "b": 15.3937
+        }
+    },
+    "westeros_daub_brick_right": {
+        "name": "daub_brick_right",
+        "category": "westeros",
+        "rgb": {
+            "r": 178,
+            "g": 127,
+            "b": 85
+        },
+        "lab": {
+            "L": 57.3662,
+            "a": 14.8239,
+            "b": 30.5414
+        }
+    },
+    "westeros_daub_brown_crossed": {
+        "name": "daub_brown_crossed",
+        "category": "westeros",
+        "rgb": {
+            "r": 88,
+            "g": 71,
+            "b": 50
+        },
+        "lab": {
+            "L": 31.3738,
+            "a": 3.913,
+            "b": 15.3533
+        }
+    },
+    "westeros_daub_brown_left": {
+        "name": "daub_brown_left",
+        "category": "westeros",
+        "rgb": {
+            "r": 145,
+            "g": 132,
+            "b": 103
+        },
+        "lab": {
+            "L": 55.5852,
+            "a": 0.1794,
+            "b": 17.4693
+        }
+    },
+    "westeros_daub_brown_open": {
+        "name": "daub_brown_open",
+        "category": "westeros",
+        "rgb": {
+            "r": 145,
+            "g": 132,
+            "b": 103
+        },
+        "lab": {
+            "L": 55.5852,
+            "a": 0.1794,
+            "b": 17.4693
+        }
+    },
+    "westeros_daub_brown_right": {
+        "name": "daub_brown_right",
+        "category": "westeros",
+        "rgb": {
+            "r": 145,
+            "g": 132,
+            "b": 104
+        },
+        "lab": {
+            "L": 55.6057,
+            "a": 0.3231,
+            "b": 16.9276
+        }
+    },
+    "westeros_daub_plain_brown": {
+        "name": "daub_plain_brown",
+        "category": "westeros",
+        "rgb": {
+            "r": 142,
+            "g": 129,
+            "b": 100
+        },
+        "lab": {
+            "L": 54.4189,
+            "a": 0.2021,
+            "b": 17.5435
+        }
+    },
+    "westeros_daub_plain_white": {
+        "name": "daub_plain_white",
+        "category": "westeros",
+        "rgb": {
+            "r": 178,
+            "g": 163,
+            "b": 142
+        },
+        "lab": {
+            "L": 67.7339,
+            "a": 1.9759,
+            "b": 12.8876
+        }
+    },
+    "westeros_daub_red_crossed": {
+        "name": "daub_red_crossed",
+        "category": "westeros",
+        "rgb": {
+            "r": 170,
+            "g": 157,
+            "b": 131
+        },
+        "lab": {
+            "L": 65.199,
+            "a": 0.4696,
+            "b": 15.3359
+        }
+    },
+    "westeros_daub_red_left": {
+        "name": "daub_red_left",
+        "category": "westeros",
+        "rgb": {
+            "r": 173,
+            "g": 159,
+            "b": 135
+        },
+        "lab": {
+            "L": 66.0819,
+            "a": 1.1518,
+            "b": 14.3859
+        }
+    },
+    "westeros_daub_red_open": {
+        "name": "daub_red_open",
+        "category": "westeros",
+        "rgb": {
+            "r": 87,
+            "g": 46,
+            "b": 28
+        },
+        "lab": {
+            "L": 23.8821,
+            "a": 16.8925,
+            "b": 19.6391
+        }
+    },
+    "westeros_daub_red_right": {
+        "name": "daub_red_right",
+        "category": "westeros",
+        "rgb": {
+            "r": 171,
+            "g": 157,
+            "b": 132
+        },
+        "lab": {
+            "L": 65.3086,
+            "a": 1.0118,
+            "b": 14.9463
+        }
+    },
+    "westeros_daub_white_crossed": {
+        "name": "daub_white_crossed",
+        "category": "westeros",
+        "rgb": {
+            "r": 170,
+            "g": 157,
+            "b": 131
+        },
+        "lab": {
+            "L": 65.199,
+            "a": 0.4696,
+            "b": 15.3359
+        }
+    },
+    "westeros_daub_white_left": {
+        "name": "daub_white_left",
+        "category": "westeros",
+        "rgb": {
+            "r": 173,
+            "g": 159,
+            "b": 134
+        },
+        "lab": {
+            "L": 66.0603,
+            "a": 1.0011,
+            "b": 14.9103
+        }
+    },
+    "westeros_daub_white_open": {
+        "name": "daub_white_open",
+        "category": "westeros",
+        "rgb": {
+            "r": 175,
+            "g": 161,
+            "b": 135
+        },
+        "lab": {
+            "L": 66.7887,
+            "a": 0.8409,
+            "b": 15.3981
+        }
+    },
+    "westeros_daub_white_right": {
+        "name": "daub_white_right",
+        "category": "westeros",
+        "rgb": {
+            "r": 171,
+            "g": 157,
+            "b": 131
+        },
+        "lab": {
+            "L": 65.2872,
+            "a": 0.8623,
+            "b": 15.4719
+        }
+    },
+    "westeros_dirt": {
+        "name": "dirt",
+        "category": "westeros",
+        "rgb": {
+            "r": 92,
+            "g": 71,
+            "b": 54
+        },
+        "lab": {
+            "L": 31.9162,
+            "a": 6.3172,
+            "b": 13.651
+        }
+    },
+    "westeros_dirt_dusty": {
+        "name": "dirt_dusty",
+        "category": "westeros",
+        "rgb": {
+            "r": 189,
+            "g": 146,
+            "b": 92
+        },
+        "lab": {
+            "L": 63.4661,
+            "a": 9.5931,
+            "b": 34.6877
+        }
+    },
+    "westeros_dirt_leaf_cover": {
+        "name": "dirt_leaf_cover",
+        "category": "westeros",
+        "rgb": {
+            "r": 78,
+            "g": 53,
+            "b": 33
+        },
+        "lab": {
+            "L": 24.5628,
+            "a": 8.5465,
+            "b": 17.017
+        }
+    },
+    "westeros_dirt_pine_cover": {
+        "name": "dirt_pine_cover",
+        "category": "westeros",
+        "rgb": {
+            "r": 99,
+            "g": 78,
+            "b": 58
+        },
+        "lab": {
+            "L": 34.8164,
+            "a": 5.7259,
+            "b": 15.1889
+        }
+    },
+    "westeros_food_squash_side": {
+        "name": "food_squash_side",
+        "category": "westeros",
+        "rgb": {
+            "r": 215,
+            "g": 187,
+            "b": 57
+        },
+        "lab": {
+            "L": 76.2427,
+            "a": -3.5236,
+            "b": 65.5425
+        }
+    },
+    "westeros_gravel": {
+        "name": "gravel",
+        "category": "westeros",
+        "rgb": {
+            "r": 79,
+            "g": 60,
+            "b": 49
+        },
+        "lab": {
+            "L": 27.062,
+            "a": 6.5405,
+            "b": 10.0008
+        }
+    },
+    "westeros_gravel_reach": {
+        "name": "gravel_reach",
+        "category": "westeros",
+        "rgb": {
+            "r": 175,
+            "g": 140,
+            "b": 106
+        },
+        "lab": {
+            "L": 60.7028,
+            "a": 8.5215,
+            "b": 23.1906
+        }
+    },
+    "westeros_keystone_grey": {
+        "name": "keystone_grey",
+        "category": "westeros",
+        "rgb": {
+            "r": 132,
+            "g": 146,
+            "b": 139
+        },
+        "lab": {
+            "L": 59.2761,
+            "a": -6.4528,
+            "b": 1.9828
+        }
+    },
+    "westeros_keystone_netherbrick": {
+        "name": "keystone_netherbrick",
+        "category": "westeros",
+        "rgb": {
+            "r": 52,
+            "g": 52,
+            "b": 52
+        },
+        "lab": {
+            "L": 21.7043,
+            "a": 0.0017,
+            "b": -0.0034
+        }
+    },
+    "westeros_leather_block_leather": {
+        "name": "leather_block_leather",
+        "category": "westeros",
+        "rgb": {
+            "r": 64,
+            "g": 55,
+            "b": 47
+        },
+        "lab": {
+            "L": 23.7625,
+            "a": 2.4354,
+            "b": 6.4764
+        }
+    },
+    "westeros_log_palm": {
+        "name": "log_palm",
+        "category": "westeros",
+        "rgb": {
+            "r": 88,
+            "g": 65,
+            "b": 40
+        },
+        "lab": {
+            "L": 29.4339,
+            "a": 6.4911,
+            "b": 19.0541
+        }
+    },
+    "westeros_marble_ornate": {
+        "name": "marble_ornate",
+        "category": "westeros",
+        "rgb": {
+            "r": 171,
+            "g": 162,
+            "b": 147
+        },
+        "lab": {
+            "L": 66.9798,
+            "a": 0.6474,
+            "b": 8.9628
+        }
+    },
+    "westeros_metal_block_bronzeoxidized": {
+        "name": "metal_block_bronzeoxidized",
+        "category": "westeros",
+        "rgb": {
+            "r": 70,
+            "g": 92,
+            "b": 78
+        },
+        "lab": {
+            "L": 36.9416,
+            "a": -11.5854,
+            "b": 5.3503
+        }
+    },
+    "westeros_metal_block_iron": {
+        "name": "metal_block_iron",
+        "category": "westeros",
+        "rgb": {
+            "r": 69,
+            "g": 72,
+            "b": 71
+        },
+        "lab": {
+            "L": 30.2907,
+            "a": -1.455,
+            "b": 0.1655
+        }
+    },
+    "westeros_metal_block_ironoxidized": {
+        "name": "metal_block_ironoxidized",
+        "category": "westeros",
+        "rgb": {
+            "r": 75,
+            "g": 47,
+            "b": 29
+        },
+        "lab": {
+            "L": 22.3647,
+            "a": 10.5578,
+            "b": 16.7291
+        }
+    },
+    "westeros_metal_block_steel": {
+        "name": "metal_block_steel",
+        "category": "westeros",
+        "rgb": {
+            "r": 134,
+            "g": 143,
+            "b": 137
+        },
+        "lab": {
+            "L": 58.5268,
+            "a": -4.4652,
+            "b": 2.0549
+        }
+    },
+    "westeros_mud": {
+        "name": "mud",
+        "category": "westeros",
+        "rgb": {
+            "r": 71,
+            "g": 59,
+            "b": 39
+        },
+        "lab": {
+            "L": 25.6055,
+            "a": 1.9315,
+            "b": 14.3531
+        }
+    },
+    "westeros_piston_top": {
+        "name": "piston_top",
+        "category": "westeros",
+        "rgb": {
+            "r": 98,
+            "g": 76,
+            "b": 50
+        },
+        "lab": {
+            "L": 33.9742,
+            "a": 5.502,
+            "b": 18.9697
+        }
+    },
+    "westeros_plaster_casterly_crimson": {
+        "name": "plaster_casterly_crimson",
+        "category": "westeros",
+        "rgb": {
+            "r": 109,
+            "g": 50,
+            "b": 36
+        },
+        "lab": {
+            "L": 28.5374,
+            "a": 24.9908,
+            "b": 21.0868
+        }
+    },
+    "westeros_plaster_dornish_dark": {
+        "name": "plaster_dornish_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 173,
+            "g": 146,
+            "b": 105
+        },
+        "lab": {
+            "L": 62.0508,
+            "a": 4.2421,
+            "b": 25.5001
+        }
+    },
+    "westeros_plaster_dornish_light": {
+        "name": "plaster_dornish_light",
+        "category": "westeros",
+        "rgb": {
+            "r": 186,
+            "g": 149,
+            "b": 93
+        },
+        "lab": {
+            "L": 63.9371,
+            "a": 6.7693,
+            "b": 34.6794
+        }
+    },
+    "westeros_plaster_lannisport_orange": {
+        "name": "plaster_lannisport_orange",
+        "category": "westeros",
+        "rgb": {
+            "r": 206,
+            "g": 143,
+            "b": 86
+        },
+        "lab": {
+            "L": 64.5145,
+            "a": 17.8918,
+            "b": 39.5577
+        }
+    },
+    "westeros_plaster_lannisport_yellow": {
+        "name": "plaster_lannisport_yellow",
+        "category": "westeros",
+        "rgb": {
+            "r": 224,
+            "g": 177,
+            "b": 93
+        },
+        "lab": {
+            "L": 74.8765,
+            "a": 7.6715,
+            "b": 48.8129
+        }
+    },
+    "westeros_plaster_oldtown_brown": {
+        "name": "plaster_oldtown_brown",
+        "category": "westeros",
+        "rgb": {
+            "r": 175,
+            "g": 164,
+            "b": 144
+        },
+        "lab": {
+            "L": 67.783,
+            "a": 0.592,
+            "b": 11.8128
+        }
+    },
+    "westeros_plaster_oldtown_brown_brick": {
+        "name": "plaster_oldtown_brown_brick",
+        "category": "westeros",
+        "rgb": {
+            "r": 94,
+            "g": 77,
+            "b": 57
+        },
+        "lab": {
+            "L": 33.9471,
+            "a": 3.9107,
+            "b": 14.5454
+        }
+    },
+    "westeros_plaster_oldtown_purple": {
+        "name": "plaster_oldtown_purple",
+        "category": "westeros",
+        "rgb": {
+            "r": 176,
+            "g": 166,
+            "b": 146
+        },
+        "lab": {
+            "L": 68.4444,
+            "a": 0.2048,
+            "b": 11.653
+        }
+    },
+    "westeros_plaster_oldtown_purple_brick": {
+        "name": "plaster_oldtown_purple_brick",
+        "category": "westeros",
+        "rgb": {
+            "r": 108,
+            "g": 62,
+            "b": 52
+        },
+        "lab": {
+            "L": 31.5352,
+            "a": 18.9373,
+            "b": 14.7716
+        }
+    },
+    "westeros_sandstone_bricks_large": {
+        "name": "sandstone_bricks_large",
+        "category": "westeros",
+        "rgb": {
+            "r": 172,
+            "g": 148,
+            "b": 107
+        },
+        "lab": {
+            "L": 62.5178,
+            "a": 2.9632,
+            "b": 25.0008
+        }
+    },
+    "westeros_sandstone_brown_dark": {
+        "name": "sandstone_brown_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 64,
+            "g": 49,
+            "b": 41
+        },
+        "lab": {
+            "L": 21.7508,
+            "a": 5.3971,
+            "b": 7.6973
+        }
+    },
+    "westeros_sandstone_monochrome": {
+        "name": "sandstone_monochrome",
+        "category": "westeros",
+        "rgb": {
+            "r": 162,
+            "g": 139,
+            "b": 102
+        },
+        "lab": {
+            "L": 59.0722,
+            "a": 3.1831,
+            "b": 23.0141
+        }
+    },
+    "westeros_sandstone_monochrome_dark": {
+        "name": "sandstone_monochrome_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 96,
+            "g": 81,
+            "b": 62
+        },
+        "lab": {
+            "L": 35.4384,
+            "a": 3.0628,
+            "b": 13.4984
+        }
+    },
+    "westeros_sandstone_monochrome_mossy": {
+        "name": "sandstone_monochrome_mossy",
+        "category": "westeros",
+        "rgb": {
+            "r": 162,
+            "g": 140,
+            "b": 102
+        },
+        "lab": {
+            "L": 59.3399,
+            "a": 2.6257,
+            "b": 23.3708
+        }
+    },
+    "westeros_sandstone_normal": {
+        "name": "sandstone_normal",
+        "category": "westeros",
+        "rgb": {
+            "r": 175,
+            "g": 145,
+            "b": 98
+        },
+        "lab": {
+            "L": 61.8664,
+            "a": 4.8362,
+            "b": 29.128
+        }
+    },
+    "westeros_sandstone_normal_dark": {
+        "name": "sandstone_normal_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 184,
+            "g": 150,
+            "b": 97
+        },
+        "lab": {
+            "L": 64.0523,
+            "a": 5.7681,
+            "b": 32.6517
+        }
+    },
+    "westeros_sandstone_normal_dark_mossy": {
+        "name": "sandstone_normal_dark_mossy",
+        "category": "westeros",
+        "rgb": {
+            "r": 183,
+            "g": 149,
+            "b": 96
+        },
+        "lab": {
+            "L": 63.6776,
+            "a": 5.7949,
+            "b": 32.6899
+        }
+    },
+    "westeros_sandstone_ornate": {
+        "name": "sandstone_ornate",
+        "category": "westeros",
+        "rgb": {
+            "r": 165,
+            "g": 132,
+            "b": 87
+        },
+        "lab": {
+            "L": 57.2601,
+            "a": 6.6567,
+            "b": 29.0152
+        }
+    },
+    "westeros_sandstone_red": {
+        "name": "sandstone_red",
+        "category": "westeros",
+        "rgb": {
+            "r": 126,
+            "g": 65,
+            "b": 47
+        },
+        "lab": {
+            "L": 34.8456,
+            "a": 24.5559,
+            "b": 22.6828
+        }
+    },
+    "westeros_sandstone_red_coarse": {
+        "name": "sandstone_red_coarse",
+        "category": "westeros",
+        "rgb": {
+            "r": 119,
+            "g": 67,
+            "b": 52
+        },
+        "lab": {
+            "L": 34.3636,
+            "a": 20.791,
+            "b": 18.7832
+        }
+    },
+    "westeros_sandstone_red_coarse_ornate": {
+        "name": "sandstone_red_coarse_ornate",
+        "category": "westeros",
+        "rgb": {
+            "r": 123,
+            "g": 73,
+            "b": 55
+        },
+        "lab": {
+            "L": 36.4648,
+            "a": 19.2839,
+            "b": 19.7665
+        }
+    },
+    "westeros_sandstone_terracotta": {
+        "name": "sandstone_terracotta",
+        "category": "westeros",
+        "rgb": {
+            "r": 152,
+            "g": 121,
+            "b": 84
+        },
+        "lab": {
+            "L": 52.9388,
+            "a": 6.9644,
+            "b": 24.8399
+        }
+    },
+    "westeros_sandstone_terracotta_dull": {
+        "name": "sandstone_terracotta_dull",
+        "category": "westeros",
+        "rgb": {
+            "r": 163,
+            "g": 136,
+            "b": 96
+        },
+        "lab": {
+            "L": 58.2636,
+            "a": 4.5554,
+            "b": 25.3016
+        }
+    },
+    "westeros_sandstone_terracotta_engraved": {
+        "name": "sandstone_terracotta_engraved",
+        "category": "westeros",
+        "rgb": {
+            "r": 164,
+            "g": 132,
+            "b": 94
+        },
+        "lab": {
+            "L": 57.2729,
+            "a": 6.9927,
+            "b": 25.1329
+        }
+    },
+    "westeros_sandstone_terracotta_light": {
+        "name": "sandstone_terracotta_light",
+        "category": "westeros",
+        "rgb": {
+            "r": 173,
+            "g": 138,
+            "b": 94
+        },
+        "lab": {
+            "L": 59.7705,
+            "a": 7.4464,
+            "b": 28.5641
+        }
+    },
+    "westeros_sandstone_terracotta_light_mossy": {
+        "name": "sandstone_terracotta_light_mossy",
+        "category": "westeros",
+        "rgb": {
+            "r": 81,
+            "g": 85,
+            "b": 40
+        },
+        "lab": {
+            "L": 34.8015,
+            "a": -9.141,
+            "b": 25.4948
+        }
+    },
+    "westeros_sandstone_vivid": {
+        "name": "sandstone_vivid",
+        "category": "westeros",
+        "rgb": {
+            "r": 168,
+            "g": 150,
+            "b": 116
+        },
+        "lab": {
+            "L": 62.8426,
+            "a": 1.3756,
+            "b": 20.3977
+        }
+    },
+    "westeros_sandstone_vivid_dark": {
+        "name": "sandstone_vivid_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 94,
+            "g": 80,
+            "b": 59
+        },
+        "lab": {
+            "L": 34.8684,
+            "a": 2.3374,
+            "b": 14.5455
+        }
+    },
+    "westeros_sandstone_vivid_mossy": {
+        "name": "sandstone_vivid_mossy",
+        "category": "westeros",
+        "rgb": {
+            "r": 159,
+            "g": 143,
+            "b": 112
+        },
+        "lab": {
+            "L": 60.0561,
+            "a": 1.0389,
+            "b": 18.6984
+        }
+    },
+    "westeros_sand_pinkorange": {
+        "name": "sand_pinkorange",
+        "category": "westeros",
+        "rgb": {
+            "r": 194,
+            "g": 114,
+            "b": 68
+        },
+        "lab": {
+            "L": 56.0089,
+            "a": 27.4144,
+            "b": 38.5378
+        }
+    },
+    "westeros_sand_red": {
+        "name": "sand_red",
+        "category": "westeros",
+        "rgb": {
+            "r": 173,
+            "g": 82,
+            "b": 60
+        },
+        "lab": {
+            "L": 45.968,
+            "a": 35.4864,
+            "b": 30.2833
+        }
+    },
+    "westeros_sand_terracotta": {
+        "name": "sand_terracotta",
+        "category": "westeros",
+        "rgb": {
+            "r": 185,
+            "g": 118,
+            "b": 77
+        },
+        "lab": {
+            "L": 55.894,
+            "a": 22.1124,
+            "b": 33.2715
+        }
+    },
+    "westeros_sand_wet": {
+        "name": "sand_wet",
+        "category": "westeros",
+        "rgb": {
+            "r": 88,
+            "g": 80,
+            "b": 63
+        },
+        "lab": {
+            "L": 34.3363,
+            "a": 0.2248,
+            "b": 11.2366
+        }
+    },
+    "westeros_slate_black": {
+        "name": "slate_black",
+        "category": "westeros",
+        "rgb": {
+            "r": 69,
+            "g": 75,
+            "b": 73
+        },
+        "lab": {
+            "L": 31.297,
+            "a": -2.8859,
+            "b": 0.3484
+        }
+    },
+    "westeros_slate_blue": {
+        "name": "slate_blue",
+        "category": "westeros",
+        "rgb": {
+            "r": 52,
+            "g": 72,
+            "b": 75
+        },
+        "lab": {
+            "L": 29.0892,
+            "a": -6.9588,
+            "b": -4.3405
+        }
+    },
+    "westeros_slate_brown": {
+        "name": "slate_brown",
+        "category": "westeros",
+        "rgb": {
+            "r": 102,
+            "g": 77,
+            "b": 52
+        },
+        "lab": {
+            "L": 34.763,
+            "a": 6.9881,
+            "b": 18.864
+        }
+    },
+    "westeros_slate_green": {
+        "name": "slate_green",
+        "category": "westeros",
+        "rgb": {
+            "r": 68,
+            "g": 68,
+            "b": 39
+        },
+        "lab": {
+            "L": 28.1401,
+            "a": -5.223,
+            "b": 17.5735
+        }
+    },
+    "westeros_slate_lannisport": {
+        "name": "slate_lannisport",
+        "category": "westeros",
+        "rgb": {
+            "r": 123,
+            "g": 69,
+            "b": 48
+        },
+        "lab": {
+            "L": 35.3619,
+            "a": 21.0129,
+            "b": 22.622
+        }
+    },
+    "westeros_slate_red": {
+        "name": "slate_red",
+        "category": "westeros",
+        "rgb": {
+            "r": 118,
+            "g": 58,
+            "b": 48
+        },
+        "lab": {
+            "L": 32.0133,
+            "a": 25.2318,
+            "b": 18.2156
+        }
+    },
+    "westeros_soil_dried": {
+        "name": "soil_dried",
+        "category": "westeros",
+        "rgb": {
+            "r": 215,
+            "g": 173,
+            "b": 107
+        },
+        "lab": {
+            "L": 73.1517,
+            "a": 7.2098,
+            "b": 39.5156
+        }
+    },
+    "westeros_stone_bedrock": {
+        "name": "stone_bedrock",
+        "category": "westeros",
+        "rgb": {
+            "r": 55,
+            "g": 54,
+            "b": 51
+        },
+        "lab": {
+            "L": 22.6174,
+            "a": -0.2309,
+            "b": 2.0353
+        }
+    },
+    "westeros_stone_cobble": {
+        "name": "stone_cobble",
+        "category": "westeros",
+        "rgb": {
+            "r": 159,
+            "g": 162,
+            "b": 148
+        },
+        "lab": {
+            "L": 66.02,
+            "a": -3.6686,
+            "b": 6.9031
+        }
+    },
+    "westeros_stone_cobble_dark": {
+        "name": "stone_cobble_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 83,
+            "g": 87,
+            "b": 78
+        },
+        "lab": {
+            "L": 36.3769,
+            "a": -3.4843,
+            "b": 4.6792
+        }
+    },
+    "westeros_stone_cobble_mossy": {
+        "name": "stone_cobble_mossy",
+        "category": "westeros",
+        "rgb": {
+            "r": 134,
+            "g": 135,
+            "b": 118
+        },
+        "lab": {
+            "L": 55.7905,
+            "a": -3.5413,
+            "b": 9.0215
+        }
+    },
+    "westeros_stone_cobble_mossy_unshaded": {
+        "name": "stone_cobble_mossy_unshaded",
+        "category": "westeros",
+        "rgb": {
+            "r": 143,
+            "g": 143,
+            "b": 143
+        },
+        "lab": {
+            "L": 59.4048,
+            "a": 0.0034,
+            "b": -0.0068
+        }
+    },
+    "westeros_stone_cobble_northern": {
+        "name": "stone_cobble_northern",
+        "category": "westeros",
+        "rgb": {
+            "r": 78,
+            "g": 81,
+            "b": 77
+        },
+        "lab": {
+            "L": 34.0668,
+            "a": -2.0745,
+            "b": 1.9251
+        }
+    },
+    "westeros_stone_cobble_northern_icy": {
+        "name": "stone_cobble_northern_icy",
+        "category": "westeros",
+        "rgb": {
+            "r": 75,
+            "g": 79,
+            "b": 75
+        },
+        "lab": {
+            "L": 33.1265,
+            "a": -2.4926,
+            "b": 1.796
+        }
+    },
+    "westeros_stone_cobble_reach_pink": {
+        "name": "stone_cobble_reach_pink",
+        "category": "westeros",
+        "rgb": {
+            "r": 146,
+            "g": 139,
+            "b": 126
+        },
+        "lab": {
+            "L": 58.1154,
+            "a": 0.2655,
+            "b": 7.8796
+        }
+    },
+    "westeros_stone_cobble_stormlands": {
+        "name": "stone_cobble_stormlands",
+        "category": "westeros",
+        "rgb": {
+            "r": 85,
+            "g": 72,
+            "b": 54
+        },
+        "lab": {
+            "L": 31.4222,
+            "a": 2.4424,
+            "b": 12.85
+        }
+    },
+    "westeros_stone_cobble_stormlands_dark": {
+        "name": "stone_cobble_stormlands_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 88,
+            "g": 74,
+            "b": 58
+        },
+        "lab": {
+            "L": 32.431,
+            "a": 3.1679,
+            "b": 11.7566
+        }
+    },
+    "westeros_stone_cobble_stormlands_mossy": {
+        "name": "stone_cobble_stormlands_mossy",
+        "category": "westeros",
+        "rgb": {
+            "r": 79,
+            "g": 65,
+            "b": 51
+        },
+        "lab": {
+            "L": 28.5952,
+            "a": 3.6308,
+            "b": 10.8059
+        }
+    },
+    "westeros_stone_cobble_unshaded": {
+        "name": "stone_cobble_unshaded",
+        "category": "westeros",
+        "rgb": {
+            "r": 222,
+            "g": 222,
+            "b": 222
+        },
+        "lab": {
+            "L": 88.4697,
+            "a": 0.0047,
+            "b": -0.0094
+        }
+    },
+    "westeros_stone_cobble_whiteharbor": {
+        "name": "stone_cobble_whiteharbor",
+        "category": "westeros",
+        "rgb": {
+            "r": 160,
+            "g": 156,
+            "b": 147
+        },
+        "lab": {
+            "L": 64.449,
+            "a": -0.1926,
+            "b": 5.2171
+        }
+    },
+    "westeros_stone_dorne": {
+        "name": "stone_dorne",
+        "category": "westeros",
+        "rgb": {
+            "r": 163,
+            "g": 131,
+            "b": 82
+        },
+        "lab": {
+            "L": 56.7115,
+            "a": 5.8485,
+            "b": 31.012
+        }
+    },
+    "westeros_stone_eastern_islands": {
+        "name": "stone_eastern_islands",
+        "category": "westeros",
+        "rgb": {
+            "r": 150,
+            "g": 151,
+            "b": 129
+        },
+        "lab": {
+            "L": 61.8283,
+            "a": -4.3392,
+            "b": 11.4848
+        }
+    },
+    "westeros_stone_north": {
+        "name": "stone_north",
+        "category": "westeros",
+        "rgb": {
+            "r": 85,
+            "g": 78,
+            "b": 73
+        },
+        "lab": {
+            "L": 33.6919,
+            "a": 1.9088,
+            "b": 3.9978
+        }
+    },
+    "westeros_stone_ocean_iron_islands": {
+        "name": "stone_ocean_iron_islands",
+        "category": "westeros",
+        "rgb": {
+            "r": 134,
+            "g": 135,
+            "b": 118
+        },
+        "lab": {
+            "L": 55.7905,
+            "a": -3.5413,
+            "b": 9.0215
+        }
+    },
+    "westeros_stone_reach": {
+        "name": "stone_reach",
+        "category": "westeros",
+        "rgb": {
+            "r": 174,
+            "g": 144,
+            "b": 119
+        },
+        "lab": {
+            "L": 61.8926,
+            "a": 7.5342,
+            "b": 17.5178
+        }
+    },
+    "westeros_stone_red_mountains": {
+        "name": "stone_red_mountains",
+        "category": "westeros",
+        "rgb": {
+            "r": 113,
+            "g": 57,
+            "b": 39
+        },
+        "lab": {
+            "L": 30.8392,
+            "a": 22.9184,
+            "b": 22.1855
+        }
+    },
+    "westeros_stone_river": {
+        "name": "stone_river",
+        "category": "westeros",
+        "rgb": {
+            "r": 69,
+            "g": 73,
+            "b": 62
+        },
+        "lab": {
+            "L": 30.347,
+            "a": -3.9885,
+            "b": 6.0317
+        }
+    },
+    "westeros_stone_slab_top": {
+        "name": "stone_slab_top",
+        "category": "westeros",
+        "rgb": {
+            "r": 170,
+            "g": 169,
+            "b": 162
+        },
+        "lab": {
+            "L": 69.1339,
+            "a": -0.932,
+            "b": 3.7254
+        }
+    },
+    "westeros_stone_stormlands": {
+        "name": "stone_stormlands",
+        "category": "westeros",
+        "rgb": {
+            "r": 83,
+            "g": 56,
+            "b": 42
+        },
+        "lab": {
+            "L": 26.258,
+            "a": 10.0615,
+            "b": 13.5522
+        }
+    },
+    "westeros_stone_vale": {
+        "name": "stone_vale",
+        "category": "westeros",
+        "rgb": {
+            "r": 174,
+            "g": 172,
+            "b": 155
+        },
+        "lab": {
+            "L": 70.0849,
+            "a": -2.3116,
+            "b": 8.9959
+        }
+    },
+    "westeros_stone_westerlands": {
+        "name": "stone_westerlands",
+        "category": "westeros",
+        "rgb": {
+            "r": 154,
+            "g": 146,
+            "b": 113
+        },
+        "lab": {
+            "L": 60.4448,
+            "a": -2.5085,
+            "b": 18.5958
+        }
+    },
+    "westeros_stone_winterfell_carving": {
+        "name": "stone_winterfell_carving",
+        "category": "westeros",
+        "rgb": {
+            "r": 78,
+            "g": 80,
+            "b": 71
+        },
+        "lab": {
+            "L": 33.5881,
+            "a": -2.6932,
+            "b": 5.0257
+        }
+    },
+    "westeros_thatch_dark": {
+        "name": "thatch_dark",
+        "category": "westeros",
+        "rgb": {
+            "r": 67,
+            "g": 57,
+            "b": 43
+        },
+        "lab": {
+            "L": 24.6204,
+            "a": 1.8764,
+            "b": 10.3609
+        }
+    },
+    "westeros_thatch_light": {
+        "name": "thatch_light",
+        "category": "westeros",
+        "rgb": {
+            "r": 94,
+            "g": 80,
+            "b": 59
+        },
+        "lab": {
+            "L": 34.8684,
+            "a": 2.3374,
+            "b": 14.5455
+        }
+    },
+    "westeros_wood_black": {
+        "name": "wood_black",
+        "category": "westeros",
+        "rgb": {
+            "r": 45,
+            "g": 45,
+            "b": 45
+        },
+        "lab": {
+            "L": 18.4709,
+            "a": 0.0016,
+            "b": -0.0031
+        }
+    },
+    "westeros_wood_blue": {
+        "name": "wood_blue",
+        "category": "westeros",
+        "rgb": {
+            "r": 65,
+            "g": 77,
+            "b": 73
+        },
+        "lab": {
+            "L": 31.6071,
+            "a": -5.7147,
+            "b": 0.7603
+        }
+    },
+    "westeros_wood_carving_northern": {
+        "name": "wood_carving_northern",
+        "category": "westeros",
+        "rgb": {
+            "r": 48,
+            "g": 39,
+            "b": 27
+        },
+        "lab": {
+            "L": 16.2982,
+            "a": 2.0206,
+            "b": 9.5037
+        }
+    },
+    "westeros_wood_floor_ornate": {
+        "name": "wood_floor_ornate",
+        "category": "westeros",
+        "rgb": {
+            "r": 100,
+            "g": 83,
+            "b": 59
+        },
+        "lab": {
+            "L": 36.3886,
+            "a": 3.2446,
+            "b": 16.69
+        }
+    },
+    "westeros_wood_gray": {
+        "name": "wood_gray",
+        "category": "westeros",
+        "rgb": {
+            "r": 129,
+            "g": 129,
+            "b": 129
+        },
+        "lab": {
+            "L": 53.9767,
+            "a": 0.0032,
+            "b": -0.0063
+        }
+    },
+    "westeros_wood_green": {
+        "name": "wood_green",
+        "category": "westeros",
+        "rgb": {
+            "r": 67,
+            "g": 70,
+            "b": 39
+        },
+        "lab": {
+            "L": 28.695,
+            "a": -6.9276,
+            "b": 18.2614
+        }
+    },
+    "westeros_wood_northern": {
+        "name": "wood_northern",
+        "category": "westeros",
+        "rgb": {
+            "r": 60,
+            "g": 56,
+            "b": 51
+        },
+        "lab": {
+            "L": 23.7639,
+            "a": 0.6938,
+            "b": 3.7476
+        }
+    },
+    "westeros_wood_panelling_oak": {
+        "name": "wood_panelling_oak",
+        "category": "westeros",
+        "rgb": {
+            "r": 82,
+            "g": 67,
+            "b": 46
+        },
+        "lab": {
+            "L": 29.4261,
+            "a": 3.0622,
+            "b": 15.1638
+        }
+    },
+    "westeros_wood_panelling_spruce": {
+        "name": "wood_panelling_spruce",
+        "category": "westeros",
+        "rgb": {
+            "r": 43,
+            "g": 35,
+            "b": 23
+        },
+        "lab": {
+            "L": 14.2735,
+            "a": 1.5889,
+            "b": 9.4723
+        }
+    },
+    "westeros_wood_purple": {
+        "name": "wood_purple",
+        "category": "westeros",
+        "rgb": {
+            "r": 83,
+            "g": 72,
+            "b": 85
+        },
+        "lab": {
+            "L": 32.1002,
+            "a": 7.3624,
+            "b": -6.0038
+        }
+    },
+    "westeros_wood_red": {
+        "name": "wood_red",
+        "category": "westeros",
+        "rgb": {
+            "r": 101,
+            "g": 55,
+            "b": 41
+        },
+        "lab": {
+            "L": 28.5358,
+            "a": 18.9403,
+            "b": 17.6531
+        }
+    },
+    "westeros_wood_white": {
+        "name": "wood_white",
+        "category": "westeros",
+        "rgb": {
+            "r": 217,
+            "g": 213,
+            "b": 205
+        },
+        "lab": {
+            "L": 85.3765,
+            "a": -0.0298,
+            "b": 4.4231
+        }
+    },
+    "westeros_wood_yellow": {
+        "name": "wood_yellow",
+        "category": "westeros",
+        "rgb": {
+            "r": 187,
+            "g": 170,
+            "b": 105
+        },
+        "lab": {
+            "L": 69.7069,
+            "a": -2.9738,
+            "b": 35.661
+        }
+    },
+    "westeros_wool_colored_black": {
+        "name": "wool_colored_black",
+        "category": "westeros",
+        "rgb": {
+            "r": 31,
+            "g": 25,
+            "b": 25
+        },
+        "lab": {
+            "L": 9.4556,
+            "a": 2.9689,
+            "b": 1.0992
+        }
+    },
+    "westeros_wool_colored_blue": {
+        "name": "wool_colored_blue",
+        "category": "westeros",
+        "rgb": {
+            "r": 53,
+            "g": 62,
+            "b": 80
+        },
+        "lab": {
+            "L": 26.1024,
+            "a": 1.2465,
+            "b": -12.1012
+        }
+    },
+    "westeros_wool_colored_brown": {
+        "name": "wool_colored_brown",
+        "category": "westeros",
+        "rgb": {
+            "r": 38,
+            "g": 27,
+            "b": 20
+        },
+        "lab": {
+            "L": 10.8956,
+            "a": 4.18,
+            "b": 6.8713
+        }
+    },
+    "westeros_wool_colored_cyan": {
+        "name": "wool_colored_cyan",
+        "category": "westeros",
+        "rgb": {
+            "r": 54,
+            "g": 78,
+            "b": 78
+        },
+        "lab": {
+            "L": 31.308,
+            "a": -9.1125,
+            "b": -2.9651
+        }
+    },
+    "westeros_wool_colored_dirty_white": {
+        "name": "wool_colored_dirty_white",
+        "category": "westeros",
+        "rgb": {
+            "r": 214,
+            "g": 203,
+            "b": 171
+        },
+        "lab": {
+            "L": 81.8101,
+            "a": -1.3382,
+            "b": 17.3542
+        }
+    },
+    "westeros_wool_colored_gray": {
+        "name": "wool_colored_gray",
+        "category": "westeros",
+        "rgb": {
+            "r": 60,
+            "g": 59,
+            "b": 56
+        },
+        "lab": {
+            "L": 24.8716,
+            "a": -0.2292,
+            "b": 2.006
+        }
+    },
+    "westeros_wool_colored_green": {
+        "name": "wool_colored_green",
+        "category": "westeros",
+        "rgb": {
+            "r": 76,
+            "g": 91,
+            "b": 40
+        },
+        "lab": {
+            "L": 36.3131,
+            "a": -14.8658,
+            "b": 27.1941
+        }
+    },
+    "westeros_wool_colored_light_blue": {
+        "name": "wool_colored_light_blue",
+        "category": "westeros",
+        "rgb": {
+            "r": 134,
+            "g": 146,
+            "b": 173
+        },
+        "lab": {
+            "L": 60.4655,
+            "a": 1.721,
+            "b": -15.5842
+        }
+    },
+    "westeros_wool_colored_light_brown": {
+        "name": "wool_colored_light_brown",
+        "category": "westeros",
+        "rgb": {
+            "r": 76,
+            "g": 52,
+            "b": 28
+        },
+        "lab": {
+            "L": 23.9222,
+            "a": 7.6991,
+            "b": 19.3134
+        }
+    },
+    "westeros_wool_colored_light_gray": {
+        "name": "wool_colored_light_gray",
+        "category": "westeros",
+        "rgb": {
+            "r": 129,
+            "g": 128,
+            "b": 115
+        },
+        "lab": {
+            "L": 53.3232,
+            "a": -2.0726,
+            "b": 7.1905
+        }
+    },
+    "westeros_wool_colored_orange": {
+        "name": "wool_colored_orange",
+        "category": "westeros",
+        "rgb": {
+            "r": 180,
+            "g": 114,
+            "b": 66
+        },
+        "lab": {
+            "L": 54.166,
+            "a": 21.3973,
+            "b": 36.9826
+        }
+    },
+    "westeros_wool_colored_pink": {
+        "name": "wool_colored_pink",
+        "category": "westeros",
+        "rgb": {
+            "r": 186,
+            "g": 129,
+            "b": 143
+        },
+        "lab": {
+            "L": 59.9995,
+            "a": 24.0429,
+            "b": 1.3671
+        }
+    },
+    "westeros_wool_colored_purple": {
+        "name": "wool_colored_purple",
+        "category": "westeros",
+        "rgb": {
+            "r": 88,
+            "g": 66,
+            "b": 93
+        },
+        "lab": {
+            "L": 31.2576,
+            "a": 14.955,
+            "b": -12.348
+        }
+    },
+    "westeros_wool_colored_red": {
+        "name": "wool_colored_red",
+        "category": "westeros",
+        "rgb": {
+            "r": 123,
+            "g": 53,
+            "b": 45
+        },
+        "lab": {
+            "L": 31.6851,
+            "a": 29.8339,
+            "b": 19.8537
+        }
+    },
+    "westeros_wool_colored_white": {
+        "name": "wool_colored_white",
+        "category": "westeros",
+        "rgb": {
+            "r": 224,
+            "g": 222,
+            "b": 218
+        },
+        "lab": {
+            "L": 88.5201,
+            "a": -0.0258,
+            "b": 2.1867
+        }
+    },
+    "westeros_wool_colored_yellow": {
+        "name": "wool_colored_yellow",
+        "category": "westeros",
+        "rgb": {
+            "r": 206,
+            "g": 168,
+            "b": 58
+        },
+        "lab": {
+            "L": 70.4779,
+            "a": 2.6303,
+            "b": 59.2256
+        }
+    },
+    "minecraft_amethyst_block": {
+        "name": "amethyst_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 122,
+            "g": 91,
+            "b": 181
+        },
+        "lab": {
+            "L": 45.5738,
+            "a": 32.5233,
+            "b": -43.4104
+        }
+    },
+    "minecraft_andesite": {
+        "name": "andesite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 138,
+            "g": 138,
+            "b": 142
+        },
+        "lab": {
+            "L": 57.5913,
+            "a": 0.798,
+            "b": -2.1384
+        }
+    },
+    "minecraft_andesite_polished": {
+        "name": "andesite_polished",
+        "category": "minecraft",
+        "rgb": {
+            "r": 134,
+            "g": 136,
+            "b": 135
+        },
+        "lab": {
+            "L": 56.5117,
+            "a": -0.9329,
+            "b": 0.2701
+        }
+    },
+    "minecraft_bamboo_block": {
+        "name": "bamboo_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 159,
+            "g": 184,
+            "b": 73
+        },
+        "lab": {
+            "L": 70.9625,
+            "a": -24.6951,
+            "b": 52.177
+        }
+    },
+    "minecraft_bamboo_planks": {
+        "name": "bamboo_planks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 192,
+            "g": 174,
+            "b": 76
+        },
+        "lab": {
+            "L": 70.8712,
+            "a": -5.5255,
+            "b": 51.4674
+        }
+    },
+    "minecraft_bark_acacia_log": {
+        "name": "bark_acacia_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 196,
+            "g": 99,
+            "b": 64
+        },
+        "lab": {
+            "L": 52.9819,
+            "a": 35.9587,
+            "b": 37.2212
+        }
+    },
+    "minecraft_bark_birch_log": {
+        "name": "bark_birch_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 191,
+            "g": 170,
+            "b": 114
+        },
+        "lab": {
+            "L": 70.2044,
+            "a": -0.35,
+            "b": 31.6417
+        }
+    },
+    "minecraft_bark_cherry_log": {
+        "name": "bark_cherry_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 214,
+            "g": 143,
+            "b": 147
+        },
+        "lab": {
+            "L": 66.5563,
+            "a": 27.4558,
+            "b": 8.9457
+        }
+    },
+    "minecraft_bark_crimson_log": {
+        "name": "bark_crimson_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 44,
+            "b": 73
+        },
+        "lab": {
+            "L": 30.0971,
+            "a": 36.1543,
+            "b": -0.6255
+        }
+    },
+    "minecraft_bark_dark_oak_log": {
+        "name": "bark_dark_oak_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 72,
+            "g": 57,
+            "b": 36
+        },
+        "lab": {
+            "L": 25.0491,
+            "a": 3.3284,
+            "b": 15.5708
+        }
+    },
+    "minecraft_bark_jungle_log": {
+        "name": "bark_jungle_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 177,
+            "g": 131,
+            "b": 87
+        },
+        "lab": {
+            "L": 58.2904,
+            "a": 12.3488,
+            "b": 30.5919
+        }
+    },
+    "minecraft_bark_mangrove_log": {
+        "name": "bark_mangrove_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 122,
+            "g": 55,
+            "b": 49
+        },
+        "lab": {
+            "L": 32.0148,
+            "a": 28.6616,
+            "b": 17.7113
+        }
+    },
+    "minecraft_bark_oak_log": {
+        "name": "bark_oak_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 183,
+            "g": 148,
+            "b": 88
+        },
+        "lab": {
+            "L": 63.3029,
+            "a": 5.5765,
+            "b": 36.4625
+        }
+    },
+    "minecraft_bark_spruce_log": {
+        "name": "bark_spruce_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 103,
+            "g": 86,
+            "b": 49
+        },
+        "lab": {
+            "L": 37.4098,
+            "a": 1.6283,
+            "b": 24.0287
+        }
+    },
+    "minecraft_bark_warped_log": {
+        "name": "bark_warped_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 59,
+            "g": 153,
+            "b": 151
+        },
+        "lab": {
+            "L": 57.9864,
+            "a": -27.6819,
+            "b": -7.1813
+        }
+    },
+    "minecraft_basalt_side": {
+        "name": "basalt_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 79,
+            "g": 75,
+            "b": 79
+        },
+        "lab": {
+            "L": 32.3893,
+            "a": 2.5131,
+            "b": -1.7827
+        }
+    },
+    "minecraft_blackstone": {
+        "name": "blackstone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_blackstone_1": {
+        "name": "blackstone_1",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_blackstone_2": {
+        "name": "blackstone_2",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_blackstone_3": {
+        "name": "blackstone_3",
+        "category": "minecraft",
+        "rgb": {
+            "r": 55,
+            "g": 52,
+            "b": 62
+        },
+        "lab": {
+            "L": 22.359,
+            "a": 3.703,
+            "b": -5.7774
+        }
+    },
+    "minecraft_blackstone_sculpted": {
+        "name": "blackstone_sculpted",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_blackstone_squared": {
+        "name": "blackstone_squared",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_black_concrete": {
+        "name": "black_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 9,
+            "g": 11,
+            "b": 16
+        },
+        "lab": {
+            "L": 3.0245,
+            "a": 0.3117,
+            "b": -2.4758
+        }
+    },
+    "minecraft_black_concrete_powder": {
+        "name": "black_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 57,
+            "g": 57,
+            "b": 62
+        },
+        "lab": {
+            "L": 24.1416,
+            "a": 1.1825,
+            "b": -3.0978
+        }
+    },
+    "minecraft_black_terracotta_bricks": {
+        "name": "black_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 50,
+            "g": 34,
+            "b": 26
+        },
+        "lab": {
+            "L": 14.9358,
+            "a": 6.3738,
+            "b": 8.4122
+        }
+    },
+    "minecraft_black_terracotta_shingles": {
+        "name": "black_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 50,
+            "g": 34,
+            "b": 26
+        },
+        "lab": {
+            "L": 14.9358,
+            "a": 6.3738,
+            "b": 8.4122
+        }
+    },
+    "minecraft_blue_concrete": {
+        "name": "blue_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 44,
+            "g": 46,
+            "b": 143
+        },
+        "lab": {
+            "L": 25.1762,
+            "a": 31.8363,
+            "b": -53.8491
+        }
+    },
+    "minecraft_blue_concrete_powder": {
+        "name": "blue_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 83,
+            "g": 87,
+            "b": 189
+        },
+        "lab": {
+            "L": 41.7351,
+            "a": 28.1407,
+            "b": -54.419
+        }
+    },
+    "minecraft_blue_ice": {
+        "name": "blue_ice",
+        "category": "minecraft",
+        "rgb": {
+            "r": 169,
+            "g": 200,
+            "b": 255
+        },
+        "lab": {
+            "L": 80.1591,
+            "a": 2.3453,
+            "b": -30.349
+        }
+    },
+    "minecraft_blue_terracotta_bricks": {
+        "name": "blue_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 48,
+            "g": 39,
+            "b": 65
+        },
+        "lab": {
+            "L": 17.7416,
+            "a": 10.7756,
+            "b": -14.9561
+        }
+    },
+    "minecraft_blue_terracotta_shingles": {
+        "name": "blue_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 63,
+            "g": 54,
+            "b": 81
+        },
+        "lab": {
+            "L": 24.6053,
+            "a": 10.4863,
+            "b": -14.9846
+        }
+    },
+    "minecraft_bone_block_side": {
+        "name": "bone_block_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 233,
+            "g": 230,
+            "b": 212
+        },
+        "lab": {
+            "L": 91.0851,
+            "a": -2.0449,
+            "b": 9.1189
+        }
+    },
+    "minecraft_brick": {
+        "name": "brick",
+        "category": "minecraft",
+        "rgb": {
+            "r": 157,
+            "g": 137,
+            "b": 131
+        },
+        "lab": {
+            "L": 58.6938,
+            "a": 6.5126,
+            "b": 5.9793
+        }
+    },
+    "minecraft_brown_concrete": {
+        "name": "brown_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 97,
+            "g": 60,
+            "b": 32
+        },
+        "lab": {
+            "L": 29.101,
+            "a": 13.2315,
+            "b": 23.7681
+        }
+    },
+    "minecraft_brown_concrete_powder": {
+        "name": "brown_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 81,
+            "b": 50
+        },
+        "lab": {
+            "L": 38.036,
+            "a": 12.6816,
+            "b": 24.6634
+        }
+    },
+    "minecraft_brown_mushroom_block": {
+        "name": "brown_mushroom_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 156,
+            "g": 121,
+            "b": 90
+        },
+        "lab": {
+            "L": 53.4718,
+            "a": 9.3656,
+            "b": 22.2173
+        }
+    },
+    "minecraft_brown_terracotta_bricks": {
+        "name": "brown_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 72,
+            "g": 52,
+            "b": 40
+        },
+        "lab": {
+            "L": 23.6281,
+            "a": 7.1221,
+            "b": 11.0937
+        }
+    },
+    "minecraft_brown_terracotta_shingles": {
+        "name": "brown_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 66,
+            "g": 47,
+            "b": 38
+        },
+        "lab": {
+            "L": 21.3244,
+            "a": 7.2388,
+            "b": 9.176
+        }
+    },
+    "minecraft_calcite": {
+        "name": "calcite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 217,
+            "g": 219,
+            "b": 215
+        },
+        "lab": {
+            "L": 87.1541,
+            "a": -1.3914,
+            "b": 1.7153
+        }
+    },
+    "minecraft_cherry_log": {
+        "name": "cherry_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 70,
+            "g": 44,
+            "b": 57
+        },
+        "lab": {
+            "L": 21.5753,
+            "a": 14.3143,
+            "b": -3.3624
+        }
+    },
+    "minecraft_cherry_planks": {
+        "name": "cherry_planks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 231,
+            "g": 202,
+            "b": 197
+        },
+        "lab": {
+            "L": 83.5796,
+            "a": 9.373,
+            "b": 6.2286
+        }
+    },
+    "minecraft_chiseled_deepslate": {
+        "name": "chiseled_deepslate",
+        "category": "minecraft",
+        "rgb": {
+            "r": 75,
+            "g": 76,
+            "b": 79
+        },
+        "lab": {
+            "L": 32.3232,
+            "a": 0.2643,
+            "b": -1.9225
+        }
+    },
+    "minecraft_chiseled_nether_bricks": {
+        "name": "chiseled_nether_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 56,
+            "g": 24,
+            "b": 30
+        },
+        "lab": {
+            "L": 13.1554,
+            "a": 16.6487,
+            "b": 3.1997
+        }
+    },
+    "minecraft_chiseled_polished_blackstone": {
+        "name": "chiseled_polished_blackstone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 78,
+            "g": 75,
+            "b": 84
+        },
+        "lab": {
+            "L": 32.4625,
+            "a": 3.2389,
+            "b": -4.8762
+        }
+    },
+    "minecraft_clay": {
+        "name": "clay",
+        "category": "minecraft",
+        "rgb": {
+            "r": 155,
+            "g": 161,
+            "b": 172
+        },
+        "lab": {
+            "L": 66.0874,
+            "a": 0.0951,
+            "b": -6.4377
+        }
+    },
+    "minecraft_clean_ice": {
+        "name": "clean_ice",
+        "category": "minecraft",
+        "rgb": {
+            "r": 188,
+            "g": 212,
+            "b": 255
+        },
+        "lab": {
+            "L": 84.4829,
+            "a": 1.2898,
+            "b": -23.635
+        }
+    },
+    "minecraft_coal_block": {
+        "name": "coal_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 35,
+            "g": 35,
+            "b": 35
+        },
+        "lab": {
+            "L": 13.7138,
+            "a": 0.0013,
+            "b": -0.0027
+        }
+    },
+    "minecraft_coal_ore": {
+        "name": "coal_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_coarse_dirt": {
+        "name": "coarse_dirt",
+        "category": "minecraft",
+        "rgb": {
+            "r": 179,
+            "g": 130,
+            "b": 91
+        },
+        "lab": {
+            "L": 58.3248,
+            "a": 14.1446,
+            "b": 28.4796
+        }
+    },
+    "minecraft_cobbled_deepslate": {
+        "name": "cobbled_deepslate",
+        "category": "minecraft",
+        "rgb": {
+            "r": 74,
+            "g": 74,
+            "b": 79
+        },
+        "lab": {
+            "L": 31.6193,
+            "a": 1.1262,
+            "b": -2.9711
+        }
+    },
+    "minecraft_cobblestone": {
+        "name": "cobblestone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 166,
+            "g": 166,
+            "b": 166
+        },
+        "lab": {
+            "L": 68.1182,
+            "a": 0.0038,
+            "b": -0.0075
+        }
+    },
+    "minecraft_cobblestone_mossy": {
+        "name": "cobblestone_mossy",
+        "category": "minecraft",
+        "rgb": {
+            "r": 131,
+            "g": 131,
+            "b": 131
+        },
+        "lab": {
+            "L": 54.7584,
+            "a": 0.0032,
+            "b": -0.0063
+        }
+    },
+    "minecraft_copper_block": {
+        "name": "copper_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 197,
+            "g": 111,
+            "b": 81
+        },
+        "lab": {
+            "L": 55.9205,
+            "a": 31.1687,
+            "b": 31.4396
+        }
+    },
+    "minecraft_cracked_andesite": {
+        "name": "cracked_andesite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 128
+        },
+        "lab": {
+            "L": 53.2212,
+            "a": 0.203,
+            "b": -0.5478
+        }
+    },
+    "minecraft_cracked_deepslate_bricks": {
+        "name": "cracked_deepslate_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 69,
+            "g": 70,
+            "b": 71
+        },
+        "lab": {
+            "L": 29.6645,
+            "a": -0.1877,
+            "b": -0.75
+        }
+    },
+    "minecraft_cracked_deepslate_tiles": {
+        "name": "cracked_deepslate_tiles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 65,
+            "g": 65,
+            "b": 65
+        },
+        "lab": {
+            "L": 27.5347,
+            "a": 0.002,
+            "b": -0.0039
+        }
+    },
+    "minecraft_cracked_diorite": {
+        "name": "cracked_diorite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 225,
+            "g": 225,
+            "b": 227
+        },
+        "lab": {
+            "L": 89.5819,
+            "a": 0.3646,
+            "b": -0.9842
+        }
+    },
+    "minecraft_cracked_granite": {
+        "name": "cracked_granite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 114,
+            "g": 73,
+            "b": 62
+        },
+        "lab": {
+            "L": 35.381,
+            "a": 16.0697,
+            "b": 13.7809
+        }
+    },
+    "minecraft_cracked_nether_bricks": {
+        "name": "cracked_nether_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 62,
+            "g": 30,
+            "b": 36
+        },
+        "lab": {
+            "L": 15.9019,
+            "a": 16.348,
+            "b": 2.905
+        }
+    },
+    "minecraft_cracked_polished_blackstone_bricks": {
+        "name": "cracked_polished_blackstone_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_crimson_planks": {
+        "name": "crimson_planks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 106,
+            "g": 52,
+            "b": 75
+        },
+        "lab": {
+            "L": 29.4834,
+            "a": 27.0356,
+            "b": -3.1074
+        }
+    },
+    "minecraft_crying_obsidian": {
+        "name": "crying_obsidian",
+        "category": "minecraft",
+        "rgb": {
+            "r": 131,
+            "g": 8,
+            "b": 228
+        },
+        "lab": {
+            "L": 38.8991,
+            "a": 76.9648,
+            "b": -81.3528
+        }
+    },
+    "minecraft_cut_copper": {
+        "name": "cut_copper",
+        "category": "minecraft",
+        "rgb": {
+            "r": 227,
+            "g": 130,
+            "b": 108
+        },
+        "lab": {
+            "L": 64.4665,
+            "a": 35.1085,
+            "b": 28.1682
+        }
+    },
+    "minecraft_cut_sandstone": {
+        "name": "cut_sandstone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 227,
+            "g": 219,
+            "b": 176
+        },
+        "lab": {
+            "L": 87.0599,
+            "a": -4.0545,
+            "b": 22.1719
+        }
+    },
+    "minecraft_cut_sandstone_side": {
+        "name": "cut_sandstone_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 227,
+            "g": 219,
+            "b": 176
+        },
+        "lab": {
+            "L": 87.0599,
+            "a": -4.0545,
+            "b": 22.1719
+        }
+    },
+    "minecraft_cyan_concrete": {
+        "name": "cyan_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 21,
+            "g": 119,
+            "b": 135
+        },
+        "lab": {
+            "L": 45.7741,
+            "a": -20.5606,
+            "b": -16.3555
+        }
+    },
+    "minecraft_cyan_concrete_powder": {
+        "name": "cyan_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 38,
+            "g": 164,
+            "b": 168
+        },
+        "lab": {
+            "L": 61.4727,
+            "a": -30.9798,
+            "b": -11.6457
+        }
+    },
+    "minecraft_cyan_terracotta_bricks": {
+        "name": "cyan_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 56,
+            "g": 56,
+            "b": 65
+        },
+        "lab": {
+            "L": 23.8385,
+            "a": 2.1883,
+            "b": -5.5664
+        }
+    },
+    "minecraft_cyan_terracotta_shingles": {
+        "name": "cyan_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 73,
+            "g": 74,
+            "b": 82
+        },
+        "lab": {
+            "L": 31.6315,
+            "a": 1.4367,
+            "b": -4.8843
+        }
+    },
+    "minecraft_dark_grass": {
+        "name": "dark_grass",
+        "category": "minecraft",
+        "rgb": {
+            "r": 54,
+            "g": 70,
+            "b": 41
+        },
+        "lab": {
+            "L": 27.6405,
+            "a": -12.5834,
+            "b": 15.4536
+        }
+    },
+    "minecraft_dark_grass_rocky": {
+        "name": "dark_grass_rocky",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 118,
+            "b": 120
+        },
+        "lab": {
+            "L": 49.8652,
+            "a": 1.1647,
+            "b": -0.8337
+        }
+    },
+    "minecraft_dark_oak_planks": {
+        "name": "dark_oak_planks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 79,
+            "g": 50,
+            "b": 24
+        },
+        "lab": {
+            "L": 23.7025,
+            "a": 10.1501,
+            "b": 21.6059
+        }
+    },
+    "minecraft_deepslate": {
+        "name": "deepslate",
+        "category": "minecraft",
+        "rgb": {
+            "r": 81,
+            "g": 81,
+            "b": 81
+        },
+        "lab": {
+            "L": 34.4538,
+            "a": 0.0023,
+            "b": -0.0045
+        }
+    },
+    "minecraft_deepslate_bricks": {
+        "name": "deepslate_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 75,
+            "g": 76,
+            "b": 79
+        },
+        "lab": {
+            "L": 32.3232,
+            "a": 0.2643,
+            "b": -1.9225
+        }
+    },
+    "minecraft_deepslate_tiles": {
+        "name": "deepslate_tiles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 59,
+            "b": 59
+        },
+        "lab": {
+            "L": 24.9655,
+            "a": 0.4299,
+            "b": 0.1478
+        }
+    },
+    "minecraft_diamond_block": {
+        "name": "diamond_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 162,
+            "g": 235,
+            "b": 232
+        },
+        "lab": {
+            "L": 88.4116,
+            "a": -23.109,
+            "b": -5.7817
+        }
+    },
+    "minecraft_diamond_ore": {
+        "name": "diamond_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_dirt": {
+        "name": "dirt",
+        "category": "minecraft",
+        "rgb": {
+            "r": 185,
+            "g": 133,
+            "b": 92
+        },
+        "lab": {
+            "L": 59.7639,
+            "a": 15.0959,
+            "b": 29.9117
+        }
+    },
+    "minecraft_dripstone_block": {
+        "name": "dripstone_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 146,
+            "g": 121,
+            "b": 101
+        },
+        "lab": {
+            "L": 52.6476,
+            "a": 6.5704,
+            "b": 14.5995
+        }
+    },
+    "minecraft_dry_stone": {
+        "name": "dry_stone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 139,
+            "g": 137,
+            "b": 139
+        },
+        "lab": {
+            "L": 57.3127,
+            "a": 1.1343,
+            "b": -0.8128
+        }
+    },
+    "minecraft_emerald_block": {
+        "name": "emerald_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 92,
+            "g": 231,
+            "b": 132
+        },
+        "lab": {
+            "L": 82.4288,
+            "a": -58.6722,
+            "b": 37.2003
+        }
+    },
+    "minecraft_emerald_ore": {
+        "name": "emerald_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 126,
+            "g": 128,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.3913,
+            "a": -0.9433,
+            "b": 0.2736
+        }
+    },
+    "minecraft_enchanting_table_bottom": {
+        "name": "enchanting_table_bottom",
+        "category": "minecraft",
+        "rgb": {
+            "r": 59,
+            "g": 47,
+            "b": 85
+        },
+        "lab": {
+            "L": 22.3686,
+            "a": 14.9601,
+            "b": -21.1544
+        }
+    },
+    "minecraft_end_stone": {
+        "name": "end_stone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 234,
+            "g": 247,
+            "b": 181
+        },
+        "lab": {
+            "L": 94.8866,
+            "a": -14.8299,
+            "b": 30.3774
+        }
+    },
+    "minecraft_end_stone_bricks": {
+        "name": "end_stone_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 232,
+            "g": 244,
+            "b": 178
+        },
+        "lab": {
+            "L": 93.9139,
+            "a": -14.4863,
+            "b": 30.5571
+        }
+    },
+    "minecraft_exposed_copper": {
+        "name": "exposed_copper",
+        "category": "minecraft",
+        "rgb": {
+            "r": 194,
+            "g": 134,
+            "b": 123
+        },
+        "lab": {
+            "L": 61.6107,
+            "a": 21.6154,
+            "b": 15.2042
+        }
+    },
+    "minecraft_exposed_cut_copper": {
+        "name": "exposed_cut_copper",
+        "category": "minecraft",
+        "rgb": {
+            "r": 193,
+            "g": 133,
+            "b": 123
+        },
+        "lab": {
+            "L": 61.2575,
+            "a": 21.7729,
+            "b": 14.696
+        }
+    },
+    "minecraft_glowstone": {
+        "name": "glowstone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 251,
+            "g": 232,
+            "b": 203
+        },
+        "lab": {
+            "L": 92.8101,
+            "a": 1.932,
+            "b": 16.4447
+        }
+    },
+    "minecraft_gold_block": {
+        "name": "gold_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 254,
+            "g": 253,
+            "b": 111
+        },
+        "lab": {
+            "L": 97.0117,
+            "a": -17.2723,
+            "b": 66.5682
+        }
+    },
+    "minecraft_gold_ore": {
+        "name": "gold_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_granite": {
+        "name": "granite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 169,
+            "g": 119,
+            "b": 100
+        },
+        "lab": {
+            "L": 54.6045,
+            "a": 17.1332,
+            "b": 18.2603
+        }
+    },
+    "minecraft_granite_polished": {
+        "name": "granite_polished",
+        "category": "minecraft",
+        "rgb": {
+            "r": 168,
+            "g": 120,
+            "b": 103
+        },
+        "lab": {
+            "L": 54.8004,
+            "a": 16.5167,
+            "b": 16.78
+        }
+    },
+    "minecraft_grassy_dirt": {
+        "name": "grassy_dirt",
+        "category": "minecraft",
+        "rgb": {
+            "r": 185,
+            "g": 133,
+            "b": 92
+        },
+        "lab": {
+            "L": 59.7639,
+            "a": 15.0959,
+            "b": 29.9117
+        }
+    },
+    "minecraft_grass_1": {
+        "name": "grass_1",
+        "category": "minecraft",
+        "rgb": {
+            "r": 177,
+            "g": 173,
+            "b": 79
+        },
+        "lab": {
+            "L": 69.326,
+            "a": -11.164,
+            "b": 47.9757
+        }
+    },
+    "minecraft_grass_side": {
+        "name": "grass_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 185,
+            "g": 133,
+            "b": 92
+        },
+        "lab": {
+            "L": 59.7639,
+            "a": 15.0959,
+            "b": 29.9117
+        }
+    },
+    "minecraft_grass_side_overlay": {
+        "name": "grass_side_overlay",
+        "category": "minecraft",
+        "rgb": {
+            "r": 137,
+            "g": 137,
+            "b": 137
+        },
+        "lab": {
+            "L": 57.0908,
+            "a": 0.0033,
+            "b": -0.0066
+        }
+    },
+    "minecraft_grass_side_snowed": {
+        "name": "grass_side_snowed",
+        "category": "minecraft",
+        "rgb": {
+            "r": 234,
+            "g": 250,
+            "b": 250
+        },
+        "lab": {
+            "L": 97.1325,
+            "a": -5.2146,
+            "b": -1.8127
+        }
+    },
+    "minecraft_grass_top": {
+        "name": "grass_top",
+        "category": "minecraft",
+        "rgb": {
+            "r": 149,
+            "g": 149,
+            "b": 149
+        },
+        "lab": {
+            "L": 61.7011,
+            "a": 0.0035,
+            "b": -0.007
+        }
+    },
+    "minecraft_gravel": {
+        "name": "gravel",
+        "category": "minecraft",
+        "rgb": {
+            "r": 128,
+            "g": 126,
+            "b": 126
+        },
+        "lab": {
+            "L": 52.9684,
+            "a": 0.7549,
+            "b": 0.2599
+        }
+    },
+    "minecraft_gray_terracotta_bricks": {
+        "name": "gray_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 62,
+            "g": 49,
+            "b": 41
+        },
+        "lab": {
+            "L": 21.5088,
+            "a": 4.4349,
+            "b": 7.3246
+        }
+    },
+    "minecraft_gray_terracotta_shingles": {
+        "name": "gray_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 68,
+            "g": 55,
+            "b": 44
+        },
+        "lab": {
+            "L": 24.1392,
+            "a": 3.8215,
+            "b": 9.0621
+        }
+    },
+    "minecraft_green_concrete": {
+        "name": "green_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 73,
+            "g": 91,
+            "b": 36
+        },
+        "lab": {
+            "L": 36.0343,
+            "a": -16.645,
+            "b": 28.9576
+        }
+    },
+    "minecraft_green_concrete_powder": {
+        "name": "green_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 93,
+            "g": 114,
+            "b": 44
+        },
+        "lab": {
+            "L": 45.0027,
+            "a": -19.3828,
+            "b": 35.4647
+        }
+    },
+    "minecraft_green_terracotta_bricks": {
+        "name": "green_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 76,
+            "g": 83,
+            "b": 49
+        },
+        "lab": {
+            "L": 33.8676,
+            "a": -9.1423,
+            "b": 18.9983
+        }
+    },
+    "minecraft_green_terracotta_shingles": {
+        "name": "green_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 70,
+            "g": 75,
+            "b": 46
+        },
+        "lab": {
+            "L": 30.7156,
+            "a": -7.5563,
+            "b": 16.6288
+        }
+    },
+    "minecraft_hardened_clay": {
+        "name": "hardened_clay",
+        "category": "minecraft",
+        "rgb": {
+            "r": 149,
+            "g": 92,
+            "b": 67
+        },
+        "lab": {
+            "L": 44.8702,
+            "a": 20.6318,
+            "b": 24.107
+        }
+    },
+    "minecraft_hardened_clay_stained_black": {
+        "name": "hardened_clay_stained_black",
+        "category": "minecraft",
+        "rgb": {
+            "r": 36,
+            "g": 21,
+            "b": 15
+        },
+        "lab": {
+            "L": 8.5323,
+            "a": 6.7331,
+            "b": 6.4508
+        }
+    },
+    "minecraft_hardened_clay_stained_blue": {
+        "name": "hardened_clay_stained_blue",
+        "category": "minecraft",
+        "rgb": {
+            "r": 74,
+            "g": 59,
+            "b": 91
+        },
+        "lab": {
+            "L": 27.6798,
+            "a": 13.8216,
+            "b": -16.6872
+        }
+    },
+    "minecraft_hardened_clay_stained_brown": {
+        "name": "hardened_clay_stained_brown",
+        "category": "minecraft",
+        "rgb": {
+            "r": 77,
+            "g": 50,
+            "b": 35
+        },
+        "lab": {
+            "L": 23.6063,
+            "a": 10.2257,
+            "b": 14.4736
+        }
+    },
+    "minecraft_hardened_clay_stained_cyan": {
+        "name": "hardened_clay_stained_cyan",
+        "category": "minecraft",
+        "rgb": {
+            "r": 85,
+            "g": 89,
+            "b": 89
+        },
+        "lab": {
+            "L": 37.4762,
+            "a": -1.5801,
+            "b": -0.5552
+        }
+    },
+    "minecraft_hardened_clay_stained_gray": {
+        "name": "hardened_clay_stained_gray",
+        "category": "minecraft",
+        "rgb": {
+            "r": 56,
+            "g": 40,
+            "b": 34
+        },
+        "lab": {
+            "L": 17.7998,
+            "a": 6.4649,
+            "b": 6.8621
+        }
+    },
+    "minecraft_hardened_clay_stained_green": {
+        "name": "hardened_clay_stained_green",
+        "category": "minecraft",
+        "rgb": {
+            "r": 75,
+            "g": 82,
+            "b": 41
+        },
+        "lab": {
+            "L": 33.3299,
+            "a": -10.0733,
+            "b": 23.0168
+        }
+    },
+    "minecraft_hardened_clay_stained_light_blue": {
+        "name": "hardened_clay_stained_light_blue",
+        "category": "minecraft",
+        "rgb": {
+            "r": 114,
+            "g": 108,
+            "b": 138
+        },
+        "lab": {
+            "L": 47.1544,
+            "a": 8.8837,
+            "b": -15.6201
+        }
+    },
+    "minecraft_hardened_clay_stained_lime": {
+        "name": "hardened_clay_stained_lime",
+        "category": "minecraft",
+        "rgb": {
+            "r": 103,
+            "g": 117,
+            "b": 53
+        },
+        "lab": {
+            "L": 46.7945,
+            "a": -15.7378,
+            "b": 33.161
+        }
+    },
+    "minecraft_hardened_clay_stained_magenta": {
+        "name": "hardened_clay_stained_magenta",
+        "category": "minecraft",
+        "rgb": {
+            "r": 154,
+            "g": 92,
+            "b": 112
+        },
+        "lab": {
+            "L": 46.5707,
+            "a": 28.0811,
+            "b": -0.4443
+        }
+    },
+    "minecraft_hardened_clay_stained_orange": {
+        "name": "hardened_clay_stained_orange",
+        "category": "minecraft",
+        "rgb": {
+            "r": 161,
+            "g": 83,
+            "b": 37
+        },
+        "lab": {
+            "L": 44.0851,
+            "a": 28.8083,
+            "b": 40.1407
+        }
+    },
+    "minecraft_hardened_clay_stained_pink": {
+        "name": "hardened_clay_stained_pink",
+        "category": "minecraft",
+        "rgb": {
+            "r": 160,
+            "g": 77,
+            "b": 77
+        },
+        "lab": {
+            "L": 43.2373,
+            "a": 34.3842,
+            "b": 16.2655
+        }
+    },
+    "minecraft_hardened_clay_stained_purple": {
+        "name": "hardened_clay_stained_purple",
+        "category": "minecraft",
+        "rgb": {
+            "r": 118,
+            "g": 70,
+            "b": 86
+        },
+        "lab": {
+            "L": 35.7983,
+            "a": 22.8864,
+            "b": -0.7016
+        }
+    },
+    "minecraft_hardened_clay_stained_red": {
+        "name": "hardened_clay_stained_red",
+        "category": "minecraft",
+        "rgb": {
+            "r": 141,
+            "g": 59,
+            "b": 46
+        },
+        "lab": {
+            "L": 35.961,
+            "a": 33.92,
+            "b": 25.2054
+        }
+    },
+    "minecraft_hardened_clay_stained_silver": {
+        "name": "hardened_clay_stained_silver",
+        "category": "minecraft",
+        "rgb": {
+            "r": 135,
+            "g": 107,
+            "b": 98
+        },
+        "lab": {
+            "L": 47.6856,
+            "a": 9.6919,
+            "b": 9.269
+        }
+    },
+    "minecraft_hardened_clay_stained_white": {
+        "name": "hardened_clay_stained_white",
+        "category": "minecraft",
+        "rgb": {
+            "r": 211,
+            "g": 180,
+            "b": 162
+        },
+        "lab": {
+            "L": 75.5135,
+            "a": 8.382,
+            "b": 13.3116
+        }
+    },
+    "minecraft_hardened_clay_stained_yellow": {
+        "name": "hardened_clay_stained_yellow",
+        "category": "minecraft",
+        "rgb": {
+            "r": 189,
+            "g": 137,
+            "b": 37
+        },
+        "lab": {
+            "L": 60.6434,
+            "a": 11.0754,
+            "b": 57.2284
+        }
+    },
+    "minecraft_hay_block_side": {
+        "name": "hay_block_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 205,
+            "g": 177,
+            "b": 17
+        },
+        "lab": {
+            "L": 72.5375,
+            "a": -3.8354,
+            "b": 72.715
+        }
+    },
+    "minecraft_honeycomb_block": {
+        "name": "honeycomb_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 232,
+            "g": 140,
+            "b": 8
+        },
+        "lab": {
+            "L": 66.466,
+            "a": 27.487,
+            "b": 70.9748
+        }
+    },
+    "minecraft_ice": {
+        "name": "ice",
+        "category": "minecraft",
+        "rgb": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+        },
+        "lab": {
+            "L": 100.0,
+            "a": 0.0053,
+            "b": -0.0104
+        }
+    },
+    "minecraft_iron_block": {
+        "name": "iron_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 230,
+            "g": 230,
+            "b": 230
+        },
+        "lab": {
+            "L": 91.293,
+            "a": 0.0049,
+            "b": -0.0096
+        }
+    },
+    "minecraft_iron_ore": {
+        "name": "iron_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_jungle_grass": {
+        "name": "jungle_grass",
+        "category": "minecraft",
+        "rgb": {
+            "r": 76,
+            "g": 93,
+            "b": 21
+        },
+        "lab": {
+            "L": 36.7795,
+            "a": -17.6134,
+            "b": 36.8825
+        }
+    },
+    "minecraft_jungle_grass_rocky": {
+        "name": "jungle_grass_rocky",
+        "category": "minecraft",
+        "rgb": {
+            "r": 100,
+            "g": 111,
+            "b": 23
+        },
+        "lab": {
+            "L": 44.4331,
+            "a": -16.1288,
+            "b": 44.091
+        }
+    },
+    "minecraft_jungle_grass_rocky_2": {
+        "name": "jungle_grass_rocky_2",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 118,
+            "b": 120
+        },
+        "lab": {
+            "L": 49.8652,
+            "a": 1.1647,
+            "b": -0.8337
+        }
+    },
+    "minecraft_lapis_block": {
+        "name": "lapis_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 38,
+            "g": 66,
+            "b": 134
+        },
+        "lab": {
+            "L": 29.4873,
+            "a": 14.0211,
+            "b": -41.2799
+        }
+    },
+    "minecraft_lapis_ore": {
+        "name": "lapis_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_light_blue_concrete": {
+        "name": "light_blue_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 35,
+            "g": 137,
+            "b": 199
+        },
+        "lab": {
+            "L": 54.4197,
+            "a": -6.3979,
+            "b": -40.0576
+        }
+    },
+    "minecraft_light_blue_concrete_powder": {
+        "name": "light_blue_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 71,
+            "g": 178,
+            "b": 212
+        },
+        "lab": {
+            "L": 67.9718,
+            "a": -19.999,
+            "b": -26.1809
+        }
+    },
+    "minecraft_light_blue_terracotta_bricks": {
+        "name": "light_blue_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 129,
+            "g": 123,
+            "b": 151
+        },
+        "lab": {
+            "L": 53.0232,
+            "a": 8.1834,
+            "b": -14.2424
+        }
+    },
+    "minecraft_light_blue_terracotta_shingles": {
+        "name": "light_blue_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 115,
+            "g": 112,
+            "b": 140
+        },
+        "lab": {
+            "L": 48.4192,
+            "a": 7.3094,
+            "b": -14.8758
+        }
+    },
+    "minecraft_light_gray_concrete": {
+        "name": "light_gray_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 125,
+            "g": 125,
+            "b": 115
+        },
+        "lab": {
+            "L": 52.1355,
+            "a": -1.9221,
+            "b": 5.4473
+        }
+    },
+    "minecraft_light_gray_concrete_powder": {
+        "name": "light_gray_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 143,
+            "g": 144,
+            "b": 136
+        },
+        "lab": {
+            "L": 59.4925,
+            "a": -1.889,
+            "b": 4.1131
+        }
+    },
+    "minecraft_light_gray_terracotta_bricks": {
+        "name": "light_gray_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 93,
+            "g": 73,
+            "b": 77
+        },
+        "lab": {
+            "L": 33.196,
+            "a": 9.2076,
+            "b": 0.8466
+        }
+    },
+    "minecraft_light_gray_terracotta_shingles": {
+        "name": "light_gray_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 151,
+            "g": 122,
+            "b": 112
+        },
+        "lab": {
+            "L": 53.6732,
+            "a": 9.6585,
+            "b": 9.7177
+        }
+    },
+    "minecraft_lime_concrete": {
+        "name": "lime_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 93,
+            "g": 168,
+            "b": 24
+        },
+        "lab": {
+            "L": 61.9964,
+            "a": -45.4797,
+            "b": 59.4543
+        }
+    },
+    "minecraft_lime_concrete_powder": {
+        "name": "lime_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 126,
+            "g": 191,
+            "b": 42
+        },
+        "lab": {
+            "L": 70.7773,
+            "a": -42.728,
+            "b": 63.1003
+        }
+    },
+    "minecraft_lime_terracotta_bricks": {
+        "name": "lime_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 65,
+            "g": 68,
+            "b": 40
+        },
+        "lab": {
+            "L": 27.8757,
+            "a": -6.5111,
+            "b": 16.559
+        }
+    },
+    "minecraft_lime_terracotta_shingles": {
+        "name": "lime_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 84,
+            "g": 91,
+            "b": 50
+        },
+        "lab": {
+            "L": 37.1097,
+            "a": -10.0457,
+            "b": 22.6781
+        }
+    },
+    "minecraft_log_acacia": {
+        "name": "log_acacia",
+        "category": "minecraft",
+        "rgb": {
+            "r": 78,
+            "g": 73,
+            "b": 65
+        },
+        "lab": {
+            "L": 31.2692,
+            "a": 0.4979,
+            "b": 5.5368
+        }
+    },
+    "minecraft_log_birch": {
+        "name": "log_birch",
+        "category": "minecraft",
+        "rgb": {
+            "r": 234,
+            "g": 234,
+            "b": 227
+        },
+        "lab": {
+            "L": 92.5237,
+            "a": -1.2228,
+            "b": 3.3833
+        }
+    },
+    "minecraft_log_birch_top": {
+        "name": "log_birch_top",
+        "category": "minecraft",
+        "rgb": {
+            "r": 180,
+            "g": 144,
+            "b": 90
+        },
+        "lab": {
+            "L": 61.9876,
+            "a": 6.6871,
+            "b": 33.7006
+        }
+    },
+    "minecraft_log_dark_oak": {
+        "name": "log_dark_oak",
+        "category": "minecraft",
+        "rgb": {
+            "r": 78,
+            "g": 61,
+            "b": 35
+        },
+        "lab": {
+            "L": 26.9574,
+            "a": 3.5994,
+            "b": 18.7713
+        }
+    },
+    "minecraft_log_jungle": {
+        "name": "log_jungle",
+        "category": "minecraft",
+        "rgb": {
+            "r": 89,
+            "g": 71,
+            "b": 27
+        },
+        "lab": {
+            "L": 31.1361,
+            "a": 2.0372,
+            "b": 28.6258
+        }
+    },
+    "minecraft_log_jungle_top": {
+        "name": "log_jungle_top",
+        "category": "minecraft",
+        "rgb": {
+            "r": 180,
+            "g": 144,
+            "b": 90
+        },
+        "lab": {
+            "L": 61.9876,
+            "a": 6.6871,
+            "b": 33.7006
+        }
+    },
+    "minecraft_log_oak": {
+        "name": "log_oak",
+        "category": "minecraft",
+        "rgb": {
+            "r": 105,
+            "g": 84,
+            "b": 51
+        },
+        "lab": {
+            "L": 37.0832,
+            "a": 3.9935,
+            "b": 22.4977
+        }
+    },
+    "minecraft_log_spruce": {
+        "name": "log_spruce",
+        "category": "minecraft",
+        "rgb": {
+            "r": 82,
+            "g": 55,
+            "b": 28
+        },
+        "lab": {
+            "L": 25.5936,
+            "a": 8.7546,
+            "b": 21.5113
+        }
+    },
+    "minecraft_magenta_concrete": {
+        "name": "magenta_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 169,
+            "g": 48,
+            "b": 159
+        },
+        "lab": {
+            "L": 42.8417,
+            "a": 60.9781,
+            "b": -34.3313
+        }
+    },
+    "minecraft_magenta_concrete_powder": {
+        "name": "magenta_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 191,
+            "g": 81,
+            "b": 183
+        },
+        "lab": {
+            "L": 52.2643,
+            "a": 57.0921,
+            "b": -33.4485
+        }
+    },
+    "minecraft_magenta_terracotta_bricks": {
+        "name": "magenta_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 100,
+            "g": 61,
+            "b": 85
+        },
+        "lab": {
+            "L": 31.1203,
+            "a": 21.0506,
+            "b": -7.2664
+        }
+    },
+    "minecraft_magenta_terracotta_shingles": {
+        "name": "magenta_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 163,
+            "g": 102,
+            "b": 124
+        },
+        "lab": {
+            "L": 50.3869,
+            "a": 27.6408,
+            "b": -1.9102
+        }
+    },
+    "minecraft_mangrove_log": {
+        "name": "mangrove_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 73,
+            "g": 58,
+            "b": 37
+        },
+        "lab": {
+            "L": 25.4914,
+            "a": 3.2987,
+            "b": 15.5276
+        }
+    },
+    "minecraft_mangrove_planks": {
+        "name": "mangrove_planks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 115,
+            "g": 47,
+            "b": 51
+        },
+        "lab": {
+            "L": 29.2018,
+            "a": 30.3648,
+            "b": 12.4818
+        }
+    },
+    "minecraft_melon_side": {
+        "name": "melon_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 173,
+            "g": 174,
+            "b": 39
+        },
+        "lab": {
+            "L": 68.9701,
+            "a": -15.7688,
+            "b": 63.507
+        }
+    },
+    "minecraft_mud": {
+        "name": "mud",
+        "category": "minecraft",
+        "rgb": {
+            "r": 59,
+            "g": 56,
+            "b": 58
+        },
+        "lab": {
+            "L": 23.8807,
+            "a": 1.7499,
+            "b": -0.783
+        }
+    },
+    "minecraft_mud_bricks": {
+        "name": "mud_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 157,
+            "g": 120,
+            "b": 92
+        },
+        "lab": {
+            "L": 53.3561,
+            "a": 10.5966,
+            "b": 20.9408
+        }
+    },
+    "minecraft_mud_carved": {
+        "name": "mud_carved",
+        "category": "minecraft",
+        "rgb": {
+            "r": 171,
+            "g": 134,
+            "b": 97
+        },
+        "lab": {
+            "L": 58.5753,
+            "a": 9.1644,
+            "b": 25.3078
+        }
+    },
+    "minecraft_netherite_block": {
+        "name": "netherite_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 77,
+            "g": 73,
+            "b": 77
+        },
+        "lab": {
+            "L": 31.5291,
+            "a": 2.5244,
+            "b": -1.7903
+        }
+    },
+    "minecraft_netherrack": {
+        "name": "netherrack",
+        "category": "minecraft",
+        "rgb": {
+            "r": 188,
+            "g": 115,
+            "b": 108
+        },
+        "lab": {
+            "L": 56.1234,
+            "a": 27.9465,
+            "b": 16.0937
+        }
+    },
+    "minecraft_nether_brick": {
+        "name": "nether_brick",
+        "category": "minecraft",
+        "rgb": {
+            "r": 69,
+            "g": 37,
+            "b": 43
+        },
+        "lab": {
+            "L": 19.0676,
+            "a": 16.0105,
+            "b": 2.6365
+        }
+    },
+    "minecraft_nether_gold_ore": {
+        "name": "nether_gold_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 107,
+            "g": 44,
+            "b": 44
+        },
+        "lab": {
+            "L": 27.0431,
+            "a": 28.1507,
+            "b": 13.9538
+        }
+    },
+    "minecraft_nether_wart_block": {
+        "name": "nether_wart_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 156,
+            "g": 26,
+            "b": 26
+        },
+        "lab": {
+            "L": 33.7344,
+            "a": 51.3486,
+            "b": 35.309
+        }
+    },
+    "minecraft_obsidian": {
+        "name": "obsidian",
+        "category": "minecraft",
+        "rgb": {
+            "r": 59,
+            "g": 47,
+            "b": 85
+        },
+        "lab": {
+            "L": 22.3686,
+            "a": 14.9601,
+            "b": -21.1544
+        }
+    },
+    "minecraft_orange_concrete": {
+        "name": "orange_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 225,
+            "g": 97,
+            "b": 0
+        },
+        "lab": {
+            "L": 56.6412,
+            "a": 46.3832,
+            "b": 65.6665
+        }
+    },
+    "minecraft_orange_concrete_powder": {
+        "name": "orange_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 228,
+            "g": 129,
+            "b": 27
+        },
+        "lab": {
+            "L": 63.5684,
+            "a": 31.8614,
+            "b": 64.8305
+        }
+    },
+    "minecraft_orange_terracotta_bricks": {
+        "name": "orange_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 128,
+            "g": 71,
+            "b": 42
+        },
+        "lab": {
+            "L": 36.4855,
+            "a": 21.5927,
+            "b": 27.7078
+        }
+    },
+    "minecraft_orange_terracotta_shingles": {
+        "name": "orange_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 128,
+            "g": 71,
+            "b": 42
+        },
+        "lab": {
+            "L": 36.4855,
+            "a": 21.5927,
+            "b": 27.7078
+        }
+    },
+    "minecraft_oxidized_copper": {
+        "name": "oxidized_copper",
+        "category": "minecraft",
+        "rgb": {
+            "r": 84,
+            "g": 174,
+            "b": 145
+        },
+        "lab": {
+            "L": 65.122,
+            "a": -34.0605,
+            "b": 6.7141
+        }
+    },
+    "minecraft_oxidized_cut_copper": {
+        "name": "oxidized_cut_copper",
+        "category": "minecraft",
+        "rgb": {
+            "r": 84,
+            "g": 168,
+            "b": 139
+        },
+        "lab": {
+            "L": 63.1392,
+            "a": -32.6454,
+            "b": 7.2093
+        }
+    },
+    "minecraft_packed_mud": {
+        "name": "packed_mud",
+        "category": "minecraft",
+        "rgb": {
+            "r": 155,
+            "g": 119,
+            "b": 91
+        },
+        "lab": {
+            "L": 52.8591,
+            "a": 10.2011,
+            "b": 20.811
+        }
+    },
+    "minecraft_pink_concrete": {
+        "name": "pink_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 214,
+            "g": 101,
+            "b": 143
+        },
+        "lab": {
+            "L": 57.6426,
+            "a": 48.7827,
+            "b": -1.646
+        }
+    },
+    "minecraft_pink_concrete_powder": {
+        "name": "pink_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 237,
+            "g": 195,
+            "b": 211
+        },
+        "lab": {
+            "L": 82.7738,
+            "a": 17.4566,
+            "b": -2.36
+        }
+    },
+    "minecraft_pink_terracotta_bricks": {
+        "name": "pink_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 107,
+            "g": 55,
+            "b": 63
+        },
+        "lab": {
+            "L": 29.9536,
+            "a": 23.9907,
+            "b": 5.4613
+        }
+    },
+    "minecraft_pink_terracotta_shingles": {
+        "name": "pink_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 174,
+            "g": 92,
+            "b": 93
+        },
+        "lab": {
+            "L": 48.8138,
+            "a": 33.3709,
+            "b": 14.5527
+        }
+    },
+    "minecraft_planks_acacia": {
+        "name": "planks_acacia",
+        "category": "minecraft",
+        "rgb": {
+            "r": 136,
+            "g": 71,
+            "b": 40
+        },
+        "lab": {
+            "L": 37.6514,
+            "a": 24.962,
+            "b": 30.5063
+        }
+    },
+    "minecraft_planks_birch": {
+        "name": "planks_birch",
+        "category": "minecraft",
+        "rgb": {
+            "r": 200,
+            "g": 183,
+            "b": 122
+        },
+        "lab": {
+            "L": 74.5411,
+            "a": -2.6968,
+            "b": 33.2179
+        }
+    },
+    "minecraft_planks_jungle": {
+        "name": "planks_jungle",
+        "category": "minecraft",
+        "rgb": {
+            "r": 184,
+            "g": 135,
+            "b": 100
+        },
+        "lab": {
+            "L": 60.2827,
+            "a": 14.3718,
+            "b": 26.145
+        }
+    },
+    "minecraft_planks_oak": {
+        "name": "planks_oak",
+        "category": "minecraft",
+        "rgb": {
+            "r": 188,
+            "g": 152,
+            "b": 98
+        },
+        "lab": {
+            "L": 64.9861,
+            "a": 6.4551,
+            "b": 33.3867
+        }
+    },
+    "minecraft_planks_spruce": {
+        "name": "planks_spruce",
+        "category": "minecraft",
+        "rgb": {
+            "r": 102,
+            "g": 79,
+            "b": 47
+        },
+        "lab": {
+            "L": 35.246,
+            "a": 5.2098,
+            "b": 22.4826
+        }
+    },
+    "minecraft_polished_basalt_side": {
+        "name": "polished_basalt_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 79,
+            "g": 75,
+            "b": 79
+        },
+        "lab": {
+            "L": 32.3893,
+            "a": 2.5131,
+            "b": -1.7827
+        }
+    },
+    "minecraft_polished_blackstone": {
+        "name": "polished_blackstone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_polished_blackstone_bricks": {
+        "name": "polished_blackstone_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 60,
+            "g": 57,
+            "b": 71
+        },
+        "lab": {
+            "L": 24.7708,
+            "a": 4.6609,
+            "b": -8.1266
+        }
+    },
+    "minecraft_polished_deepslate": {
+        "name": "polished_deepslate",
+        "category": "minecraft",
+        "rgb": {
+            "r": 75,
+            "g": 76,
+            "b": 79
+        },
+        "lab": {
+            "L": 32.3232,
+            "a": 0.2643,
+            "b": -1.9225
+        }
+    },
+    "minecraft_prismarine_bricks": {
+        "name": "prismarine_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 110,
+            "g": 185,
+            "b": 174
+        },
+        "lab": {
+            "L": 70.2242,
+            "a": -25.9372,
+            "b": -1.7507
+        }
+    },
+    "minecraft_prismarine_dark": {
+        "name": "prismarine_dark",
+        "category": "minecraft",
+        "rgb": {
+            "r": 50,
+            "g": 84,
+            "b": 69
+        },
+        "lab": {
+            "L": 32.8067,
+            "a": -16.2795,
+            "b": 4.8975
+        }
+    },
+    "minecraft_pumpkin_side": {
+        "name": "pumpkin_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 227,
+            "g": 144,
+            "b": 29
+        },
+        "lab": {
+            "L": 66.7987,
+            "a": 23.5645,
+            "b": 66.7558
+        }
+    },
+    "minecraft_purple_concrete": {
+        "name": "purple_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 101,
+            "g": 32,
+            "b": 157
+        },
+        "lab": {
+            "L": 29.9954,
+            "a": 52.3614,
+            "b": -54.3183
+        }
+    },
+    "minecraft_purple_concrete_powder": {
+        "name": "purple_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 136,
+            "g": 57,
+            "b": 182
+        },
+        "lab": {
+            "L": 40.472,
+            "a": 54.2781,
+            "b": -52.078
+        }
+    },
+    "minecraft_purple_terracotta_bricks": {
+        "name": "purple_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 102,
+            "g": 65,
+            "b": 85
+        },
+        "lab": {
+            "L": 32.3944,
+            "a": 19.3801,
+            "b": -5.3324
+        }
+    },
+    "minecraft_purple_terracotta_shingles": {
+        "name": "purple_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 102,
+            "g": 65,
+            "b": 85
+        },
+        "lab": {
+            "L": 32.3944,
+            "a": 19.3801,
+            "b": -5.3324
+        }
+    },
+    "minecraft_purpur_block": {
+        "name": "purpur_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 178,
+            "g": 134,
+            "b": 178
+        },
+        "lab": {
+            "L": 61.4201,
+            "a": 24.4052,
+            "b": -16.6065
+        }
+    },
+    "minecraft_quartz_block_chiseled": {
+        "name": "quartz_block_chiseled",
+        "category": "minecraft",
+        "rgb": {
+            "r": 226,
+            "g": 222,
+            "b": 212
+        },
+        "lab": {
+            "L": 88.5262,
+            "a": -0.3716,
+            "b": 5.3695
+        }
+    },
+    "minecraft_quartz_block_lines": {
+        "name": "quartz_block_lines",
+        "category": "minecraft",
+        "rgb": {
+            "r": 225,
+            "g": 220,
+            "b": 210
+        },
+        "lab": {
+            "L": 87.8949,
+            "a": -0.0243,
+            "b": 5.5003
+        }
+    },
+    "minecraft_raw_copper_block": {
+        "name": "raw_copper_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 224,
+            "g": 129,
+            "b": 101
+        },
+        "lab": {
+            "L": 63.7437,
+            "a": 33.8831,
+            "b": 31.0232
+        }
+    },
+    "minecraft_raw_gold_block": {
+        "name": "raw_gold_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 247,
+            "g": 196,
+            "b": 49
+        },
+        "lab": {
+            "L": 81.5524,
+            "a": 5.1972,
+            "b": 74.222
+        }
+    },
+    "minecraft_raw_iron_block": {
+        "name": "raw_iron_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 175,
+            "g": 142,
+            "b": 119
+        },
+        "lab": {
+            "L": 61.4742,
+            "a": 9.0521,
+            "b": 16.9577
+        }
+    },
+    "minecraft_redstone_block": {
+        "name": "redstone_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 181,
+            "g": 31,
+            "b": 9
+        },
+        "lab": {
+            "L": 39.2815,
+            "a": 57.0934,
+            "b": 49.4289
+        }
+    },
+    "minecraft_redstone_lamp_off": {
+        "name": "redstone_lamp_off",
+        "category": "minecraft",
+        "rgb": {
+            "r": 118,
+            "g": 66,
+            "b": 34
+        },
+        "lab": {
+            "L": 33.6969,
+            "a": 19.5129,
+            "b": 28.6922
+        }
+    },
+    "minecraft_redstone_lamp_on": {
+        "name": "redstone_lamp_on",
+        "category": "minecraft",
+        "rgb": {
+            "r": 250,
+            "g": 223,
+            "b": 187
+        },
+        "lab": {
+            "L": 90.1774,
+            "a": 3.9277,
+            "b": 21.0557
+        }
+    },
+    "minecraft_redstone_ore": {
+        "name": "redstone_ore",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_red_concrete": {
+        "name": "red_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 141,
+            "g": 32,
+            "b": 32
+        },
+        "lab": {
+            "L": 31.3473,
+            "a": 45.0784,
+            "b": 28.3483
+        }
+    },
+    "minecraft_red_concrete_powder": {
+        "name": "red_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 156,
+            "g": 48,
+            "b": 47
+        },
+        "lab": {
+            "L": 36.7191,
+            "a": 44.6369,
+            "b": 26.1388
+        }
+    },
+    "minecraft_red_cut_sandstone": {
+        "name": "red_cut_sandstone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 210,
+            "g": 117,
+            "b": 43
+        },
+        "lab": {
+            "L": 58.601,
+            "a": 31.1943,
+            "b": 53.9785
+        }
+    },
+    "minecraft_red_sand": {
+        "name": "red_sand",
+        "category": "minecraft",
+        "rgb": {
+            "r": 148,
+            "g": 70,
+            "b": 22
+        },
+        "lab": {
+            "L": 39.129,
+            "a": 29.8328,
+            "b": 41.7214
+        }
+    },
+    "minecraft_red_terracotta_bricks": {
+        "name": "red_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 92,
+            "g": 43,
+            "b": 41
+        },
+        "lab": {
+            "L": 24.2037,
+            "a": 22.1644,
+            "b": 11.7081
+        }
+    },
+    "minecraft_red_terracotta_shingles": {
+        "name": "red_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 57,
+            "b": 53
+        },
+        "lab": {
+            "L": 32.2051,
+            "a": 27.0876,
+            "b": 15.3537
+        }
+    },
+    "minecraft_sand": {
+        "name": "sand",
+        "category": "minecraft",
+        "rgb": {
+            "r": 230,
+            "g": 220,
+            "b": 173
+        },
+        "lab": {
+            "L": 87.4979,
+            "a": -3.8649,
+            "b": 24.3728
+        }
+    },
+    "minecraft_sandstone": {
+        "name": "sandstone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 230,
+            "g": 222,
+            "b": 164
+        },
+        "lab": {
+            "L": 87.8461,
+            "a": -6.0706,
+            "b": 29.4977
+        }
+    },
+    "minecraft_sandstone_bottom": {
+        "name": "sandstone_bottom",
+        "category": "minecraft",
+        "rgb": {
+            "r": 193,
+            "g": 186,
+            "b": 113
+        },
+        "lab": {
+            "L": 74.6021,
+            "a": -8.0873,
+            "b": 37.8322
+        }
+    },
+    "minecraft_sandstone_carved": {
+        "name": "sandstone_carved",
+        "category": "minecraft",
+        "rgb": {
+            "r": 231,
+            "g": 223,
+            "b": 179
+        },
+        "lab": {
+            "L": 88.4568,
+            "a": -4.1974,
+            "b": 22.5881
+        }
+    },
+    "minecraft_sandstone_normal": {
+        "name": "sandstone_normal",
+        "category": "minecraft",
+        "rgb": {
+            "r": 193,
+            "g": 186,
+            "b": 116
+        },
+        "lab": {
+            "L": 74.6456,
+            "a": -7.7608,
+            "b": 36.3473
+        }
+    },
+    "minecraft_sandstone_smooth": {
+        "name": "sandstone_smooth",
+        "category": "minecraft",
+        "rgb": {
+            "r": 230,
+            "g": 222,
+            "b": 178
+        },
+        "lab": {
+            "L": 88.1031,
+            "a": -4.1967,
+            "b": 22.6075
+        }
+    },
+    "minecraft_sandstone_smooth_side": {
+        "name": "sandstone_smooth_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 228,
+            "g": 221,
+            "b": 171
+        },
+        "lab": {
+            "L": 87.5565,
+            "a": -5.3921,
+            "b": 25.4643
+        }
+    },
+    "minecraft_sandstone_top": {
+        "name": "sandstone_top",
+        "category": "minecraft",
+        "rgb": {
+            "r": 229,
+            "g": 222,
+            "b": 170
+        },
+        "lab": {
+            "L": 87.8736,
+            "a": -5.6617,
+            "b": 26.4272
+        }
+    },
+    "minecraft_sand_brick": {
+        "name": "sand_brick",
+        "category": "minecraft",
+        "rgb": {
+            "r": 227,
+            "g": 219,
+            "b": 176
+        },
+        "lab": {
+            "L": 87.0599,
+            "a": -4.0545,
+            "b": 22.1719
+        }
+    },
+    "minecraft_sand_brick2": {
+        "name": "sand_brick2",
+        "category": "minecraft",
+        "rgb": {
+            "r": 231,
+            "g": 228,
+            "b": 187
+        },
+        "lab": {
+            "L": 89.8889,
+            "a": -5.599,
+            "b": 20.4191
+        }
+    },
+    "minecraft_sand_brick_small": {
+        "name": "sand_brick_small",
+        "category": "minecraft",
+        "rgb": {
+            "r": 198,
+            "g": 174,
+            "b": 113
+        },
+        "lab": {
+            "L": 71.8729,
+            "a": 0.2698,
+            "b": 34.4469
+        }
+    },
+    "minecraft_sand_brick_square": {
+        "name": "sand_brick_square",
+        "category": "minecraft",
+        "rgb": {
+            "r": 227,
+            "g": 219,
+            "b": 176
+        },
+        "lab": {
+            "L": 87.0599,
+            "a": -4.0545,
+            "b": 22.1719
+        }
+    },
+    "minecraft_sand_brick_square_small": {
+        "name": "sand_brick_square_small",
+        "category": "minecraft",
+        "rgb": {
+            "r": 231,
+            "g": 228,
+            "b": 187
+        },
+        "lab": {
+            "L": 89.8889,
+            "a": -5.599,
+            "b": 20.4191
+        }
+    },
+    "minecraft_sand_carved": {
+        "name": "sand_carved",
+        "category": "minecraft",
+        "rgb": {
+            "r": 198,
+            "g": 174,
+            "b": 113
+        },
+        "lab": {
+            "L": 71.8729,
+            "a": 0.2698,
+            "b": 34.4469
+        }
+    },
+    "minecraft_snow": {
+        "name": "snow",
+        "category": "minecraft",
+        "rgb": {
+            "r": 238,
+            "g": 255,
+            "b": 255
+        },
+        "lab": {
+            "L": 98.7955,
+            "a": -5.5169,
+            "b": -1.9157
+        }
+    },
+    "minecraft_soulsand_empty": {
+        "name": "soulsand_empty",
+        "category": "minecraft",
+        "rgb": {
+            "r": 91,
+            "g": 69,
+            "b": 56
+        },
+        "lab": {
+            "L": 31.268,
+            "a": 7.3906,
+            "b": 11.4875
+        }
+    },
+    "minecraft_soulsand_full": {
+        "name": "soulsand_full",
+        "category": "minecraft",
+        "rgb": {
+            "r": 91,
+            "g": 69,
+            "b": 56
+        },
+        "lab": {
+            "L": 31.268,
+            "a": 7.3906,
+            "b": 11.4875
+        }
+    },
+    "minecraft_soulsand_medium": {
+        "name": "soulsand_medium",
+        "category": "minecraft",
+        "rgb": {
+            "r": 91,
+            "g": 69,
+            "b": 56
+        },
+        "lab": {
+            "L": 31.268,
+            "a": 7.3906,
+            "b": 11.4875
+        }
+    },
+    "minecraft_soul_sand": {
+        "name": "soul_sand",
+        "category": "minecraft",
+        "rgb": {
+            "r": 99,
+            "g": 77,
+            "b": 63
+        },
+        "lab": {
+            "L": 34.6392,
+            "a": 7.0348,
+            "b": 11.8409
+        }
+    },
+    "minecraft_sponge": {
+        "name": "sponge",
+        "category": "minecraft",
+        "rgb": {
+            "r": 206,
+            "g": 206,
+            "b": 70
+        },
+        "lab": {
+            "L": 80.5754,
+            "a": -16.3656,
+            "b": 64.6831
+        }
+    },
+    "minecraft_stone": {
+        "name": "stone",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_stonebrick": {
+        "name": "stonebrick",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 120,
+            "b": 120
+        },
+        "lab": {
+            "L": 50.4313,
+            "a": 0.003,
+            "b": -0.006
+        }
+    },
+    "minecraft_stonebrick_carved": {
+        "name": "stonebrick_carved",
+        "category": "minecraft",
+        "rgb": {
+            "r": 140,
+            "g": 140,
+            "b": 140
+        },
+        "lab": {
+            "L": 58.2501,
+            "a": 0.0034,
+            "b": -0.0067
+        }
+    },
+    "minecraft_stonebrick_cracked": {
+        "name": "stonebrick_cracked",
+        "category": "minecraft",
+        "rgb": {
+            "r": 145,
+            "g": 145,
+            "b": 145
+        },
+        "lab": {
+            "L": 60.1721,
+            "a": 0.0035,
+            "b": -0.0068
+        }
+    },
+    "minecraft_stonebrick_mossy": {
+        "name": "stonebrick_mossy",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 121,
+            "b": 120
+        },
+        "lab": {
+            "L": 50.7151,
+            "a": -0.5756,
+            "b": 0.4083
+        }
+    },
+    "minecraft_stone_andesite": {
+        "name": "stone_andesite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 131,
+            "g": 131,
+            "b": 133
+        },
+        "lab": {
+            "L": 54.8153,
+            "a": 0.4019,
+            "b": -1.0832
+        }
+    },
+    "minecraft_stone_brick": {
+        "name": "stone_brick",
+        "category": "minecraft",
+        "rgb": {
+            "r": 127,
+            "g": 127,
+            "b": 127
+        },
+        "lab": {
+            "L": 53.1928,
+            "a": 0.0031,
+            "b": -0.0062
+        }
+    },
+    "minecraft_stone_granite": {
+        "name": "stone_granite",
+        "category": "minecraft",
+        "rgb": {
+            "r": 168,
+            "g": 119,
+            "b": 100
+        },
+        "lab": {
+            "L": 54.4893,
+            "a": 16.7204,
+            "b": 18.0846
+        }
+    },
+    "minecraft_stone_granite_smooth": {
+        "name": "stone_granite_smooth",
+        "category": "minecraft",
+        "rgb": {
+            "r": 168,
+            "g": 120,
+            "b": 103
+        },
+        "lab": {
+            "L": 54.8004,
+            "a": 16.5167,
+            "b": 16.78
+        }
+    },
+    "minecraft_stone_mossy_0": {
+        "name": "stone_mossy_0",
+        "category": "minecraft",
+        "rgb": {
+            "r": 80,
+            "g": 97,
+            "b": 45
+        },
+        "lab": {
+            "L": 38.6284,
+            "a": -15.8287,
+            "b": 27.2936
+        }
+    },
+    "minecraft_stone_slab_side": {
+        "name": "stone_slab_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 163,
+            "g": 163,
+            "b": 163
+        },
+        "lab": {
+            "L": 66.9949,
+            "a": 0.0038,
+            "b": -0.0074
+        }
+    },
+    "minecraft_stone_slab_top": {
+        "name": "stone_slab_top",
+        "category": "minecraft",
+        "rgb": {
+            "r": 163,
+            "g": 163,
+            "b": 163
+        },
+        "lab": {
+            "L": 66.9949,
+            "a": 0.0038,
+            "b": -0.0074
+        }
+    },
+    "minecraft_stripped_acacia_log": {
+        "name": "stripped_acacia_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 196,
+            "g": 99,
+            "b": 64
+        },
+        "lab": {
+            "L": 52.9819,
+            "a": 35.9587,
+            "b": 37.2212
+        }
+    },
+    "minecraft_stripped_bamboo_block": {
+        "name": "stripped_bamboo_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 214,
+            "g": 190,
+            "b": 87
+        },
+        "lab": {
+            "L": 77.1678,
+            "a": -3.7859,
+            "b": 54.0177
+        }
+    },
+    "minecraft_stripped_birch_log": {
+        "name": "stripped_birch_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 191,
+            "g": 170,
+            "b": 114
+        },
+        "lab": {
+            "L": 70.2044,
+            "a": -0.35,
+            "b": 31.6417
+        }
+    },
+    "minecraft_stripped_cherry_log": {
+        "name": "stripped_cherry_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 214,
+            "g": 143,
+            "b": 147
+        },
+        "lab": {
+            "L": 66.5563,
+            "a": 27.4558,
+            "b": 8.9457
+        }
+    },
+    "minecraft_stripped_crimson_log": {
+        "name": "stripped_crimson_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 44,
+            "b": 73
+        },
+        "lab": {
+            "L": 30.0971,
+            "a": 36.1543,
+            "b": -0.6255
+        }
+    },
+    "minecraft_stripped_crimson_log_top": {
+        "name": "stripped_crimson_log_top",
+        "category": "minecraft",
+        "rgb": {
+            "r": 90,
+            "g": 46,
+            "b": 64
+        },
+        "lab": {
+            "L": 25.2533,
+            "a": 22.5763,
+            "b": -2.3371
+        }
+    },
+    "minecraft_stripped_dark_oak_log": {
+        "name": "stripped_dark_oak_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 72,
+            "g": 57,
+            "b": 36
+        },
+        "lab": {
+            "L": 25.0491,
+            "a": 3.3284,
+            "b": 15.5708
+        }
+    },
+    "minecraft_stripped_jungle_log": {
+        "name": "stripped_jungle_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 177,
+            "g": 131,
+            "b": 87
+        },
+        "lab": {
+            "L": 58.2904,
+            "a": 12.3488,
+            "b": 30.5919
+        }
+    },
+    "minecraft_stripped_mangrove_log": {
+        "name": "stripped_mangrove_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 122,
+            "g": 55,
+            "b": 49
+        },
+        "lab": {
+            "L": 32.0148,
+            "a": 28.6616,
+            "b": 17.7113
+        }
+    },
+    "minecraft_stripped_oak_log": {
+        "name": "stripped_oak_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 183,
+            "g": 148,
+            "b": 88
+        },
+        "lab": {
+            "L": 63.3029,
+            "a": 5.5765,
+            "b": 36.4625
+        }
+    },
+    "minecraft_stripped_spruce_log": {
+        "name": "stripped_spruce_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 103,
+            "g": 86,
+            "b": 49
+        },
+        "lab": {
+            "L": 37.4098,
+            "a": 1.6283,
+            "b": 24.0287
+        }
+    },
+    "minecraft_stripped_warped_log": {
+        "name": "stripped_warped_log",
+        "category": "minecraft",
+        "rgb": {
+            "r": 59,
+            "g": 153,
+            "b": 151
+        },
+        "lab": {
+            "L": 57.9864,
+            "a": -27.6819,
+            "b": -7.1813
+        }
+    },
+    "minecraft_terracotta_brick": {
+        "name": "terracotta_brick",
+        "category": "minecraft",
+        "rgb": {
+            "r": 122,
+            "g": 76,
+            "b": 57
+        },
+        "lab": {
+            "L": 37.1182,
+            "a": 17.2546,
+            "b": 19.3662
+        }
+    },
+    "minecraft_terracotta_bricks": {
+        "name": "terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 122,
+            "g": 76,
+            "b": 57
+        },
+        "lab": {
+            "L": 37.1182,
+            "a": 17.2546,
+            "b": 19.3662
+        }
+    },
+    "minecraft_terracotta_bricks_0": {
+        "name": "terracotta_bricks_0",
+        "category": "minecraft",
+        "rgb": {
+            "r": 185,
+            "g": 164,
+            "b": 154
+        },
+        "lab": {
+            "L": 68.8947,
+            "a": 5.9876,
+            "b": 7.9762
+        }
+    },
+    "minecraft_terracotta_bricks_1": {
+        "name": "terracotta_bricks_1",
+        "category": "minecraft",
+        "rgb": {
+            "r": 128,
+            "g": 71,
+            "b": 42
+        },
+        "lab": {
+            "L": 36.4855,
+            "a": 21.5927,
+            "b": 27.7078
+        }
+    },
+    "minecraft_terracotta_bricks_10": {
+        "name": "terracotta_bricks_10",
+        "category": "minecraft",
+        "rgb": {
+            "r": 102,
+            "g": 65,
+            "b": 85
+        },
+        "lab": {
+            "L": 32.3944,
+            "a": 19.3801,
+            "b": -5.3324
+        }
+    },
+    "minecraft_terracotta_bricks_11": {
+        "name": "terracotta_bricks_11",
+        "category": "minecraft",
+        "rgb": {
+            "r": 48,
+            "g": 39,
+            "b": 65
+        },
+        "lab": {
+            "L": 17.7416,
+            "a": 10.7756,
+            "b": -14.9561
+        }
+    },
+    "minecraft_terracotta_bricks_12": {
+        "name": "terracotta_bricks_12",
+        "category": "minecraft",
+        "rgb": {
+            "r": 72,
+            "g": 52,
+            "b": 40
+        },
+        "lab": {
+            "L": 23.6281,
+            "a": 7.1221,
+            "b": 11.0937
+        }
+    },
+    "minecraft_terracotta_bricks_13": {
+        "name": "terracotta_bricks_13",
+        "category": "minecraft",
+        "rgb": {
+            "r": 76,
+            "g": 83,
+            "b": 49
+        },
+        "lab": {
+            "L": 33.8676,
+            "a": -9.1423,
+            "b": 18.9983
+        }
+    },
+    "minecraft_terracotta_bricks_14": {
+        "name": "terracotta_bricks_14",
+        "category": "minecraft",
+        "rgb": {
+            "r": 92,
+            "g": 43,
+            "b": 41
+        },
+        "lab": {
+            "L": 24.2037,
+            "a": 22.1644,
+            "b": 11.7081
+        }
+    },
+    "minecraft_terracotta_bricks_15": {
+        "name": "terracotta_bricks_15",
+        "category": "minecraft",
+        "rgb": {
+            "r": 50,
+            "g": 34,
+            "b": 26
+        },
+        "lab": {
+            "L": 14.9358,
+            "a": 6.3738,
+            "b": 8.4122
+        }
+    },
+    "minecraft_terracotta_bricks_2": {
+        "name": "terracotta_bricks_2",
+        "category": "minecraft",
+        "rgb": {
+            "r": 100,
+            "g": 61,
+            "b": 85
+        },
+        "lab": {
+            "L": 31.1203,
+            "a": 21.0506,
+            "b": -7.2664
+        }
+    },
+    "minecraft_terracotta_bricks_3": {
+        "name": "terracotta_bricks_3",
+        "category": "minecraft",
+        "rgb": {
+            "r": 129,
+            "g": 123,
+            "b": 151
+        },
+        "lab": {
+            "L": 53.0232,
+            "a": 8.1834,
+            "b": -14.2424
+        }
+    },
+    "minecraft_terracotta_bricks_4": {
+        "name": "terracotta_bricks_4",
+        "category": "minecraft",
+        "rgb": {
+            "r": 121,
+            "g": 85,
+            "b": 36
+        },
+        "lab": {
+            "L": 39.0522,
+            "a": 9.6616,
+            "b": 33.6592
+        }
+    },
+    "minecraft_terracotta_bricks_5": {
+        "name": "terracotta_bricks_5",
+        "category": "minecraft",
+        "rgb": {
+            "r": 65,
+            "g": 68,
+            "b": 40
+        },
+        "lab": {
+            "L": 27.8757,
+            "a": -6.5111,
+            "b": 16.559
+        }
+    },
+    "minecraft_terracotta_bricks_6": {
+        "name": "terracotta_bricks_6",
+        "category": "minecraft",
+        "rgb": {
+            "r": 107,
+            "g": 55,
+            "b": 63
+        },
+        "lab": {
+            "L": 29.9536,
+            "a": 23.9907,
+            "b": 5.4613
+        }
+    },
+    "minecraft_terracotta_bricks_7": {
+        "name": "terracotta_bricks_7",
+        "category": "minecraft",
+        "rgb": {
+            "r": 62,
+            "g": 49,
+            "b": 41
+        },
+        "lab": {
+            "L": 21.5088,
+            "a": 4.4349,
+            "b": 7.3246
+        }
+    },
+    "minecraft_terracotta_bricks_8": {
+        "name": "terracotta_bricks_8",
+        "category": "minecraft",
+        "rgb": {
+            "r": 93,
+            "g": 73,
+            "b": 77
+        },
+        "lab": {
+            "L": 33.196,
+            "a": 9.2076,
+            "b": 0.8466
+        }
+    },
+    "minecraft_terracotta_bricks_9": {
+        "name": "terracotta_bricks_9",
+        "category": "minecraft",
+        "rgb": {
+            "r": 56,
+            "g": 56,
+            "b": 65
+        },
+        "lab": {
+            "L": 23.8385,
+            "a": 2.1883,
+            "b": -5.5664
+        }
+    },
+    "minecraft_terracotta_shingle": {
+        "name": "terracotta_shingle",
+        "category": "minecraft",
+        "rgb": {
+            "r": 173,
+            "g": 115,
+            "b": 92
+        },
+        "lab": {
+            "L": 53.9403,
+            "a": 20.152,
+            "b": 22.0474
+        }
+    },
+    "minecraft_terracotta_shingles": {
+        "name": "terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 173,
+            "g": 115,
+            "b": 92
+        },
+        "lab": {
+            "L": 53.9403,
+            "a": 20.152,
+            "b": 22.0474
+        }
+    },
+    "minecraft_terracotta_shingles_0": {
+        "name": "terracotta_shingles_0",
+        "category": "minecraft",
+        "rgb": {
+            "r": 170,
+            "g": 147,
+            "b": 145
+        },
+        "lab": {
+            "L": 62.8922,
+            "a": 8.2247,
+            "b": 4.2131
+        }
+    },
+    "minecraft_terracotta_shingles_1": {
+        "name": "terracotta_shingles_1",
+        "category": "minecraft",
+        "rgb": {
+            "r": 128,
+            "g": 71,
+            "b": 42
+        },
+        "lab": {
+            "L": 36.4855,
+            "a": 21.5927,
+            "b": 27.7078
+        }
+    },
+    "minecraft_terracotta_shingles_10": {
+        "name": "terracotta_shingles_10",
+        "category": "minecraft",
+        "rgb": {
+            "r": 102,
+            "g": 65,
+            "b": 85
+        },
+        "lab": {
+            "L": 32.3944,
+            "a": 19.3801,
+            "b": -5.3324
+        }
+    },
+    "minecraft_terracotta_shingles_11": {
+        "name": "terracotta_shingles_11",
+        "category": "minecraft",
+        "rgb": {
+            "r": 63,
+            "g": 54,
+            "b": 81
+        },
+        "lab": {
+            "L": 24.6053,
+            "a": 10.4863,
+            "b": -14.9846
+        }
+    },
+    "minecraft_terracotta_shingles_12": {
+        "name": "terracotta_shingles_12",
+        "category": "minecraft",
+        "rgb": {
+            "r": 66,
+            "g": 47,
+            "b": 38
+        },
+        "lab": {
+            "L": 21.3244,
+            "a": 7.2388,
+            "b": 9.176
+        }
+    },
+    "minecraft_terracotta_shingles_13": {
+        "name": "terracotta_shingles_13",
+        "category": "minecraft",
+        "rgb": {
+            "r": 70,
+            "g": 75,
+            "b": 46
+        },
+        "lab": {
+            "L": 30.7156,
+            "a": -7.5563,
+            "b": 16.6288
+        }
+    },
+    "minecraft_terracotta_shingles_14": {
+        "name": "terracotta_shingles_14",
+        "category": "minecraft",
+        "rgb": {
+            "r": 120,
+            "g": 57,
+            "b": 53
+        },
+        "lab": {
+            "L": 32.2051,
+            "a": 27.0876,
+            "b": 15.3537
+        }
+    },
+    "minecraft_terracotta_shingles_15": {
+        "name": "terracotta_shingles_15",
+        "category": "minecraft",
+        "rgb": {
+            "r": 50,
+            "g": 34,
+            "b": 26
+        },
+        "lab": {
+            "L": 14.9358,
+            "a": 6.3738,
+            "b": 8.4122
+        }
+    },
+    "minecraft_terracotta_shingles_2": {
+        "name": "terracotta_shingles_2",
+        "category": "minecraft",
+        "rgb": {
+            "r": 163,
+            "g": 102,
+            "b": 124
+        },
+        "lab": {
+            "L": 50.3869,
+            "a": 27.6408,
+            "b": -1.9102
+        }
+    },
+    "minecraft_terracotta_shingles_3": {
+        "name": "terracotta_shingles_3",
+        "category": "minecraft",
+        "rgb": {
+            "r": 115,
+            "g": 112,
+            "b": 140
+        },
+        "lab": {
+            "L": 48.4192,
+            "a": 7.3094,
+            "b": -14.8758
+        }
+    },
+    "minecraft_terracotta_shingles_4": {
+        "name": "terracotta_shingles_4",
+        "category": "minecraft",
+        "rgb": {
+            "r": 196,
+            "g": 144,
+            "b": 53
+        },
+        "lab": {
+            "L": 63.2927,
+            "a": 10.9894,
+            "b": 53.7419
+        }
+    },
+    "minecraft_terracotta_shingles_5": {
+        "name": "terracotta_shingles_5",
+        "category": "minecraft",
+        "rgb": {
+            "r": 84,
+            "g": 91,
+            "b": 50
+        },
+        "lab": {
+            "L": 37.1097,
+            "a": -10.0457,
+            "b": 22.6781
+        }
+    },
+    "minecraft_terracotta_shingles_6": {
+        "name": "terracotta_shingles_6",
+        "category": "minecraft",
+        "rgb": {
+            "r": 174,
+            "g": 92,
+            "b": 93
+        },
+        "lab": {
+            "L": 48.8138,
+            "a": 33.3709,
+            "b": 14.5527
+        }
+    },
+    "minecraft_terracotta_shingles_7": {
+        "name": "terracotta_shingles_7",
+        "category": "minecraft",
+        "rgb": {
+            "r": 68,
+            "g": 55,
+            "b": 44
+        },
+        "lab": {
+            "L": 24.1392,
+            "a": 3.8215,
+            "b": 9.0621
+        }
+    },
+    "minecraft_terracotta_shingles_8": {
+        "name": "terracotta_shingles_8",
+        "category": "minecraft",
+        "rgb": {
+            "r": 151,
+            "g": 122,
+            "b": 112
+        },
+        "lab": {
+            "L": 53.6732,
+            "a": 9.6585,
+            "b": 9.7177
+        }
+    },
+    "minecraft_terracotta_shingles_9": {
+        "name": "terracotta_shingles_9",
+        "category": "minecraft",
+        "rgb": {
+            "r": 73,
+            "g": 74,
+            "b": 82
+        },
+        "lab": {
+            "L": 31.6315,
+            "a": 1.4367,
+            "b": -4.8843
+        }
+    },
+    "minecraft_tnt_bottom": {
+        "name": "tnt_bottom",
+        "category": "minecraft",
+        "rgb": {
+            "r": 142,
+            "g": 142,
+            "b": 142
+        },
+        "lab": {
+            "L": 59.0204,
+            "a": 0.0034,
+            "b": -0.0067
+        }
+    },
+    "minecraft_tnt_side": {
+        "name": "tnt_side",
+        "category": "minecraft",
+        "rgb": {
+            "r": 206,
+            "g": 206,
+            "b": 206
+        },
+        "lab": {
+            "L": 82.7646,
+            "a": 0.0045,
+            "b": -0.0089
+        }
+    },
+    "minecraft_tnt_top": {
+        "name": "tnt_top",
+        "category": "minecraft",
+        "rgb": {
+            "r": 142,
+            "g": 142,
+            "b": 142
+        },
+        "lab": {
+            "L": 59.0204,
+            "a": 0.0034,
+            "b": -0.0067
+        }
+    },
+    "minecraft_tuff_block": {
+        "name": "tuff_block",
+        "category": "minecraft",
+        "rgb": {
+            "r": 133,
+            "g": 131,
+            "b": 123
+        },
+        "lab": {
+            "L": 54.7092,
+            "a": -0.7715,
+            "b": 4.5804
+        }
+    },
+    "minecraft_warped_planks": {
+        "name": "warped_planks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 41,
+            "g": 92,
+            "b": 81
+        },
+        "lab": {
+            "L": 35.4391,
+            "a": -20.1566,
+            "b": 1.1191
+        }
+    },
+    "minecraft_wool_colored_black": {
+        "name": "wool_colored_black",
+        "category": "minecraft",
+        "rgb": {
+            "r": 32,
+            "g": 28,
+            "b": 28
+        },
+        "lab": {
+            "L": 10.7145,
+            "a": 1.9375,
+            "b": 0.702
+        }
+    },
+    "minecraft_wool_colored_blue": {
+        "name": "wool_colored_blue",
+        "category": "minecraft",
+        "rgb": {
+            "r": 42,
+            "g": 51,
+            "b": 129
+        },
+        "lab": {
+            "L": 25.0908,
+            "a": 23.0828,
+            "b": -45.2645
+        }
+    },
+    "minecraft_wool_colored_brown": {
+        "name": "wool_colored_brown",
+        "category": "minecraft",
+        "rgb": {
+            "r": 74,
+            "g": 47,
+            "b": 29
+        },
+        "lab": {
+            "L": 22.2227,
+            "a": 10.0634,
+            "b": 16.5208
+        }
+    },
+    "minecraft_wool_colored_cyan": {
+        "name": "wool_colored_cyan",
+        "category": "minecraft",
+        "rgb": {
+            "r": 39,
+            "g": 93,
+            "b": 115
+        },
+        "lab": {
+            "L": 36.9257,
+            "a": -10.4244,
+            "b": -17.7769
+        }
+    },
+    "minecraft_wool_colored_gray": {
+        "name": "wool_colored_gray",
+        "category": "minecraft",
+        "rgb": {
+            "r": 70,
+            "g": 70,
+            "b": 70
+        },
+        "lab": {
+            "L": 29.7247,
+            "a": 0.0021,
+            "b": -0.0041
+        }
+    },
+    "minecraft_wool_colored_green": {
+        "name": "wool_colored_green",
+        "category": "minecraft",
+        "rgb": {
+            "r": 55,
+            "g": 74,
+            "b": 28
+        },
+        "lab": {
+            "L": 28.8857,
+            "a": -16.2288,
+            "b": 24.6743
+        }
+    },
+    "minecraft_wool_colored_light_blue": {
+        "name": "wool_colored_light_blue",
+        "category": "minecraft",
+        "rgb": {
+            "r": 114,
+            "g": 144,
+            "b": 204
+        },
+        "lab": {
+            "L": 59.7834,
+            "a": 5.2929,
+            "b": -34.2521
+        }
+    },
+    "minecraft_wool_colored_lime": {
+        "name": "wool_colored_lime",
+        "category": "minecraft",
+        "rgb": {
+            "r": 56,
+            "g": 145,
+            "b": 46
+        },
+        "lab": {
+            "L": 53.2641,
+            "a": -45.9935,
+            "b": 43.1098
+        }
+    },
+    "minecraft_wool_colored_magenta": {
+        "name": "wool_colored_magenta",
+        "category": "minecraft",
+        "rgb": {
+            "r": 174,
+            "g": 68,
+            "b": 184
+        },
+        "lab": {
+            "L": 47.7438,
+            "a": 58.624,
+            "b": -41.3172
+        }
+    },
+    "minecraft_wool_colored_orange": {
+        "name": "wool_colored_orange",
+        "category": "minecraft",
+        "rgb": {
+            "r": 220,
+            "g": 128,
+            "b": 67
+        },
+        "lab": {
+            "L": 62.5576,
+            "a": 30.53,
+            "b": 47.399
+        }
+    },
+    "minecraft_wool_colored_pink": {
+        "name": "wool_colored_pink",
+        "category": "minecraft",
+        "rgb": {
+            "r": 204,
+            "g": 121,
+            "b": 143
+        },
+        "lab": {
+            "L": 60.3336,
+            "a": 35.0597,
+            "b": 2.118
+        }
+    },
+    "minecraft_wool_colored_purple": {
+        "name": "wool_colored_purple",
+        "category": "minecraft",
+        "rgb": {
+            "r": 136,
+            "g": 69,
+            "b": 193
+        },
+        "lab": {
+            "L": 43.2722,
+            "a": 51.0786,
+            "b": -54.0093
+        }
+    },
+    "minecraft_wool_colored_red": {
+        "name": "wool_colored_red",
+        "category": "minecraft",
+        "rgb": {
+            "r": 136,
+            "g": 47,
+            "b": 44
+        },
+        "lab": {
+            "L": 32.8082,
+            "a": 37.8083,
+            "b": 22.3805
+        }
+    },
+    "minecraft_wool_colored_silver": {
+        "name": "wool_colored_silver",
+        "category": "minecraft",
+        "rgb": {
+            "r": 160,
+            "g": 166,
+            "b": 166
+        },
+        "lab": {
+            "L": 67.6499,
+            "a": -2.1217,
+            "b": -0.7481
+        }
+    },
+    "minecraft_wool_colored_white": {
+        "name": "wool_colored_white",
+        "category": "minecraft",
+        "rgb": {
+            "r": 210,
+            "g": 210,
+            "b": 210
+        },
+        "lab": {
+            "L": 84.1985,
+            "a": 0.0045,
+            "b": -0.009
+        }
+    },
+    "minecraft_wool_colored_yellow": {
+        "name": "wool_colored_yellow",
+        "category": "minecraft",
+        "rgb": {
+            "r": 201,
+            "g": 188,
+            "b": 47
+        },
+        "lab": {
+            "L": 75.195,
+            "a": -10.4879,
+            "b": 67.5313
+        }
+    },
+    "minecraft_yellow_concrete": {
+        "name": "yellow_concrete",
+        "category": "minecraft",
+        "rgb": {
+            "r": 241,
+            "g": 175,
+            "b": 21
+        },
+        "lab": {
+            "L": 75.7087,
+            "a": 12.9625,
+            "b": 76.0598
+        }
+    },
+    "minecraft_yellow_concrete_powder": {
+        "name": "yellow_concrete_powder",
+        "category": "minecraft",
+        "rgb": {
+            "r": 235,
+            "g": 204,
+            "b": 58
+        },
+        "lab": {
+            "L": 82.4611,
+            "a": -3.6998,
+            "b": 71.7281
+        }
+    },
+    "minecraft_yellow_terracotta_bricks": {
+        "name": "yellow_terracotta_bricks",
+        "category": "minecraft",
+        "rgb": {
+            "r": 121,
+            "g": 85,
+            "b": 36
+        },
+        "lab": {
+            "L": 39.0522,
+            "a": 9.6616,
+            "b": 33.6592
+        }
+    },
+    "minecraft_yellow_terracotta_shingles": {
+        "name": "yellow_terracotta_shingles",
+        "category": "minecraft",
+        "rgb": {
+            "r": 196,
+            "g": 144,
+            "b": 53
+        },
+        "lab": {
+            "L": 63.2927,
+            "a": 10.9894,
+            "b": 53.7419
+        }
+    }
+}
