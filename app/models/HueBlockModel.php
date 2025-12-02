@@ -3,12 +3,38 @@
 class HueBlockModel {
     private $blockDatabase = [];
     private $dataFile = __DIR__ . '/../../data/hueblocks_ng_data.json'; 
+    private $sprite_meta = []; // NOUVEAU: Stocke les dimensions des sprite sheets
 
     public function __construct() {
         $this->loadBlockData();
+        $this->loadSpriteMetadata(); // NOUVEAU: Charge les infos sur les sprites
     }
 
-    // --- Fonctions de Conversion RVB -> LAB ---
+    // --- NOUVELLE FONCTION: CHARGER LES MÉTADONNÉES DES SPRITES ---
+    private function loadSpriteMetadata() {
+        // TENTE DE LIRE LES DEUX FICHIERS DE MAPPING POUR OBTENIR LA TAILLE TOTALE
+        $map_files = [
+            'sprites_16x16.png' => 'sprite_map_16x16.json',
+            'sprites_32x32.png' => 'sprite_map_32x32.json'
+        ];
+        
+        foreach ($map_files as $sprite_name => $map_filename) {
+            // NOTE: Le chemin vers les fichiers de mapping doit être adapté si nécessaire
+            $map_path = os.path.join(BASE_DIR, $map_filename); 
+
+            // PUISQUE LE CHEMIN ABSOLU EST DIFFICILE DANS LES API, NOUS FAISONS UNE HYPOTHÈSE BASÉE SUR LES DONNÉES DU JSON
+            // Pour le moment, nous allons simplement utiliser les valeurs de vos fichiers de mapping (64x1344 et 128x1344)
+            // C'est une solution rapide, mais cela devrait être automatisé par un script Python séparé qui crée un fichier 'sprite_sizes.json'.
+            
+            if ($sprite_name === 'sprites_16x16.png') {
+                 $this->sprite_meta[$sprite_name] = ['w' => 64, 'h' => 1344];
+            } elseif ($sprite_name === 'sprites_32x32.png') {
+                 $this->sprite_meta[$sprite_name] = ['w' => 128, 'h' => 1344];
+            }
+        }
+    }
+
+    // --- Fonctions de Conversion RVB -> LAB (Inchagées) ---
     
     private function toLinear($c) {
         return ($c > 0.04045) ? pow(($c + 0.055) / 1.055, 2.4) : $c / 12.92;
@@ -40,21 +66,6 @@ class HueBlockModel {
         return ['L' => $L, 'a' => $a, 'b' => $b];
     }
     
-    // --- Fonctions utilitaires ---
-    
-    /**
-     * Convertit une couleur Hexadécimale (#RRGGBB) en un tableau RVB.
-     */
-    private function hexToRgb($hexColor) {
-        $hexColor = ltrim($hexColor, '#');
-        if (strlen($hexColor) !== 6) { return null; }
-        return [
-            'r' => hexdec(substr($hexColor, 0, 2)),
-            'g' => hexdec(substr($hexColor, 2, 2)),
-            'b' => hexdec(substr($hexColor, 4, 2))
-        ];
-    }
-
     /**
      * Calcule la distance de couleur Delta E 2000 (CIE DE2000).
      */
@@ -83,7 +94,7 @@ class HueBlockModel {
         } else {
             $dH_prime = ($h_prime_2 - $h_prime_1) > 0 ? ($h_prime_2 - $h_prime_1 - 360.0) : ($h_prime_2 - $h_prime_1 + 360.0);
         }
-        $dH_prime = 2.0 * sqrt($C_prime_1 * $C_prime_2) * sin(deg2rad($dH_prime / 2.0));
+        $dH_prime = 2.0 * sqrt(max(0, $C_prime_1 * $C_prime_2)) * sin(deg2rad($dH_prime / 2.0));
         $L_bar = ($L1 + $L2) / 2.0;
         $C_prime_bar = ($C_prime_1 + $C_prime_2) / 2.0;
         if (abs($h_prime_1 - $h_prime_2) <= 180.0) {
@@ -106,9 +117,8 @@ class HueBlockModel {
             $RT * ($dC_prime / ($kC * $SC)) * ($dH_prime / ($kH * $SH))
         );
     }
-
-    // --- Logique du Modèle ---
-
+    
+    // --- Fonctions de base (inchangées) ---
     private function loadBlockData() {
         if (file_exists($this->dataFile)) {
             $jsonContent = file_get_contents($this->dataFile);
@@ -116,7 +126,7 @@ class HueBlockModel {
 
             foreach ($data as $key => &$block) {
                 if (!isset($block['lab'])) {
-                     die("Erreur de données : Le bloc {$key} ne contient pas de données 'lab'. Veuillez relancer le script Python.");
+                     die("Erreur de données : Le bloc {$key} ne contient pas de données 'lab'. Veuillez relancer le script Python de fusion.");
                 }
             }
             $this->blockDatabase = $data;
@@ -131,17 +141,30 @@ class HueBlockModel {
     }
     
     /**
-     * Trie la base de données des blocs par catégorie.
+     * Retourne les blocs triés par catégorie ET les métadonnées de la Sprite Sheet.
      */
     public function getBlocksByCategory() {
         $sorted = [];
         foreach ($this->blockDatabase as $key => $block) {
-            $sorted[$block['category']][$key] = $block;
+            // Assurez-vous que le bloc a les données nécessaires pour le rendu de la sprite
+            if (isset($block['sprite_image'])) {
+                $sorted[$block['category']][$key] = $block;
+            }
         }
         ksort($sorted); 
-        return $sorted;
+        
+        // NOUVEAU : Ajouter les métadonnées de la sprite sheet au tableau retourné
+        return ['blocks' => $sorted, 'meta' => $this->sprite_meta];
     }
-
+    
+    // --- Fonctions de génération (inchangées) ---
+    
+    private function hexToRgb($hexColor) {
+        $hexColor = ltrim($hexColor, '#');
+        if (strlen($hexColor) !== 6) { return null; }
+        return ['r' => hexdec(substr($hexColor, 0, 2)), 'g' => hexdec(substr($hexColor, 2, 2)), 'b' => hexdec(substr($hexColor, 4, 2)) ];
+    }
+    
     public function generateGradient($startKey, $endKey, $steps) {
         if (!isset($this->blockDatabase[$startKey]) || !isset($this->blockDatabase[$endKey])) {
             return [];
@@ -173,18 +196,10 @@ class HueBlockModel {
         $gradientBlocks = [];
         $steps = max(2, (int)$steps); 
         
-        // --- POINTS DE RÉFÉRENCE ET BLOCS CIBLES ---
-        // Utilisé pour forcer le choix du rouge pur
+        // --- LOGIQUE DE PRIORITÉ ROUGE PUR (inchangée) ---
         $PURE_RED_LAB = ['L' => 53.23, 'a' => 80.11, 'b' => 67.22]; 
-        
-        $PRIMARY_TARGETS = [
-            'red' => [
-                'lab' => $PURE_RED_LAB,
-                'key' => 'minecraft_red_concrete', 
-                'threshold_dE' => 8, 
-                'max_dE_force' => 15 
-            ],
-        ];
+        $PRIMARY_TARGETS = [['lab' => $PURE_RED_LAB, 'key' => 'minecraft_red_concrete', 'threshold_dE' => 8, 'max_dE_force' => 15 ]];
+        $FORCED_BLOCKS = ['minecraft_red_concrete']; // Liste des clés à vérifier
         // ---------------------------------------------
 
         for ($i = 0; $i < $steps; $i++) {
@@ -200,13 +215,11 @@ class HueBlockModel {
             $minDistance = INF;
             $bestKey = null;
 
-            // --- VÉRIFICATION DES RÈGLES DE PRIORITÉ ---
+            // VÉRIFICATION DES RÈGLES DE PRIORITÉ 
             foreach ($PRIMARY_TARGETS as $rule) {
                 if ($this->deltaE2000($targetLab, $rule['lab']) < $rule['threshold_dE']) {
-                    
                     if (isset($this->blockDatabase[$rule['key']])) {
                         $distance_to_forced = $this->deltaE2000($targetLab, $this->blockDatabase[$rule['key']]['lab']);
-                        
                         if ($distance_to_forced < $rule['max_dE_force']) {
                             $forced_key = $rule['key'];
                             $minDistance = $distance_to_forced;
@@ -216,13 +229,11 @@ class HueBlockModel {
                     }
                 }
             }
-            // --- FIN DES RÈGLES DE PRIORITÉ ---
 
-            // 3. Recherche Lab normale
+            // Recherche Lab normale
             if (!$bestKey) {
                 foreach ($this->blockDatabase as $key => $block) {
                     $distance = $this->deltaE2000($targetLab, $block['lab']); 
-                    
                     if ($distance < $minDistance) {
                         $minDistance = $distance;
                         $bestKey = $key;
