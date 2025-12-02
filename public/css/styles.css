@@ -18,6 +18,82 @@
     --accent-copy-hover: #7fff9e;
 }
 
+/* --- SPLASH SCREEN STYLES (Chargement Différé) --- */
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-dark); /* Couleur du fond de page */
+    z-index: 99999; /* Au-dessus de tout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-primary);
+    transition: opacity 0.5s ease-in-out;
+}
+
+.loader-content p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: var(--accent-blue);
+}
+
+/* Style de Spinner Simple et Sexy */
+.spinner {
+    width: 60px;
+    height: 60px;
+    border: 5px solid var(--border-color);
+    border-top-color: var(--accent-blue);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* --- BANDEAU LÉGAL & TAG V1 --- */
+.legal-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--border-color); 
+    color: var(--text-secondary);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    font-size: 0.85em;
+}
+.legal-banner button {
+    background-color: var(--accent-main-red);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.2s;
+}
+.v1-tag {
+    background-color: var(--accent-main-red);
+    color: var(--bg-dark);
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left: 5px;
+    vertical-align: top;
+    line-height: 1;
+    text-shadow: none;
+}
+
 /* --- GÉNÉRAL --- */
 body {
     font-family: 'Poppins', sans-serif; 
@@ -30,7 +106,6 @@ body {
     align-items: center;
     overflow-x: hidden; 
     
-    /* FOND COOL */
     background: radial-gradient(circle at top right, #3f3f6040 0%, transparent 40%),
                 radial-gradient(circle at bottom left, #00bcd420 0%, transparent 50%),
                 var(--bg-dark);
@@ -273,15 +348,15 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     align-items: center;
     justify-content: space-between;
     background-color: var(--input-bg);
-    border: 2px solid var(--border-color); /* Bordure plus visible */
+    border: 2px solid var(--border-color); 
     border-radius: 10px;
-    padding: 8px; /* Réduit le padding pour plus de compacité */
+    padding: 8px; 
     transition: box-shadow 0.3s, border-color 0.3s;
     height: 60px; 
 }
 
 .block-visual-selector:hover {
-    box-shadow: 0 0 10px 3px rgba(0, 188, 212, 0.4); /* Lueur plus marquée au survol */
+    box-shadow: 0 0 10px 3px rgba(0, 188, 212, 0.4); 
     border-color: var(--accent-blue);
     cursor: pointer;
 }
@@ -356,15 +431,24 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     position: relative; 
 }
 
+/* Styles pour le rendu de la sprite sheet */
+.block-sprite-preview {
+    background-repeat: no-repeat;
+    transform-origin: 0 0; /* Important pour le scale */
+}
+
+/* Rendu pixelisé pour les 16x16 */
 .pixel-texture {
     image-rendering: pixelated; 
     image-rendering: crisp-edges;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
 }
 
-/* CORRECTION : Assurer que le nom du bloc est masqué */
+/* Rendu lissé pour les 32x32/64x64 */
+.smooth-texture {
+    image-rendering: auto; 
+    image-rendering: unset; 
+}
+
 .block-name {
     display: none !important; 
 }
@@ -433,7 +517,7 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     text-shadow: none;
 }
 
-/* --- STYLE DU TOOLTIP PERSONNALISÉ --- */
+/* --- TOOLTIP & MODAL --- */
 .custom-tooltip { 
     position: absolute;
     background-color: var(--bg-light);
@@ -449,20 +533,7 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     text-align: left;
     transition: opacity 0.2s, transform 0.2s;
 }
-.custom-tooltip p {
-    margin: 4px 0;
-    line-height: 1.4;
-    font-size: 0.95em;
-}
-.custom-tooltip strong {
-    color: var(--accent-blue);
-    font-weight: 700;
-    display: inline-block;
-    min-width: 90px;
-}
 
-
-/* --- MODALE DE SÉLECTION DE BLOCS --- */
 .modal {
     position: fixed;
     z-index: 10000; 
@@ -496,13 +567,6 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     transition: color 0.3s;
 }
 
-.close-button:hover,
-.close-button:focus {
-    color: var(--accent-hover);
-    text-decoration: none;
-    cursor: pointer;
-}
-
 .modal-title {
     color: var(--accent-blue);
     border-bottom: 2px solid var(--border-color);
@@ -524,7 +588,7 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     margin-bottom: 10px;
 }
 
-/* 🛑 CORRECTION : Styles de la GRILLE qui cassait l'alignement */
+/* GRILLE RESPONSIVE */
 .category-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); 
@@ -548,27 +612,13 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(0, 188, 212, 0.4);
 }
-/* Fin des styles pour la modale */
 
-
-/* --- MEDIA QUERIES (Réactivité) --- */
+/* --- MEDIA QUERIES --- */
 
 @media (max-width: 768px) {
-    .app-header svg {
-        width: 220px;
-        height: 60px;
-    }
-    .controls {
-        padding: 20px;
-        gap: 15px;
-    }
-    .block-result {
+    .block-result, .grid-block-item {
         width: 60px;
         height: 60px;
-    }
-    .btn-select-block {
-        font-size: 0.8em;
-        padding: 6px 10px;
     }
     .grid-block-item {
         width: 60px;
@@ -581,20 +631,9 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
 }
 
 @media (max-width: 480px) {
-    .app-header svg {
-        width: 180px;
-        height: 50px;
-    }
-    .controls {
-        padding: 15px;
-    }
-    .block-result {
+    .block-result, .grid-block-item {
         width: 50px;
         height: 50px;
-    }
-    .btn-select-block {
-        font-size: 0.7em;
-        padding: 5px 8px;
     }
     .grid-block-item {
         width: 50px;
@@ -603,11 +642,5 @@ select:focus, input[type="number"]:focus, input[type="text"]:focus {
     .category-grid {
         grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
         gap: 8px;
-    }
-    .custom-tooltip {
-        min-width: unset; 
-        width: 90%; 
-        left: 5% !important; 
-        transform: translateX(0) !important; 
     }
 }
