@@ -11,7 +11,15 @@
             "L": 29.8203,
             "a": 1.5656,
             "b": -8.3045
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1312,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "nationsglory_brique1": {
         "name": "brique1",
@@ -25,7 +33,15 @@
             "L": 35.8287,
             "a": -0.4416,
             "b": 8.339
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1328,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "westeros_bark_birch": {
         "name": "bark_birch",
@@ -39,7 +55,15 @@
             "L": 66.9713,
             "a": -0.5717,
             "b": 3.8778
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_bark_jungle": {
         "name": "bark_jungle",
@@ -53,7 +77,15 @@
             "L": 28.2567,
             "a": -3.5945,
             "b": 6.2463
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_bark_oak": {
         "name": "bark_oak",
@@ -67,7 +99,15 @@
             "L": 33.7377,
             "a": 2.7822,
             "b": 17.3317
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_bark_spruce": {
         "name": "bark_spruce",
@@ -81,7 +121,15 @@
             "L": 21.227,
             "a": 5.2728,
             "b": 6.2539
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_blades_molten": {
         "name": "blades_molten",
@@ -95,7 +143,15 @@
             "L": 32.3872,
             "a": -1.877,
             "b": 1.3487
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_bricks_stone_small_smooth": {
         "name": "bricks_stone_small_smooth",
@@ -109,7 +165,15 @@
             "L": 53.7732,
             "a": -3.6197,
             "b": 6.6494
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 224,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_bricks_white_small": {
         "name": "bricks_white_small",
@@ -123,7 +187,15 @@
             "L": 68.227,
             "a": 0.1556,
             "b": 2.9564
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 256,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_basalt": {
         "name": "brick_basalt",
@@ -137,7 +209,15 @@
             "L": 24.3342,
             "a": -0.8616,
             "b": 3.8818
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_dark_red": {
         "name": "brick_dark_red",
@@ -151,7 +231,15 @@
             "L": 27.1082,
             "a": 18.9252,
             "b": 13.0623
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_dun": {
         "name": "brick_dun",
@@ -165,7 +253,15 @@
             "L": 36.2294,
             "a": 9.7284,
             "b": 14.7978
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_dun_cobble": {
         "name": "brick_dun_cobble",
@@ -179,7 +275,15 @@
             "L": 34.3882,
             "a": 10.8156,
             "b": 15.3622
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_dun_ornate": {
         "name": "brick_dun_ornate",
@@ -193,7 +297,15 @@
             "L": 36.1883,
             "a": 9.4766,
             "b": 15.9748
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_lannisport": {
         "name": "brick_lannisport",
@@ -207,7 +319,15 @@
             "L": 62.8414,
             "a": 3.283,
             "b": 18.2007
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_light_grey": {
         "name": "brick_light_grey",
@@ -221,7 +341,15 @@
             "L": 66.9545,
             "a": -2.7462,
             "b": 6.6148
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_metal_normal_gold": {
         "name": "brick_metal_normal_gold",
@@ -235,7 +363,15 @@
             "L": 74.8673,
             "a": -2.1976,
             "b": 48.4142
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_nether": {
         "name": "brick_nether",
@@ -249,7 +385,15 @@
             "L": 14.5169,
             "a": -1.1586,
             "b": 3.3327
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_orange_large": {
         "name": "brick_orange_large",
@@ -263,7 +407,15 @@
             "L": 58.7302,
             "a": 15.5452,
             "b": 30.742
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_orange_small_side": {
         "name": "brick_orange_small_side",
@@ -277,7 +429,15 @@
             "L": 56.9866,
             "a": 14.8661,
             "b": 30.5872
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_orange_small_top_ornate": {
         "name": "brick_orange_small_top_ornate",
@@ -291,7 +451,15 @@
             "L": 57.0864,
             "a": 15.2005,
             "b": 31.2862
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_reach_light": {
         "name": "brick_reach_light",
@@ -305,7 +473,15 @@
             "L": 68.7103,
             "a": -1.2928,
             "b": 4.7638
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_reach_light_pink": {
         "name": "brick_reach_light_pink",
@@ -319,7 +495,15 @@
             "L": 61.5658,
             "a": 0.2502,
             "b": 7.7873
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_reach_pink": {
         "name": "brick_reach_pink",
@@ -333,7 +517,15 @@
             "L": 62.7929,
             "a": 0.6268,
             "b": 7.8914
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_stone_large_unshaded": {
         "name": "brick_stone_large_unshaded",
@@ -347,7 +539,15 @@
             "L": 62.0822,
             "a": 0.0035,
             "b": -0.007
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_stone_small": {
         "name": "brick_stone_small",
@@ -361,7 +561,15 @@
             "L": 53.5809,
             "a": -4.3952,
             "b": 5.1813
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_stone_small_mossy": {
         "name": "brick_stone_small_mossy",
@@ -375,7 +583,15 @@
             "L": 32.8432,
             "a": -4.3625,
             "b": 5.8131
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_stone_small_smooth": {
         "name": "brick_stone_small_smooth",
@@ -389,7 +605,15 @@
             "L": 53.7732,
             "a": -3.6197,
             "b": 6.6494
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_stormlands_large": {
         "name": "brick_stormlands_large",
@@ -403,7 +627,15 @@
             "L": 36.2394,
             "a": 3.0315,
             "b": 11.5164
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_stormlands_small": {
         "name": "brick_stormlands_small",
@@ -417,7 +649,15 @@
             "L": 30.4753,
             "a": 2.159,
             "b": 12.1443
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_whiteharbor_granite": {
         "name": "brick_whiteharbor_granite",
@@ -431,7 +671,15 @@
             "L": 89.4547,
             "a": -0.5295,
             "b": 1.4543
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_whiteharbor_granite_top": {
         "name": "brick_whiteharbor_granite_top",
@@ -445,7 +693,15 @@
             "L": 90.8655,
             "a": -0.5277,
             "b": 1.4493
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 224,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_white_small": {
         "name": "brick_white_small",
@@ -459,7 +715,15 @@
             "L": 68.227,
             "a": 0.1556,
             "b": 2.9564
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_winterfell_granite": {
         "name": "brick_winterfell_granite",
@@ -473,7 +737,15 @@
             "L": 34.0377,
             "a": -2.2858,
             "b": 2.5144
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 224,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_brick_winterfell_granite_top": {
         "name": "brick_winterfell_granite_top",
@@ -487,7 +759,15 @@
             "L": 31.5905,
             "a": -1.8908,
             "b": 4.0267
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 224,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_column_block_marble_side": {
         "name": "column_block_marble_side",
@@ -501,7 +781,15 @@
             "L": 87.1283,
             "a": -0.0314,
             "b": 3.2983
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 256,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_dates_side": {
         "name": "dates_side",
@@ -515,7 +803,15 @@
             "L": 34.2561,
             "a": 39.5349,
             "b": 33.3697
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 256,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brick_crossed": {
         "name": "daub_brick_crossed",
@@ -529,7 +825,15 @@
             "L": 28.5119,
             "a": 4.8369,
             "b": 14.5892
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 256,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brick_left": {
         "name": "daub_brick_left",
@@ -543,7 +847,15 @@
             "L": 57.7301,
             "a": 14.6896,
             "b": 31.0253
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 288,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brick_open": {
         "name": "daub_brick_open",
@@ -557,7 +869,15 @@
             "L": 28.0884,
             "a": 8.4123,
             "b": 15.3937
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 288,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brick_right": {
         "name": "daub_brick_right",
@@ -571,7 +891,15 @@
             "L": 57.3662,
             "a": 14.8239,
             "b": 30.5414
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 288,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brown_crossed": {
         "name": "daub_brown_crossed",
@@ -585,7 +913,15 @@
             "L": 31.3738,
             "a": 3.913,
             "b": 15.3533
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 288,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brown_left": {
         "name": "daub_brown_left",
@@ -599,7 +935,15 @@
             "L": 55.5852,
             "a": 0.1794,
             "b": 17.4693
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 320,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brown_open": {
         "name": "daub_brown_open",
@@ -613,7 +957,15 @@
             "L": 55.5852,
             "a": 0.1794,
             "b": 17.4693
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 320,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_brown_right": {
         "name": "daub_brown_right",
@@ -627,7 +979,15 @@
             "L": 55.6057,
             "a": 0.3231,
             "b": 16.9276
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 320,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_plain_brown": {
         "name": "daub_plain_brown",
@@ -641,7 +1001,15 @@
             "L": 54.4189,
             "a": 0.2021,
             "b": 17.5435
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 320,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_plain_white": {
         "name": "daub_plain_white",
@@ -655,7 +1023,15 @@
             "L": 67.7339,
             "a": 1.9759,
             "b": 12.8876
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 352,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_red_crossed": {
         "name": "daub_red_crossed",
@@ -669,7 +1045,15 @@
             "L": 65.199,
             "a": 0.4696,
             "b": 15.3359
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 352,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_red_left": {
         "name": "daub_red_left",
@@ -683,7 +1067,15 @@
             "L": 66.0819,
             "a": 1.1518,
             "b": 14.3859
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 352,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_red_open": {
         "name": "daub_red_open",
@@ -697,7 +1089,15 @@
             "L": 23.8821,
             "a": 16.8925,
             "b": 19.6391
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 352,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_red_right": {
         "name": "daub_red_right",
@@ -711,7 +1111,15 @@
             "L": 65.3086,
             "a": 1.0118,
             "b": 14.9463
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 384,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_white_crossed": {
         "name": "daub_white_crossed",
@@ -725,7 +1133,15 @@
             "L": 65.199,
             "a": 0.4696,
             "b": 15.3359
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 384,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_white_left": {
         "name": "daub_white_left",
@@ -739,7 +1155,15 @@
             "L": 66.0603,
             "a": 1.0011,
             "b": 14.9103
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 384,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_white_open": {
         "name": "daub_white_open",
@@ -753,7 +1177,15 @@
             "L": 66.7887,
             "a": 0.8409,
             "b": 15.3981
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 384,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_daub_white_right": {
         "name": "daub_white_right",
@@ -767,7 +1199,15 @@
             "L": 65.2872,
             "a": 0.8623,
             "b": 15.4719
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 416,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_dirt": {
         "name": "dirt",
@@ -781,7 +1221,15 @@
             "L": 31.9162,
             "a": 6.3172,
             "b": 13.651
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 416,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_dirt_dusty": {
         "name": "dirt_dusty",
@@ -795,7 +1243,15 @@
             "L": 63.4661,
             "a": 9.5931,
             "b": 34.6877
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 416,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_dirt_leaf_cover": {
         "name": "dirt_leaf_cover",
@@ -809,7 +1265,15 @@
             "L": 24.5628,
             "a": 8.5465,
             "b": 17.017
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 416,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_dirt_pine_cover": {
         "name": "dirt_pine_cover",
@@ -823,7 +1287,15 @@
             "L": 34.8164,
             "a": 5.7259,
             "b": 15.1889
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 448,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_food_squash_side": {
         "name": "food_squash_side",
@@ -837,7 +1309,15 @@
             "L": 76.2427,
             "a": -3.5236,
             "b": 65.5425
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 448,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_gravel": {
         "name": "gravel",
@@ -851,7 +1331,15 @@
             "L": 27.062,
             "a": 6.5405,
             "b": 10.0008
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 448,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_gravel_reach": {
         "name": "gravel_reach",
@@ -865,7 +1353,15 @@
             "L": 60.7028,
             "a": 8.5215,
             "b": 23.1906
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 448,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_keystone_grey": {
         "name": "keystone_grey",
@@ -879,7 +1375,15 @@
             "L": 59.2761,
             "a": -6.4528,
             "b": 1.9828
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 480,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_keystone_netherbrick": {
         "name": "keystone_netherbrick",
@@ -893,7 +1397,15 @@
             "L": 21.7043,
             "a": 0.0017,
             "b": -0.0034
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 480,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_leather_block_leather": {
         "name": "leather_block_leather",
@@ -907,7 +1419,15 @@
             "L": 23.7625,
             "a": 2.4354,
             "b": 6.4764
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 480,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_log_palm": {
         "name": "log_palm",
@@ -921,7 +1441,15 @@
             "L": 29.4339,
             "a": 6.4911,
             "b": 19.0541
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 480,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_marble_ornate": {
         "name": "marble_ornate",
@@ -935,7 +1463,15 @@
             "L": 66.9798,
             "a": 0.6474,
             "b": 8.9628
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 512,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_metal_block_bronzeoxidized": {
         "name": "metal_block_bronzeoxidized",
@@ -949,7 +1485,15 @@
             "L": 36.9416,
             "a": -11.5854,
             "b": 5.3503
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 512,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_metal_block_iron": {
         "name": "metal_block_iron",
@@ -963,7 +1507,15 @@
             "L": 30.2907,
             "a": -1.455,
             "b": 0.1655
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 512,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_metal_block_ironoxidized": {
         "name": "metal_block_ironoxidized",
@@ -977,7 +1529,15 @@
             "L": 22.3647,
             "a": 10.5578,
             "b": 16.7291
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 512,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_metal_block_steel": {
         "name": "metal_block_steel",
@@ -991,7 +1551,15 @@
             "L": 58.5268,
             "a": -4.4652,
             "b": 2.0549
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 544,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_mud": {
         "name": "mud",
@@ -1005,7 +1573,15 @@
             "L": 25.6055,
             "a": 1.9315,
             "b": 14.3531
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 544,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_piston_top": {
         "name": "piston_top",
@@ -1019,7 +1595,15 @@
             "L": 33.9742,
             "a": 5.502,
             "b": 18.9697
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 544,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_casterly_crimson": {
         "name": "plaster_casterly_crimson",
@@ -1033,7 +1617,15 @@
             "L": 28.5374,
             "a": 24.9908,
             "b": 21.0868
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 544,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_dornish_dark": {
         "name": "plaster_dornish_dark",
@@ -1047,7 +1639,15 @@
             "L": 62.0508,
             "a": 4.2421,
             "b": 25.5001
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 576,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_dornish_light": {
         "name": "plaster_dornish_light",
@@ -1061,7 +1661,15 @@
             "L": 63.9371,
             "a": 6.7693,
             "b": 34.6794
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 576,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_lannisport_orange": {
         "name": "plaster_lannisport_orange",
@@ -1075,7 +1683,15 @@
             "L": 64.5145,
             "a": 17.8918,
             "b": 39.5577
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 576,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_lannisport_yellow": {
         "name": "plaster_lannisport_yellow",
@@ -1089,7 +1705,15 @@
             "L": 74.8765,
             "a": 7.6715,
             "b": 48.8129
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 576,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_oldtown_brown": {
         "name": "plaster_oldtown_brown",
@@ -1103,7 +1727,15 @@
             "L": 67.783,
             "a": 0.592,
             "b": 11.8128
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 608,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_oldtown_brown_brick": {
         "name": "plaster_oldtown_brown_brick",
@@ -1117,7 +1749,15 @@
             "L": 33.9471,
             "a": 3.9107,
             "b": 14.5454
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 608,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_oldtown_purple": {
         "name": "plaster_oldtown_purple",
@@ -1131,7 +1771,15 @@
             "L": 68.4444,
             "a": 0.2048,
             "b": 11.653
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 608,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_plaster_oldtown_purple_brick": {
         "name": "plaster_oldtown_purple_brick",
@@ -1145,7 +1793,15 @@
             "L": 31.5352,
             "a": 18.9373,
             "b": 14.7716
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 608,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_bricks_large": {
         "name": "sandstone_bricks_large",
@@ -1159,7 +1815,15 @@
             "L": 62.5178,
             "a": 2.9632,
             "b": 25.0008
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 672,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_brown_dark": {
         "name": "sandstone_brown_dark",
@@ -1173,7 +1837,15 @@
             "L": 21.7508,
             "a": 5.3971,
             "b": 7.6973
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 672,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_monochrome": {
         "name": "sandstone_monochrome",
@@ -1187,7 +1859,15 @@
             "L": 59.0722,
             "a": 3.1831,
             "b": 23.0141
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 672,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_monochrome_dark": {
         "name": "sandstone_monochrome_dark",
@@ -1201,7 +1881,15 @@
             "L": 35.4384,
             "a": 3.0628,
             "b": 13.4984
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 672,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_monochrome_mossy": {
         "name": "sandstone_monochrome_mossy",
@@ -1215,7 +1903,15 @@
             "L": 59.3399,
             "a": 2.6257,
             "b": 23.3708
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 704,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_normal": {
         "name": "sandstone_normal",
@@ -1229,7 +1925,15 @@
             "L": 61.8664,
             "a": 4.8362,
             "b": 29.128
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 704,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_normal_dark": {
         "name": "sandstone_normal_dark",
@@ -1243,7 +1947,15 @@
             "L": 64.0523,
             "a": 5.7681,
             "b": 32.6517
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 704,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_normal_dark_mossy": {
         "name": "sandstone_normal_dark_mossy",
@@ -1257,7 +1969,15 @@
             "L": 63.6776,
             "a": 5.7949,
             "b": 32.6899
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 704,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_ornate": {
         "name": "sandstone_ornate",
@@ -1271,7 +1991,15 @@
             "L": 57.2601,
             "a": 6.6567,
             "b": 29.0152
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 736,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_red": {
         "name": "sandstone_red",
@@ -1285,7 +2013,15 @@
             "L": 34.8456,
             "a": 24.5559,
             "b": 22.6828
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 736,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_red_coarse": {
         "name": "sandstone_red_coarse",
@@ -1299,7 +2035,15 @@
             "L": 34.3636,
             "a": 20.791,
             "b": 18.7832
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 736,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_red_coarse_ornate": {
         "name": "sandstone_red_coarse_ornate",
@@ -1313,7 +2057,15 @@
             "L": 36.4648,
             "a": 19.2839,
             "b": 19.7665
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 736,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_terracotta": {
         "name": "sandstone_terracotta",
@@ -1327,7 +2079,15 @@
             "L": 52.9388,
             "a": 6.9644,
             "b": 24.8399
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 768,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_terracotta_dull": {
         "name": "sandstone_terracotta_dull",
@@ -1341,7 +2101,15 @@
             "L": 58.2636,
             "a": 4.5554,
             "b": 25.3016
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 768,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_terracotta_engraved": {
         "name": "sandstone_terracotta_engraved",
@@ -1355,7 +2123,15 @@
             "L": 57.2729,
             "a": 6.9927,
             "b": 25.1329
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 768,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_terracotta_light": {
         "name": "sandstone_terracotta_light",
@@ -1369,7 +2145,15 @@
             "L": 59.7705,
             "a": 7.4464,
             "b": 28.5641
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 768,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_terracotta_light_mossy": {
         "name": "sandstone_terracotta_light_mossy",
@@ -1383,7 +2167,15 @@
             "L": 34.8015,
             "a": -9.141,
             "b": 25.4948
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 800,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_vivid": {
         "name": "sandstone_vivid",
@@ -1397,7 +2189,15 @@
             "L": 62.8426,
             "a": 1.3756,
             "b": 20.3977
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 800,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_vivid_dark": {
         "name": "sandstone_vivid_dark",
@@ -1411,7 +2211,15 @@
             "L": 34.8684,
             "a": 2.3374,
             "b": 14.5455
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 800,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sandstone_vivid_mossy": {
         "name": "sandstone_vivid_mossy",
@@ -1425,7 +2233,15 @@
             "L": 60.0561,
             "a": 1.0389,
             "b": 18.6984
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 800,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sand_pinkorange": {
         "name": "sand_pinkorange",
@@ -1439,7 +2255,15 @@
             "L": 56.0089,
             "a": 27.4144,
             "b": 38.5378
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 640,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sand_red": {
         "name": "sand_red",
@@ -1453,7 +2277,15 @@
             "L": 45.968,
             "a": 35.4864,
             "b": 30.2833
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 640,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sand_terracotta": {
         "name": "sand_terracotta",
@@ -1467,7 +2299,15 @@
             "L": 55.894,
             "a": 22.1124,
             "b": 33.2715
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 640,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_sand_wet": {
         "name": "sand_wet",
@@ -1481,7 +2321,15 @@
             "L": 34.3363,
             "a": 0.2248,
             "b": 11.2366
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 640,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_slate_black": {
         "name": "slate_black",
@@ -1495,7 +2343,15 @@
             "L": 31.297,
             "a": -2.8859,
             "b": 0.3484
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 832,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_slate_blue": {
         "name": "slate_blue",
@@ -1509,7 +2365,15 @@
             "L": 29.0892,
             "a": -6.9588,
             "b": -4.3405
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 832,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_slate_brown": {
         "name": "slate_brown",
@@ -1523,7 +2387,15 @@
             "L": 34.763,
             "a": 6.9881,
             "b": 18.864
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 832,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_slate_green": {
         "name": "slate_green",
@@ -1537,7 +2409,15 @@
             "L": 28.1401,
             "a": -5.223,
             "b": 17.5735
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 832,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_slate_lannisport": {
         "name": "slate_lannisport",
@@ -1551,7 +2431,15 @@
             "L": 35.3619,
             "a": 21.0129,
             "b": 22.622
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 864,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_slate_red": {
         "name": "slate_red",
@@ -1565,7 +2453,15 @@
             "L": 32.0133,
             "a": 25.2318,
             "b": 18.2156
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 864,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_soil_dried": {
         "name": "soil_dried",
@@ -1579,7 +2475,15 @@
             "L": 73.1517,
             "a": 7.2098,
             "b": 39.5156
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 864,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_bedrock": {
         "name": "stone_bedrock",
@@ -1593,7 +2497,15 @@
             "L": 22.6174,
             "a": -0.2309,
             "b": 2.0353
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 864,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble": {
         "name": "stone_cobble",
@@ -1607,7 +2519,15 @@
             "L": 66.02,
             "a": -3.6686,
             "b": 6.9031
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 896,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_dark": {
         "name": "stone_cobble_dark",
@@ -1621,7 +2541,15 @@
             "L": 36.3769,
             "a": -3.4843,
             "b": 4.6792
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 896,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_mossy": {
         "name": "stone_cobble_mossy",
@@ -1635,7 +2563,15 @@
             "L": 55.7905,
             "a": -3.5413,
             "b": 9.0215
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 896,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_mossy_unshaded": {
         "name": "stone_cobble_mossy_unshaded",
@@ -1649,7 +2585,15 @@
             "L": 59.4048,
             "a": 0.0034,
             "b": -0.0068
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 896,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_northern": {
         "name": "stone_cobble_northern",
@@ -1663,7 +2607,15 @@
             "L": 34.0668,
             "a": -2.0745,
             "b": 1.9251
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 928,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_northern_icy": {
         "name": "stone_cobble_northern_icy",
@@ -1677,7 +2629,15 @@
             "L": 33.1265,
             "a": -2.4926,
             "b": 1.796
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 928,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_reach_pink": {
         "name": "stone_cobble_reach_pink",
@@ -1691,7 +2651,15 @@
             "L": 58.1154,
             "a": 0.2655,
             "b": 7.8796
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 928,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_stormlands": {
         "name": "stone_cobble_stormlands",
@@ -1705,7 +2673,15 @@
             "L": 31.4222,
             "a": 2.4424,
             "b": 12.85
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 928,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_stormlands_dark": {
         "name": "stone_cobble_stormlands_dark",
@@ -1719,7 +2695,15 @@
             "L": 32.431,
             "a": 3.1679,
             "b": 11.7566
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 960,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_stormlands_mossy": {
         "name": "stone_cobble_stormlands_mossy",
@@ -1733,7 +2717,15 @@
             "L": 28.5952,
             "a": 3.6308,
             "b": 10.8059
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 960,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_unshaded": {
         "name": "stone_cobble_unshaded",
@@ -1747,7 +2739,15 @@
             "L": 88.4697,
             "a": 0.0047,
             "b": -0.0094
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 960,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_cobble_whiteharbor": {
         "name": "stone_cobble_whiteharbor",
@@ -1761,7 +2761,15 @@
             "L": 64.449,
             "a": -0.1926,
             "b": 5.2171
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 960,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_dorne": {
         "name": "stone_dorne",
@@ -1775,7 +2783,15 @@
             "L": 56.7115,
             "a": 5.8485,
             "b": 31.012
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 992,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_eastern_islands": {
         "name": "stone_eastern_islands",
@@ -1789,7 +2805,15 @@
             "L": 61.8283,
             "a": -4.3392,
             "b": 11.4848
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 992,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_north": {
         "name": "stone_north",
@@ -1803,7 +2827,15 @@
             "L": 33.6919,
             "a": 1.9088,
             "b": 3.9978
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 992,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_ocean_iron_islands": {
         "name": "stone_ocean_iron_islands",
@@ -1817,7 +2849,15 @@
             "L": 55.7905,
             "a": -3.5413,
             "b": 9.0215
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 992,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_reach": {
         "name": "stone_reach",
@@ -1831,7 +2871,15 @@
             "L": 61.8926,
             "a": 7.5342,
             "b": 17.5178
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1024,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_red_mountains": {
         "name": "stone_red_mountains",
@@ -1845,7 +2893,15 @@
             "L": 30.8392,
             "a": 22.9184,
             "b": 22.1855
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1024,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_river": {
         "name": "stone_river",
@@ -1859,7 +2915,15 @@
             "L": 30.347,
             "a": -3.9885,
             "b": 6.0317
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1024,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_slab_top": {
         "name": "stone_slab_top",
@@ -1873,7 +2937,15 @@
             "L": 69.1339,
             "a": -0.932,
             "b": 3.7254
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1024,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_stormlands": {
         "name": "stone_stormlands",
@@ -1887,7 +2959,15 @@
             "L": 26.258,
             "a": 10.0615,
             "b": 13.5522
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1056,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_vale": {
         "name": "stone_vale",
@@ -1901,7 +2981,15 @@
             "L": 70.0849,
             "a": -2.3116,
             "b": 8.9959
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1056,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_westerlands": {
         "name": "stone_westerlands",
@@ -1915,7 +3003,15 @@
             "L": 60.4448,
             "a": -2.5085,
             "b": 18.5958
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1056,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_stone_winterfell_carving": {
         "name": "stone_winterfell_carving",
@@ -1929,7 +3025,15 @@
             "L": 33.5881,
             "a": -2.6932,
             "b": 5.0257
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1056,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_thatch_dark": {
         "name": "thatch_dark",
@@ -1943,7 +3047,15 @@
             "L": 24.6204,
             "a": 1.8764,
             "b": 10.3609
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1088,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_thatch_light": {
         "name": "thatch_light",
@@ -1957,7 +3069,15 @@
             "L": 34.8684,
             "a": 2.3374,
             "b": 14.5455
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1088,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_black": {
         "name": "wood_black",
@@ -1971,7 +3091,15 @@
             "L": 18.4709,
             "a": 0.0016,
             "b": -0.0031
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1088,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_blue": {
         "name": "wood_blue",
@@ -1985,7 +3113,15 @@
             "L": 31.6071,
             "a": -5.7147,
             "b": 0.7603
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1088,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_carving_northern": {
         "name": "wood_carving_northern",
@@ -1999,7 +3135,15 @@
             "L": 16.2982,
             "a": 2.0206,
             "b": 9.5037
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1120,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_floor_ornate": {
         "name": "wood_floor_ornate",
@@ -2013,7 +3157,15 @@
             "L": 36.3886,
             "a": 3.2446,
             "b": 16.69
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1120,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_gray": {
         "name": "wood_gray",
@@ -2027,7 +3179,15 @@
             "L": 53.9767,
             "a": 0.0032,
             "b": -0.0063
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1120,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_green": {
         "name": "wood_green",
@@ -2041,7 +3201,15 @@
             "L": 28.695,
             "a": -6.9276,
             "b": 18.2614
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1120,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_northern": {
         "name": "wood_northern",
@@ -2055,7 +3223,15 @@
             "L": 23.7639,
             "a": 0.6938,
             "b": 3.7476
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1152,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_panelling_oak": {
         "name": "wood_panelling_oak",
@@ -2069,7 +3245,15 @@
             "L": 29.4261,
             "a": 3.0622,
             "b": 15.1638
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1152,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_panelling_spruce": {
         "name": "wood_panelling_spruce",
@@ -2083,7 +3267,15 @@
             "L": 14.2735,
             "a": 1.5889,
             "b": 9.4723
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1152,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_purple": {
         "name": "wood_purple",
@@ -2097,7 +3289,15 @@
             "L": 32.1002,
             "a": 7.3624,
             "b": -6.0038
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1152,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_red": {
         "name": "wood_red",
@@ -2111,7 +3311,15 @@
             "L": 28.5358,
             "a": 18.9403,
             "b": 17.6531
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1184,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_white": {
         "name": "wood_white",
@@ -2125,7 +3333,15 @@
             "L": 85.3765,
             "a": -0.0298,
             "b": 4.4231
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1184,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wood_yellow": {
         "name": "wood_yellow",
@@ -2139,7 +3355,15 @@
             "L": 69.7069,
             "a": -2.9738,
             "b": 35.661
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1184,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_black": {
         "name": "wool_colored_black",
@@ -2153,7 +3377,15 @@
             "L": 9.4556,
             "a": 2.9689,
             "b": 1.0992
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1184,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_blue": {
         "name": "wool_colored_blue",
@@ -2167,7 +3399,15 @@
             "L": 26.1024,
             "a": 1.2465,
             "b": -12.1012
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1216,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_brown": {
         "name": "wool_colored_brown",
@@ -2181,7 +3421,15 @@
             "L": 10.8956,
             "a": 4.18,
             "b": 6.8713
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1216,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_cyan": {
         "name": "wool_colored_cyan",
@@ -2195,7 +3443,15 @@
             "L": 31.308,
             "a": -9.1125,
             "b": -2.9651
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1216,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_dirty_white": {
         "name": "wool_colored_dirty_white",
@@ -2209,7 +3465,15 @@
             "L": 81.8101,
             "a": -1.3382,
             "b": 17.3542
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1216,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_gray": {
         "name": "wool_colored_gray",
@@ -2223,7 +3487,15 @@
             "L": 24.8716,
             "a": -0.2292,
             "b": 2.006
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1248,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_green": {
         "name": "wool_colored_green",
@@ -2237,7 +3509,15 @@
             "L": 36.3131,
             "a": -14.8658,
             "b": 27.1941
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1248,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_light_blue": {
         "name": "wool_colored_light_blue",
@@ -2251,7 +3531,15 @@
             "L": 60.4655,
             "a": 1.721,
             "b": -15.5842
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1248,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_light_brown": {
         "name": "wool_colored_light_brown",
@@ -2265,7 +3553,15 @@
             "L": 23.9222,
             "a": 7.6991,
             "b": 19.3134
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1248,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_light_gray": {
         "name": "wool_colored_light_gray",
@@ -2279,7 +3575,15 @@
             "L": 53.3232,
             "a": -2.0726,
             "b": 7.1905
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1280,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_orange": {
         "name": "wool_colored_orange",
@@ -2293,7 +3597,15 @@
             "L": 54.166,
             "a": 21.3973,
             "b": 36.9826
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1280,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_pink": {
         "name": "wool_colored_pink",
@@ -2307,7 +3619,15 @@
             "L": 59.9995,
             "a": 24.0429,
             "b": 1.3671
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1280,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_purple": {
         "name": "wool_colored_purple",
@@ -2321,7 +3641,15 @@
             "L": 31.2576,
             "a": 14.955,
             "b": -12.348
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 96,
+            "y": 1280,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_red": {
         "name": "wool_colored_red",
@@ -2335,7 +3663,15 @@
             "L": 31.6851,
             "a": 29.8339,
             "b": 19.8537
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1312,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_white": {
         "name": "wool_colored_white",
@@ -2349,7 +3685,15 @@
             "L": 88.5201,
             "a": -0.0258,
             "b": 2.1867
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1312,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "westeros_wool_colored_yellow": {
         "name": "wool_colored_yellow",
@@ -2363,7 +3707,15 @@
             "L": 70.4779,
             "a": 2.6303,
             "b": 59.2256
-        }
+        },
+        "resolution": 32,
+        "sprite_coords": {
+            "x": 64,
+            "y": 1312,
+            "w": 32,
+            "h": 32
+        },
+        "sprite_image": "sprite_32x32"
     },
     "minecraft_amethyst_block": {
         "name": "amethyst_block",
@@ -2377,7 +3729,15 @@
             "L": 45.5738,
             "a": 32.5233,
             "b": -43.4104
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 0,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_andesite": {
         "name": "andesite",
@@ -2391,7 +3751,15 @@
             "L": 57.5913,
             "a": 0.798,
             "b": -2.1384
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 0,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_andesite_polished": {
         "name": "andesite_polished",
@@ -2405,7 +3773,15 @@
             "L": 56.5117,
             "a": -0.9329,
             "b": 0.2701
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 0,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bamboo_block": {
         "name": "bamboo_block",
@@ -2419,7 +3795,15 @@
             "L": 70.9625,
             "a": -24.6951,
             "b": 52.177
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 0,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bamboo_planks": {
         "name": "bamboo_planks",
@@ -2433,7 +3817,15 @@
             "L": 70.8712,
             "a": -5.5255,
             "b": 51.4674
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 16,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_acacia_log": {
         "name": "bark_acacia_log",
@@ -2447,7 +3839,15 @@
             "L": 52.9819,
             "a": 35.9587,
             "b": 37.2212
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 16,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_birch_log": {
         "name": "bark_birch_log",
@@ -2461,7 +3861,15 @@
             "L": 70.2044,
             "a": -0.35,
             "b": 31.6417
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 16,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_cherry_log": {
         "name": "bark_cherry_log",
@@ -2475,7 +3883,15 @@
             "L": 66.5563,
             "a": 27.4558,
             "b": 8.9457
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 32,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_crimson_log": {
         "name": "bark_crimson_log",
@@ -2489,7 +3905,15 @@
             "L": 30.0971,
             "a": 36.1543,
             "b": -0.6255
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 32,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_dark_oak_log": {
         "name": "bark_dark_oak_log",
@@ -2503,7 +3927,15 @@
             "L": 25.0491,
             "a": 3.3284,
             "b": 15.5708
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 32,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_jungle_log": {
         "name": "bark_jungle_log",
@@ -2517,7 +3949,15 @@
             "L": 58.2904,
             "a": 12.3488,
             "b": 30.5919
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 32,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_mangrove_log": {
         "name": "bark_mangrove_log",
@@ -2531,7 +3971,15 @@
             "L": 32.0148,
             "a": 28.6616,
             "b": 17.7113
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 48,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_oak_log": {
         "name": "bark_oak_log",
@@ -2545,7 +3993,15 @@
             "L": 63.3029,
             "a": 5.5765,
             "b": 36.4625
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 48,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_spruce_log": {
         "name": "bark_spruce_log",
@@ -2559,7 +4015,15 @@
             "L": 37.4098,
             "a": 1.6283,
             "b": 24.0287
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 48,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bark_warped_log": {
         "name": "bark_warped_log",
@@ -2573,7 +4037,15 @@
             "L": 57.9864,
             "a": -27.6819,
             "b": -7.1813
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 48,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_basalt_side": {
         "name": "basalt_side",
@@ -2587,7 +4059,15 @@
             "L": 32.3893,
             "a": 2.5131,
             "b": -1.7827
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 64,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blackstone": {
         "name": "blackstone",
@@ -2601,7 +4081,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 80,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blackstone_1": {
         "name": "blackstone_1",
@@ -2615,7 +4103,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 80,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blackstone_2": {
         "name": "blackstone_2",
@@ -2629,7 +4125,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 96,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blackstone_3": {
         "name": "blackstone_3",
@@ -2643,7 +4147,15 @@
             "L": 22.359,
             "a": 3.703,
             "b": -5.7774
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 96,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blackstone_sculpted": {
         "name": "blackstone_sculpted",
@@ -2657,7 +4169,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 96,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blackstone_squared": {
         "name": "blackstone_squared",
@@ -2671,7 +4191,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 96,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_black_concrete": {
         "name": "black_concrete",
@@ -2685,7 +4213,15 @@
             "L": 3.0245,
             "a": 0.3117,
             "b": -2.4758
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 64,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_black_concrete_powder": {
         "name": "black_concrete_powder",
@@ -2699,7 +4235,15 @@
             "L": 24.1416,
             "a": 1.1825,
             "b": -3.0978
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 64,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_black_terracotta_bricks": {
         "name": "black_terracotta_bricks",
@@ -2713,7 +4257,15 @@
             "L": 14.9358,
             "a": 6.3738,
             "b": 8.4122
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 80,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_black_terracotta_shingles": {
         "name": "black_terracotta_shingles",
@@ -2727,7 +4279,15 @@
             "L": 14.9358,
             "a": 6.3738,
             "b": 8.4122
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 80,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blue_concrete": {
         "name": "blue_concrete",
@@ -2741,7 +4301,15 @@
             "L": 25.1762,
             "a": 31.8363,
             "b": -53.8491
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 112,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blue_concrete_powder": {
         "name": "blue_concrete_powder",
@@ -2755,7 +4323,15 @@
             "L": 41.7351,
             "a": 28.1407,
             "b": -54.419
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 112,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blue_ice": {
         "name": "blue_ice",
@@ -2769,7 +4345,15 @@
             "L": 80.1591,
             "a": 2.3453,
             "b": -30.349
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 112,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blue_terracotta_bricks": {
         "name": "blue_terracotta_bricks",
@@ -2783,7 +4367,15 @@
             "L": 17.7416,
             "a": 10.7756,
             "b": -14.9561
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 128,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_blue_terracotta_shingles": {
         "name": "blue_terracotta_shingles",
@@ -2797,7 +4389,15 @@
             "L": 24.6053,
             "a": 10.4863,
             "b": -14.9846
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 128,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_bone_block_side": {
         "name": "bone_block_side",
@@ -2811,7 +4411,15 @@
             "L": 91.0851,
             "a": -2.0449,
             "b": 9.1189
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 128,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_brick": {
         "name": "brick",
@@ -2825,7 +4433,15 @@
             "L": 58.6938,
             "a": 6.5126,
             "b": 5.9793
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 128,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_brown_concrete": {
         "name": "brown_concrete",
@@ -2839,7 +4455,15 @@
             "L": 29.101,
             "a": 13.2315,
             "b": 23.7681
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 144,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_brown_concrete_powder": {
         "name": "brown_concrete_powder",
@@ -2853,7 +4477,15 @@
             "L": 38.036,
             "a": 12.6816,
             "b": 24.6634
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 144,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_brown_mushroom_block": {
         "name": "brown_mushroom_block",
@@ -2867,7 +4499,15 @@
             "L": 53.4718,
             "a": 9.3656,
             "b": 22.2173
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 144,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_brown_terracotta_bricks": {
         "name": "brown_terracotta_bricks",
@@ -2881,7 +4521,15 @@
             "L": 23.6281,
             "a": 7.1221,
             "b": 11.0937
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 160,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_brown_terracotta_shingles": {
         "name": "brown_terracotta_shingles",
@@ -2895,7 +4543,15 @@
             "L": 21.3244,
             "a": 7.2388,
             "b": 9.176
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 160,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_calcite": {
         "name": "calcite",
@@ -2909,7 +4565,15 @@
             "L": 87.1541,
             "a": -1.3914,
             "b": 1.7153
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 160,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cherry_log": {
         "name": "cherry_log",
@@ -2923,7 +4587,15 @@
             "L": 21.5753,
             "a": 14.3143,
             "b": -3.3624
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 160,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cherry_planks": {
         "name": "cherry_planks",
@@ -2937,7 +4609,15 @@
             "L": 83.5796,
             "a": 9.373,
             "b": 6.2286
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 176,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_chiseled_deepslate": {
         "name": "chiseled_deepslate",
@@ -2951,7 +4631,15 @@
             "L": 32.3232,
             "a": 0.2643,
             "b": -1.9225
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 176,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_chiseled_nether_bricks": {
         "name": "chiseled_nether_bricks",
@@ -2965,7 +4653,15 @@
             "L": 13.1554,
             "a": 16.6487,
             "b": 3.1997
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 176,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_chiseled_polished_blackstone": {
         "name": "chiseled_polished_blackstone",
@@ -2979,7 +4675,15 @@
             "L": 32.4625,
             "a": 3.2389,
             "b": -4.8762
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 176,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_clay": {
         "name": "clay",
@@ -2993,7 +4697,15 @@
             "L": 66.0874,
             "a": 0.0951,
             "b": -6.4377
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 192,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_clean_ice": {
         "name": "clean_ice",
@@ -3007,7 +4719,15 @@
             "L": 84.4829,
             "a": 1.2898,
             "b": -23.635
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 192,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_coal_block": {
         "name": "coal_block",
@@ -3021,7 +4741,15 @@
             "L": 13.7138,
             "a": 0.0013,
             "b": -0.0027
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 192,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_coal_ore": {
         "name": "coal_ore",
@@ -3035,7 +4763,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 192,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_coarse_dirt": {
         "name": "coarse_dirt",
@@ -3049,7 +4785,15 @@
             "L": 58.3248,
             "a": 14.1446,
             "b": 28.4796
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 208,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cobbled_deepslate": {
         "name": "cobbled_deepslate",
@@ -3063,7 +4807,15 @@
             "L": 31.6193,
             "a": 1.1262,
             "b": -2.9711
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 208,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cobblestone": {
         "name": "cobblestone",
@@ -3077,7 +4829,15 @@
             "L": 68.1182,
             "a": 0.0038,
             "b": -0.0075
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 208,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cobblestone_mossy": {
         "name": "cobblestone_mossy",
@@ -3091,7 +4851,15 @@
             "L": 54.7584,
             "a": 0.0032,
             "b": -0.0063
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 208,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_copper_block": {
         "name": "copper_block",
@@ -3105,7 +4873,15 @@
             "L": 55.9205,
             "a": 31.1687,
             "b": 31.4396
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 224,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cracked_andesite": {
         "name": "cracked_andesite",
@@ -3119,7 +4895,15 @@
             "L": 53.2212,
             "a": 0.203,
             "b": -0.5478
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 224,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cracked_deepslate_bricks": {
         "name": "cracked_deepslate_bricks",
@@ -3133,7 +4917,15 @@
             "L": 29.6645,
             "a": -0.1877,
             "b": -0.75
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 224,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cracked_deepslate_tiles": {
         "name": "cracked_deepslate_tiles",
@@ -3147,7 +4939,15 @@
             "L": 27.5347,
             "a": 0.002,
             "b": -0.0039
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 224,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cracked_diorite": {
         "name": "cracked_diorite",
@@ -3161,7 +4961,15 @@
             "L": 89.5819,
             "a": 0.3646,
             "b": -0.9842
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 240,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cracked_granite": {
         "name": "cracked_granite",
@@ -3175,7 +4983,15 @@
             "L": 35.381,
             "a": 16.0697,
             "b": 13.7809
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 240,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cracked_nether_bricks": {
         "name": "cracked_nether_bricks",
@@ -3189,7 +5005,15 @@
             "L": 15.9019,
             "a": 16.348,
             "b": 2.905
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 240,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cracked_polished_blackstone_bricks": {
         "name": "cracked_polished_blackstone_bricks",
@@ -3203,7 +5027,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 240,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_crimson_planks": {
         "name": "crimson_planks",
@@ -3217,7 +5049,15 @@
             "L": 29.4834,
             "a": 27.0356,
             "b": -3.1074
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 256,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_crying_obsidian": {
         "name": "crying_obsidian",
@@ -3231,7 +5071,15 @@
             "L": 38.8991,
             "a": 76.9648,
             "b": -81.3528
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 256,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cut_copper": {
         "name": "cut_copper",
@@ -3245,7 +5093,15 @@
             "L": 64.4665,
             "a": 35.1085,
             "b": 28.1682
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 256,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cut_sandstone": {
         "name": "cut_sandstone",
@@ -3259,7 +5115,15 @@
             "L": 87.0599,
             "a": -4.0545,
             "b": 22.1719
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 256,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cut_sandstone_side": {
         "name": "cut_sandstone_side",
@@ -3273,7 +5137,15 @@
             "L": 87.0599,
             "a": -4.0545,
             "b": 22.1719
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 272,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cyan_concrete": {
         "name": "cyan_concrete",
@@ -3287,7 +5159,15 @@
             "L": 45.7741,
             "a": -20.5606,
             "b": -16.3555
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 272,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cyan_concrete_powder": {
         "name": "cyan_concrete_powder",
@@ -3301,7 +5181,15 @@
             "L": 61.4727,
             "a": -30.9798,
             "b": -11.6457
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 272,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cyan_terracotta_bricks": {
         "name": "cyan_terracotta_bricks",
@@ -3315,7 +5203,15 @@
             "L": 23.8385,
             "a": 2.1883,
             "b": -5.5664
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 288,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_cyan_terracotta_shingles": {
         "name": "cyan_terracotta_shingles",
@@ -3329,7 +5225,15 @@
             "L": 31.6315,
             "a": 1.4367,
             "b": -4.8843
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 288,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_dark_grass": {
         "name": "dark_grass",
@@ -3343,7 +5247,15 @@
             "L": 27.6405,
             "a": -12.5834,
             "b": 15.4536
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 288,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_dark_grass_rocky": {
         "name": "dark_grass_rocky",
@@ -3357,7 +5269,15 @@
             "L": 49.8652,
             "a": 1.1647,
             "b": -0.8337
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 288,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_dark_oak_planks": {
         "name": "dark_oak_planks",
@@ -3371,7 +5291,15 @@
             "L": 23.7025,
             "a": 10.1501,
             "b": 21.6059
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 304,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_deepslate": {
         "name": "deepslate",
@@ -3385,7 +5313,15 @@
             "L": 34.4538,
             "a": 0.0023,
             "b": -0.0045
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 304,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_deepslate_bricks": {
         "name": "deepslate_bricks",
@@ -3399,7 +5335,15 @@
             "L": 32.3232,
             "a": 0.2643,
             "b": -1.9225
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 304,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_deepslate_tiles": {
         "name": "deepslate_tiles",
@@ -3413,7 +5357,15 @@
             "L": 24.9655,
             "a": 0.4299,
             "b": 0.1478
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 304,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_diamond_block": {
         "name": "diamond_block",
@@ -3427,7 +5379,15 @@
             "L": 88.4116,
             "a": -23.109,
             "b": -5.7817
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 320,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_diamond_ore": {
         "name": "diamond_ore",
@@ -3441,7 +5401,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 320,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_dirt": {
         "name": "dirt",
@@ -3455,7 +5423,15 @@
             "L": 59.7639,
             "a": 15.0959,
             "b": 29.9117
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 320,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_dripstone_block": {
         "name": "dripstone_block",
@@ -3469,7 +5445,15 @@
             "L": 52.6476,
             "a": 6.5704,
             "b": 14.5995
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 320,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_dry_stone": {
         "name": "dry_stone",
@@ -3483,7 +5467,15 @@
             "L": 57.3127,
             "a": 1.1343,
             "b": -0.8128
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 336,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_emerald_block": {
         "name": "emerald_block",
@@ -3497,7 +5489,15 @@
             "L": 82.4288,
             "a": -58.6722,
             "b": 37.2003
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 336,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_emerald_ore": {
         "name": "emerald_ore",
@@ -3511,7 +5511,15 @@
             "L": 53.3913,
             "a": -0.9433,
             "b": 0.2736
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 336,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_enchanting_table_bottom": {
         "name": "enchanting_table_bottom",
@@ -3525,7 +5533,15 @@
             "L": 22.3686,
             "a": 14.9601,
             "b": -21.1544
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 336,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_end_stone": {
         "name": "end_stone",
@@ -3539,7 +5555,15 @@
             "L": 94.8866,
             "a": -14.8299,
             "b": 30.3774
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 352,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_end_stone_bricks": {
         "name": "end_stone_bricks",
@@ -3553,7 +5577,15 @@
             "L": 93.9139,
             "a": -14.4863,
             "b": 30.5571
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 352,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_exposed_copper": {
         "name": "exposed_copper",
@@ -3567,7 +5599,15 @@
             "L": 61.6107,
             "a": 21.6154,
             "b": 15.2042
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 352,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_exposed_cut_copper": {
         "name": "exposed_cut_copper",
@@ -3581,7 +5621,15 @@
             "L": 61.2575,
             "a": 21.7729,
             "b": 14.696
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 352,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_glowstone": {
         "name": "glowstone",
@@ -3595,7 +5643,15 @@
             "L": 92.8101,
             "a": 1.932,
             "b": 16.4447
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 368,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_gold_block": {
         "name": "gold_block",
@@ -3609,7 +5665,15 @@
             "L": 97.0117,
             "a": -17.2723,
             "b": 66.5682
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 368,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_gold_ore": {
         "name": "gold_ore",
@@ -3623,7 +5687,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 368,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_granite": {
         "name": "granite",
@@ -3637,7 +5709,15 @@
             "L": 54.6045,
             "a": 17.1332,
             "b": 18.2603
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 368,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_granite_polished": {
         "name": "granite_polished",
@@ -3651,7 +5731,15 @@
             "L": 54.8004,
             "a": 16.5167,
             "b": 16.78
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 384,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_grassy_dirt": {
         "name": "grassy_dirt",
@@ -3665,7 +5753,15 @@
             "L": 59.7639,
             "a": 15.0959,
             "b": 29.9117
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 400,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_grass_1": {
         "name": "grass_1",
@@ -3679,7 +5775,15 @@
             "L": 69.326,
             "a": -11.164,
             "b": 47.9757
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 384,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_grass_side": {
         "name": "grass_side",
@@ -3693,7 +5797,15 @@
             "L": 59.7639,
             "a": 15.0959,
             "b": 29.9117
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 384,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_grass_side_overlay": {
         "name": "grass_side_overlay",
@@ -3707,7 +5819,15 @@
             "L": 57.0908,
             "a": 0.0033,
             "b": -0.0066
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 384,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_grass_side_snowed": {
         "name": "grass_side_snowed",
@@ -3721,7 +5841,15 @@
             "L": 97.1325,
             "a": -5.2146,
             "b": -1.8127
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 400,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_grass_top": {
         "name": "grass_top",
@@ -3735,7 +5863,15 @@
             "L": 61.7011,
             "a": 0.0035,
             "b": -0.007
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 400,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_gravel": {
         "name": "gravel",
@@ -3749,7 +5885,15 @@
             "L": 52.9684,
             "a": 0.7549,
             "b": 0.2599
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 400,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_gray_terracotta_bricks": {
         "name": "gray_terracotta_bricks",
@@ -3763,7 +5907,15 @@
             "L": 21.5088,
             "a": 4.4349,
             "b": 7.3246
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 416,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_gray_terracotta_shingles": {
         "name": "gray_terracotta_shingles",
@@ -3777,7 +5929,15 @@
             "L": 24.1392,
             "a": 3.8215,
             "b": 9.0621
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 416,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_green_concrete": {
         "name": "green_concrete",
@@ -3791,7 +5951,15 @@
             "L": 36.0343,
             "a": -16.645,
             "b": 28.9576
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 416,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_green_concrete_powder": {
         "name": "green_concrete_powder",
@@ -3805,7 +5973,15 @@
             "L": 45.0027,
             "a": -19.3828,
             "b": 35.4647
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 416,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_green_terracotta_bricks": {
         "name": "green_terracotta_bricks",
@@ -3819,7 +5995,15 @@
             "L": 33.8676,
             "a": -9.1423,
             "b": 18.9983
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 432,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_green_terracotta_shingles": {
         "name": "green_terracotta_shingles",
@@ -3833,7 +6017,15 @@
             "L": 30.7156,
             "a": -7.5563,
             "b": 16.6288
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 432,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay": {
         "name": "hardened_clay",
@@ -3847,7 +6039,15 @@
             "L": 44.8702,
             "a": 20.6318,
             "b": 24.107
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 432,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_black": {
         "name": "hardened_clay_stained_black",
@@ -3861,7 +6061,15 @@
             "L": 8.5323,
             "a": 6.7331,
             "b": 6.4508
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 448,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_blue": {
         "name": "hardened_clay_stained_blue",
@@ -3875,7 +6083,15 @@
             "L": 27.6798,
             "a": 13.8216,
             "b": -16.6872
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 448,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_brown": {
         "name": "hardened_clay_stained_brown",
@@ -3889,7 +6105,15 @@
             "L": 23.6063,
             "a": 10.2257,
             "b": 14.4736
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 448,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_cyan": {
         "name": "hardened_clay_stained_cyan",
@@ -3903,7 +6127,15 @@
             "L": 37.4762,
             "a": -1.5801,
             "b": -0.5552
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 448,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_gray": {
         "name": "hardened_clay_stained_gray",
@@ -3917,7 +6149,15 @@
             "L": 17.7998,
             "a": 6.4649,
             "b": 6.8621
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 464,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_green": {
         "name": "hardened_clay_stained_green",
@@ -3931,7 +6171,15 @@
             "L": 33.3299,
             "a": -10.0733,
             "b": 23.0168
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 464,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_light_blue": {
         "name": "hardened_clay_stained_light_blue",
@@ -3945,7 +6193,15 @@
             "L": 47.1544,
             "a": 8.8837,
             "b": -15.6201
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 464,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_lime": {
         "name": "hardened_clay_stained_lime",
@@ -3959,7 +6215,15 @@
             "L": 46.7945,
             "a": -15.7378,
             "b": 33.161
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 464,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_magenta": {
         "name": "hardened_clay_stained_magenta",
@@ -3973,7 +6237,15 @@
             "L": 46.5707,
             "a": 28.0811,
             "b": -0.4443
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 480,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_orange": {
         "name": "hardened_clay_stained_orange",
@@ -3987,7 +6259,15 @@
             "L": 44.0851,
             "a": 28.8083,
             "b": 40.1407
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 480,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_pink": {
         "name": "hardened_clay_stained_pink",
@@ -4001,7 +6281,15 @@
             "L": 43.2373,
             "a": 34.3842,
             "b": 16.2655
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 480,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_purple": {
         "name": "hardened_clay_stained_purple",
@@ -4015,7 +6303,15 @@
             "L": 35.7983,
             "a": 22.8864,
             "b": -0.7016
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 480,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_red": {
         "name": "hardened_clay_stained_red",
@@ -4029,7 +6325,15 @@
             "L": 35.961,
             "a": 33.92,
             "b": 25.2054
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 496,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_silver": {
         "name": "hardened_clay_stained_silver",
@@ -4043,7 +6347,15 @@
             "L": 47.6856,
             "a": 9.6919,
             "b": 9.269
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 496,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_white": {
         "name": "hardened_clay_stained_white",
@@ -4057,7 +6369,15 @@
             "L": 75.5135,
             "a": 8.382,
             "b": 13.3116
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 496,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hardened_clay_stained_yellow": {
         "name": "hardened_clay_stained_yellow",
@@ -4071,7 +6391,15 @@
             "L": 60.6434,
             "a": 11.0754,
             "b": 57.2284
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 496,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_hay_block_side": {
         "name": "hay_block_side",
@@ -4085,7 +6413,15 @@
             "L": 72.5375,
             "a": -3.8354,
             "b": 72.715
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 512,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_honeycomb_block": {
         "name": "honeycomb_block",
@@ -4099,7 +6435,15 @@
             "L": 66.466,
             "a": 27.487,
             "b": 70.9748
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 512,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_ice": {
         "name": "ice",
@@ -4113,7 +6457,15 @@
             "L": 100.0,
             "a": 0.0053,
             "b": -0.0104
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 512,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_iron_block": {
         "name": "iron_block",
@@ -4127,7 +6479,15 @@
             "L": 91.293,
             "a": 0.0049,
             "b": -0.0096
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 512,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_iron_ore": {
         "name": "iron_ore",
@@ -4141,7 +6501,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 528,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_jungle_grass": {
         "name": "jungle_grass",
@@ -4155,7 +6523,15 @@
             "L": 36.7795,
             "a": -17.6134,
             "b": 36.8825
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 528,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_jungle_grass_rocky": {
         "name": "jungle_grass_rocky",
@@ -4169,7 +6545,15 @@
             "L": 44.4331,
             "a": -16.1288,
             "b": 44.091
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 528,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_jungle_grass_rocky_2": {
         "name": "jungle_grass_rocky_2",
@@ -4183,7 +6567,15 @@
             "L": 49.8652,
             "a": 1.1647,
             "b": -0.8337
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 528,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_lapis_block": {
         "name": "lapis_block",
@@ -4197,7 +6589,15 @@
             "L": 29.4873,
             "a": 14.0211,
             "b": -41.2799
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 544,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_lapis_ore": {
         "name": "lapis_ore",
@@ -4211,7 +6611,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 544,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_blue_concrete": {
         "name": "light_blue_concrete",
@@ -4225,7 +6633,15 @@
             "L": 54.4197,
             "a": -6.3979,
             "b": -40.0576
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 544,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_blue_concrete_powder": {
         "name": "light_blue_concrete_powder",
@@ -4239,7 +6655,15 @@
             "L": 67.9718,
             "a": -19.999,
             "b": -26.1809
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 544,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_blue_terracotta_bricks": {
         "name": "light_blue_terracotta_bricks",
@@ -4253,7 +6677,15 @@
             "L": 53.0232,
             "a": 8.1834,
             "b": -14.2424
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 560,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_blue_terracotta_shingles": {
         "name": "light_blue_terracotta_shingles",
@@ -4267,7 +6699,15 @@
             "L": 48.4192,
             "a": 7.3094,
             "b": -14.8758
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 560,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_gray_concrete": {
         "name": "light_gray_concrete",
@@ -4281,7 +6721,15 @@
             "L": 52.1355,
             "a": -1.9221,
             "b": 5.4473
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 560,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_gray_concrete_powder": {
         "name": "light_gray_concrete_powder",
@@ -4295,7 +6743,15 @@
             "L": 59.4925,
             "a": -1.889,
             "b": 4.1131
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 576,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_gray_terracotta_bricks": {
         "name": "light_gray_terracotta_bricks",
@@ -4309,7 +6765,15 @@
             "L": 33.196,
             "a": 9.2076,
             "b": 0.8466
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 576,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_light_gray_terracotta_shingles": {
         "name": "light_gray_terracotta_shingles",
@@ -4323,7 +6787,15 @@
             "L": 53.6732,
             "a": 9.6585,
             "b": 9.7177
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 576,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_lime_concrete": {
         "name": "lime_concrete",
@@ -4337,7 +6809,15 @@
             "L": 61.9964,
             "a": -45.4797,
             "b": 59.4543
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 592,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_lime_concrete_powder": {
         "name": "lime_concrete_powder",
@@ -4351,7 +6831,15 @@
             "L": 70.7773,
             "a": -42.728,
             "b": 63.1003
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 592,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_lime_terracotta_bricks": {
         "name": "lime_terracotta_bricks",
@@ -4365,7 +6853,15 @@
             "L": 27.8757,
             "a": -6.5111,
             "b": 16.559
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 592,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_lime_terracotta_shingles": {
         "name": "lime_terracotta_shingles",
@@ -4379,7 +6875,15 @@
             "L": 37.1097,
             "a": -10.0457,
             "b": 22.6781
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 608,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_acacia": {
         "name": "log_acacia",
@@ -4393,7 +6897,15 @@
             "L": 31.2692,
             "a": 0.4979,
             "b": 5.5368
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 608,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_birch": {
         "name": "log_birch",
@@ -4407,7 +6919,15 @@
             "L": 92.5237,
             "a": -1.2228,
             "b": 3.3833
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 608,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_birch_top": {
         "name": "log_birch_top",
@@ -4421,7 +6941,15 @@
             "L": 61.9876,
             "a": 6.6871,
             "b": 33.7006
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 608,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_dark_oak": {
         "name": "log_dark_oak",
@@ -4435,7 +6963,15 @@
             "L": 26.9574,
             "a": 3.5994,
             "b": 18.7713
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 624,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_jungle": {
         "name": "log_jungle",
@@ -4449,7 +6985,15 @@
             "L": 31.1361,
             "a": 2.0372,
             "b": 28.6258
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 624,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_jungle_top": {
         "name": "log_jungle_top",
@@ -4463,7 +7007,15 @@
             "L": 61.9876,
             "a": 6.6871,
             "b": 33.7006
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 624,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_oak": {
         "name": "log_oak",
@@ -4477,7 +7029,15 @@
             "L": 37.0832,
             "a": 3.9935,
             "b": 22.4977
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 624,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_log_spruce": {
         "name": "log_spruce",
@@ -4491,7 +7051,15 @@
             "L": 25.5936,
             "a": 8.7546,
             "b": 21.5113
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 640,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_magenta_concrete": {
         "name": "magenta_concrete",
@@ -4505,7 +7073,15 @@
             "L": 42.8417,
             "a": 60.9781,
             "b": -34.3313
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 640,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_magenta_concrete_powder": {
         "name": "magenta_concrete_powder",
@@ -4519,7 +7095,15 @@
             "L": 52.2643,
             "a": 57.0921,
             "b": -33.4485
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 640,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_magenta_terracotta_bricks": {
         "name": "magenta_terracotta_bricks",
@@ -4533,7 +7117,15 @@
             "L": 31.1203,
             "a": 21.0506,
             "b": -7.2664
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 656,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_magenta_terracotta_shingles": {
         "name": "magenta_terracotta_shingles",
@@ -4547,7 +7139,15 @@
             "L": 50.3869,
             "a": 27.6408,
             "b": -1.9102
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 656,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_mangrove_log": {
         "name": "mangrove_log",
@@ -4561,7 +7161,15 @@
             "L": 25.4914,
             "a": 3.2987,
             "b": 15.5276
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 656,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_mangrove_planks": {
         "name": "mangrove_planks",
@@ -4575,7 +7183,15 @@
             "L": 29.2018,
             "a": 30.3648,
             "b": 12.4818
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 656,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_melon_side": {
         "name": "melon_side",
@@ -4589,7 +7205,15 @@
             "L": 68.9701,
             "a": -15.7688,
             "b": 63.507
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 672,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_mud": {
         "name": "mud",
@@ -4603,7 +7227,15 @@
             "L": 23.8807,
             "a": 1.7499,
             "b": -0.783
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 672,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_mud_bricks": {
         "name": "mud_bricks",
@@ -4617,7 +7249,15 @@
             "L": 53.3561,
             "a": 10.5966,
             "b": 20.9408
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 672,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_mud_carved": {
         "name": "mud_carved",
@@ -4631,7 +7271,15 @@
             "L": 58.5753,
             "a": 9.1644,
             "b": 25.3078
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 672,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_netherite_block": {
         "name": "netherite_block",
@@ -4645,7 +7293,15 @@
             "L": 31.5291,
             "a": 2.5244,
             "b": -1.7903
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 688,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_netherrack": {
         "name": "netherrack",
@@ -4659,7 +7315,15 @@
             "L": 56.1234,
             "a": 27.9465,
             "b": 16.0937
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 704,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_nether_brick": {
         "name": "nether_brick",
@@ -4673,7 +7337,15 @@
             "L": 19.0676,
             "a": 16.0105,
             "b": 2.6365
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 688,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_nether_gold_ore": {
         "name": "nether_gold_ore",
@@ -4687,7 +7359,15 @@
             "L": 27.0431,
             "a": 28.1507,
             "b": 13.9538
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 688,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_nether_wart_block": {
         "name": "nether_wart_block",
@@ -4701,7 +7381,15 @@
             "L": 33.7344,
             "a": 51.3486,
             "b": 35.309
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 688,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_obsidian": {
         "name": "obsidian",
@@ -4715,7 +7403,15 @@
             "L": 22.3686,
             "a": 14.9601,
             "b": -21.1544
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 704,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_orange_concrete": {
         "name": "orange_concrete",
@@ -4729,7 +7425,15 @@
             "L": 56.6412,
             "a": 46.3832,
             "b": 65.6665
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 704,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_orange_concrete_powder": {
         "name": "orange_concrete_powder",
@@ -4743,7 +7447,15 @@
             "L": 63.5684,
             "a": 31.8614,
             "b": 64.8305
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 704,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_orange_terracotta_bricks": {
         "name": "orange_terracotta_bricks",
@@ -4757,7 +7469,15 @@
             "L": 36.4855,
             "a": 21.5927,
             "b": 27.7078
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 720,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_orange_terracotta_shingles": {
         "name": "orange_terracotta_shingles",
@@ -4771,7 +7491,15 @@
             "L": 36.4855,
             "a": 21.5927,
             "b": 27.7078
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 720,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_oxidized_copper": {
         "name": "oxidized_copper",
@@ -4785,7 +7513,15 @@
             "L": 65.122,
             "a": -34.0605,
             "b": 6.7141
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 720,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_oxidized_cut_copper": {
         "name": "oxidized_cut_copper",
@@ -4799,7 +7535,15 @@
             "L": 63.1392,
             "a": -32.6454,
             "b": 7.2093
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 736,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_packed_mud": {
         "name": "packed_mud",
@@ -4813,7 +7557,15 @@
             "L": 52.8591,
             "a": 10.2011,
             "b": 20.811
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 736,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_pink_concrete": {
         "name": "pink_concrete",
@@ -4827,7 +7579,15 @@
             "L": 57.6426,
             "a": 48.7827,
             "b": -1.646
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 736,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_pink_concrete_powder": {
         "name": "pink_concrete_powder",
@@ -4841,7 +7601,15 @@
             "L": 82.7738,
             "a": 17.4566,
             "b": -2.36
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 736,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_pink_terracotta_bricks": {
         "name": "pink_terracotta_bricks",
@@ -4855,7 +7623,15 @@
             "L": 29.9536,
             "a": 23.9907,
             "b": 5.4613
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 752,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_pink_terracotta_shingles": {
         "name": "pink_terracotta_shingles",
@@ -4869,7 +7645,15 @@
             "L": 48.8138,
             "a": 33.3709,
             "b": 14.5527
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 752,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_planks_acacia": {
         "name": "planks_acacia",
@@ -4883,7 +7667,15 @@
             "L": 37.6514,
             "a": 24.962,
             "b": 30.5063
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 752,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_planks_birch": {
         "name": "planks_birch",
@@ -4897,7 +7689,15 @@
             "L": 74.5411,
             "a": -2.6968,
             "b": 33.2179
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 768,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_planks_jungle": {
         "name": "planks_jungle",
@@ -4911,7 +7711,15 @@
             "L": 60.2827,
             "a": 14.3718,
             "b": 26.145
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 768,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_planks_oak": {
         "name": "planks_oak",
@@ -4925,7 +7733,15 @@
             "L": 64.9861,
             "a": 6.4551,
             "b": 33.3867
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 768,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_planks_spruce": {
         "name": "planks_spruce",
@@ -4939,7 +7755,15 @@
             "L": 35.246,
             "a": 5.2098,
             "b": 22.4826
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 768,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_polished_basalt_side": {
         "name": "polished_basalt_side",
@@ -4953,7 +7777,15 @@
             "L": 32.3893,
             "a": 2.5131,
             "b": -1.7827
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 784,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_polished_blackstone": {
         "name": "polished_blackstone",
@@ -4967,7 +7799,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 784,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_polished_blackstone_bricks": {
         "name": "polished_blackstone_bricks",
@@ -4981,7 +7821,15 @@
             "L": 24.7708,
             "a": 4.6609,
             "b": -8.1266
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 784,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_polished_deepslate": {
         "name": "polished_deepslate",
@@ -4995,7 +7843,15 @@
             "L": 32.3232,
             "a": 0.2643,
             "b": -1.9225
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 784,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_prismarine_bricks": {
         "name": "prismarine_bricks",
@@ -5009,7 +7865,15 @@
             "L": 70.2242,
             "a": -25.9372,
             "b": -1.7507
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 800,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_prismarine_dark": {
         "name": "prismarine_dark",
@@ -5023,7 +7887,15 @@
             "L": 32.8067,
             "a": -16.2795,
             "b": 4.8975
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 800,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_pumpkin_side": {
         "name": "pumpkin_side",
@@ -5037,7 +7909,15 @@
             "L": 66.7987,
             "a": 23.5645,
             "b": 66.7558
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 800,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_purple_concrete": {
         "name": "purple_concrete",
@@ -5051,7 +7931,15 @@
             "L": 29.9954,
             "a": 52.3614,
             "b": -54.3183
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 800,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_purple_concrete_powder": {
         "name": "purple_concrete_powder",
@@ -5065,7 +7953,15 @@
             "L": 40.472,
             "a": 54.2781,
             "b": -52.078
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 816,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_purple_terracotta_bricks": {
         "name": "purple_terracotta_bricks",
@@ -5079,7 +7975,15 @@
             "L": 32.3944,
             "a": 19.3801,
             "b": -5.3324
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 816,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_purple_terracotta_shingles": {
         "name": "purple_terracotta_shingles",
@@ -5093,7 +7997,15 @@
             "L": 32.3944,
             "a": 19.3801,
             "b": -5.3324
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 816,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_purpur_block": {
         "name": "purpur_block",
@@ -5107,7 +8019,15 @@
             "L": 61.4201,
             "a": 24.4052,
             "b": -16.6065
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 832,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_quartz_block_chiseled": {
         "name": "quartz_block_chiseled",
@@ -5121,7 +8041,15 @@
             "L": 88.5262,
             "a": -0.3716,
             "b": 5.3695
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 832,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_quartz_block_lines": {
         "name": "quartz_block_lines",
@@ -5135,7 +8063,15 @@
             "L": 87.8949,
             "a": -0.0243,
             "b": 5.5003
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 832,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_raw_copper_block": {
         "name": "raw_copper_block",
@@ -5149,7 +8085,15 @@
             "L": 63.7437,
             "a": 33.8831,
             "b": 31.0232
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 832,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_raw_gold_block": {
         "name": "raw_gold_block",
@@ -5163,7 +8107,15 @@
             "L": 81.5524,
             "a": 5.1972,
             "b": 74.222
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 848,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_raw_iron_block": {
         "name": "raw_iron_block",
@@ -5177,7 +8129,15 @@
             "L": 61.4742,
             "a": 9.0521,
             "b": 16.9577
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 848,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_redstone_block": {
         "name": "redstone_block",
@@ -5191,7 +8151,15 @@
             "L": 39.2815,
             "a": 57.0934,
             "b": 49.4289
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 880,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_redstone_lamp_off": {
         "name": "redstone_lamp_off",
@@ -5205,7 +8173,15 @@
             "L": 33.6969,
             "a": 19.5129,
             "b": 28.6922
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 880,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_redstone_lamp_on": {
         "name": "redstone_lamp_on",
@@ -5219,7 +8195,15 @@
             "L": 90.1774,
             "a": 3.9277,
             "b": 21.0557
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 880,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_redstone_ore": {
         "name": "redstone_ore",
@@ -5233,7 +8217,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 896,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_red_concrete": {
         "name": "red_concrete",
@@ -5247,7 +8239,15 @@
             "L": 31.3473,
             "a": 45.0784,
             "b": 28.3483
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 848,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_red_concrete_powder": {
         "name": "red_concrete_powder",
@@ -5261,7 +8261,15 @@
             "L": 36.7191,
             "a": 44.6369,
             "b": 26.1388
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 848,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_red_cut_sandstone": {
         "name": "red_cut_sandstone",
@@ -5275,7 +8283,15 @@
             "L": 58.601,
             "a": 31.1943,
             "b": 53.9785
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 864,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_red_sand": {
         "name": "red_sand",
@@ -5289,7 +8305,15 @@
             "L": 39.129,
             "a": 29.8328,
             "b": 41.7214
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 864,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_red_terracotta_bricks": {
         "name": "red_terracotta_bricks",
@@ -5303,7 +8327,15 @@
             "L": 24.2037,
             "a": 22.1644,
             "b": 11.7081
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 864,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_red_terracotta_shingles": {
         "name": "red_terracotta_shingles",
@@ -5317,7 +8349,15 @@
             "L": 32.2051,
             "a": 27.0876,
             "b": 15.3537
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 880,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sand": {
         "name": "sand",
@@ -5331,7 +8371,15 @@
             "L": 87.4979,
             "a": -3.8649,
             "b": 24.3728
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 896,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sandstone": {
         "name": "sandstone",
@@ -5345,7 +8393,15 @@
             "L": 87.8461,
             "a": -6.0706,
             "b": 29.4977
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 928,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sandstone_bottom": {
         "name": "sandstone_bottom",
@@ -5359,7 +8415,15 @@
             "L": 74.6021,
             "a": -8.0873,
             "b": 37.8322
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 928,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sandstone_carved": {
         "name": "sandstone_carved",
@@ -5373,7 +8437,15 @@
             "L": 88.4568,
             "a": -4.1974,
             "b": 22.5881
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 928,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sandstone_normal": {
         "name": "sandstone_normal",
@@ -5387,7 +8459,15 @@
             "L": 74.6456,
             "a": -7.7608,
             "b": 36.3473
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 928,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sandstone_smooth": {
         "name": "sandstone_smooth",
@@ -5401,7 +8481,15 @@
             "L": 88.1031,
             "a": -4.1967,
             "b": 22.6075
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 944,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sandstone_smooth_side": {
         "name": "sandstone_smooth_side",
@@ -5415,7 +8503,15 @@
             "L": 87.5565,
             "a": -5.3921,
             "b": 25.4643
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 944,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sandstone_top": {
         "name": "sandstone_top",
@@ -5429,7 +8525,15 @@
             "L": 87.8736,
             "a": -5.6617,
             "b": 26.4272
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 944,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sand_brick": {
         "name": "sand_brick",
@@ -5443,7 +8547,15 @@
             "L": 87.0599,
             "a": -4.0545,
             "b": 22.1719
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 896,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sand_brick2": {
         "name": "sand_brick2",
@@ -5457,7 +8569,15 @@
             "L": 89.8889,
             "a": -5.599,
             "b": 20.4191
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 896,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sand_brick_small": {
         "name": "sand_brick_small",
@@ -5471,7 +8591,15 @@
             "L": 71.8729,
             "a": 0.2698,
             "b": 34.4469
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 912,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sand_brick_square": {
         "name": "sand_brick_square",
@@ -5485,7 +8613,15 @@
             "L": 87.0599,
             "a": -4.0545,
             "b": 22.1719
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 912,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sand_brick_square_small": {
         "name": "sand_brick_square_small",
@@ -5499,7 +8635,15 @@
             "L": 89.8889,
             "a": -5.599,
             "b": 20.4191
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 912,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sand_carved": {
         "name": "sand_carved",
@@ -5513,7 +8657,15 @@
             "L": 71.8729,
             "a": 0.2698,
             "b": 34.4469
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 912,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_snow": {
         "name": "snow",
@@ -5527,7 +8679,15 @@
             "L": 98.7955,
             "a": -5.5169,
             "b": -1.9157
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 944,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_soulsand_empty": {
         "name": "soulsand_empty",
@@ -5541,7 +8701,15 @@
             "L": 31.268,
             "a": 7.3906,
             "b": 11.4875
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 960,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_soulsand_full": {
         "name": "soulsand_full",
@@ -5555,7 +8723,15 @@
             "L": 31.268,
             "a": 7.3906,
             "b": 11.4875
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 960,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_soulsand_medium": {
         "name": "soulsand_medium",
@@ -5569,7 +8745,15 @@
             "L": 31.268,
             "a": 7.3906,
             "b": 11.4875
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 960,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_soul_sand": {
         "name": "soul_sand",
@@ -5583,7 +8767,15 @@
             "L": 34.6392,
             "a": 7.0348,
             "b": 11.8409
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 960,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_sponge": {
         "name": "sponge",
@@ -5597,7 +8789,15 @@
             "L": 80.5754,
             "a": -16.3656,
             "b": 64.6831
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 976,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone": {
         "name": "stone",
@@ -5611,7 +8811,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 976,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stonebrick": {
         "name": "stonebrick",
@@ -5625,7 +8833,15 @@
             "L": 50.4313,
             "a": 0.003,
             "b": -0.006
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1008,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stonebrick_carved": {
         "name": "stonebrick_carved",
@@ -5639,7 +8855,15 @@
             "L": 58.2501,
             "a": 0.0034,
             "b": -0.0067
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1008,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stonebrick_cracked": {
         "name": "stonebrick_cracked",
@@ -5653,7 +8877,15 @@
             "L": 60.1721,
             "a": 0.0035,
             "b": -0.0068
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1008,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stonebrick_mossy": {
         "name": "stonebrick_mossy",
@@ -5667,7 +8899,15 @@
             "L": 50.7151,
             "a": -0.5756,
             "b": 0.4083
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1024,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone_andesite": {
         "name": "stone_andesite",
@@ -5681,7 +8921,15 @@
             "L": 54.8153,
             "a": 0.4019,
             "b": -1.0832
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 976,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone_brick": {
         "name": "stone_brick",
@@ -5695,7 +8943,15 @@
             "L": 53.1928,
             "a": 0.0031,
             "b": -0.0062
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 976,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone_granite": {
         "name": "stone_granite",
@@ -5709,7 +8965,15 @@
             "L": 54.4893,
             "a": 16.7204,
             "b": 18.0846
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 992,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone_granite_smooth": {
         "name": "stone_granite_smooth",
@@ -5723,7 +8987,15 @@
             "L": 54.8004,
             "a": 16.5167,
             "b": 16.78
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 992,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone_mossy_0": {
         "name": "stone_mossy_0",
@@ -5737,7 +9009,15 @@
             "L": 38.6284,
             "a": -15.8287,
             "b": 27.2936
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 992,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone_slab_side": {
         "name": "stone_slab_side",
@@ -5751,7 +9031,15 @@
             "L": 66.9949,
             "a": 0.0038,
             "b": -0.0074
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 992,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stone_slab_top": {
         "name": "stone_slab_top",
@@ -5765,7 +9053,15 @@
             "L": 66.9949,
             "a": 0.0038,
             "b": -0.0074
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1008,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_acacia_log": {
         "name": "stripped_acacia_log",
@@ -5779,7 +9075,15 @@
             "L": 52.9819,
             "a": 35.9587,
             "b": 37.2212
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1024,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_bamboo_block": {
         "name": "stripped_bamboo_block",
@@ -5793,7 +9097,15 @@
             "L": 77.1678,
             "a": -3.7859,
             "b": 54.0177
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1024,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_birch_log": {
         "name": "stripped_birch_log",
@@ -5807,7 +9119,15 @@
             "L": 70.2044,
             "a": -0.35,
             "b": 31.6417
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1024,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_cherry_log": {
         "name": "stripped_cherry_log",
@@ -5821,7 +9141,15 @@
             "L": 66.5563,
             "a": 27.4558,
             "b": 8.9457
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1040,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_crimson_log": {
         "name": "stripped_crimson_log",
@@ -5835,7 +9163,15 @@
             "L": 30.0971,
             "a": 36.1543,
             "b": -0.6255
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1040,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_crimson_log_top": {
         "name": "stripped_crimson_log_top",
@@ -5849,7 +9185,15 @@
             "L": 25.2533,
             "a": 22.5763,
             "b": -2.3371
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1040,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_dark_oak_log": {
         "name": "stripped_dark_oak_log",
@@ -5863,7 +9207,15 @@
             "L": 25.0491,
             "a": 3.3284,
             "b": 15.5708
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1040,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_jungle_log": {
         "name": "stripped_jungle_log",
@@ -5877,7 +9229,15 @@
             "L": 58.2904,
             "a": 12.3488,
             "b": 30.5919
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1056,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_mangrove_log": {
         "name": "stripped_mangrove_log",
@@ -5891,7 +9251,15 @@
             "L": 32.0148,
             "a": 28.6616,
             "b": 17.7113
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1056,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_oak_log": {
         "name": "stripped_oak_log",
@@ -5905,7 +9273,15 @@
             "L": 63.3029,
             "a": 5.5765,
             "b": 36.4625
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1056,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_spruce_log": {
         "name": "stripped_spruce_log",
@@ -5919,7 +9295,15 @@
             "L": 37.4098,
             "a": 1.6283,
             "b": 24.0287
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1056,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_stripped_warped_log": {
         "name": "stripped_warped_log",
@@ -5933,7 +9317,15 @@
             "L": 57.9864,
             "a": -27.6819,
             "b": -7.1813
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1072,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_brick": {
         "name": "terracotta_brick",
@@ -5947,7 +9339,15 @@
             "L": 37.1182,
             "a": 17.2546,
             "b": 19.3662
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1072,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks": {
         "name": "terracotta_bricks",
@@ -5961,7 +9361,15 @@
             "L": 37.1182,
             "a": 17.2546,
             "b": 19.3662
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1072,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_0": {
         "name": "terracotta_bricks_0",
@@ -5975,7 +9383,15 @@
             "L": 68.8947,
             "a": 5.9876,
             "b": 7.9762
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1072,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_1": {
         "name": "terracotta_bricks_1",
@@ -5989,7 +9405,15 @@
             "L": 36.4855,
             "a": 21.5927,
             "b": 27.7078
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1088,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_10": {
         "name": "terracotta_bricks_10",
@@ -6003,7 +9427,15 @@
             "L": 32.3944,
             "a": 19.3801,
             "b": -5.3324
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1120,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_11": {
         "name": "terracotta_bricks_11",
@@ -6017,7 +9449,15 @@
             "L": 17.7416,
             "a": 10.7756,
             "b": -14.9561
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1120,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_12": {
         "name": "terracotta_bricks_12",
@@ -6031,7 +9471,15 @@
             "L": 23.6281,
             "a": 7.1221,
             "b": 11.0937
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1120,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_13": {
         "name": "terracotta_bricks_13",
@@ -6045,7 +9493,15 @@
             "L": 33.8676,
             "a": -9.1423,
             "b": 18.9983
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1136,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_14": {
         "name": "terracotta_bricks_14",
@@ -6059,7 +9515,15 @@
             "L": 24.2037,
             "a": 22.1644,
             "b": 11.7081
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1136,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_15": {
         "name": "terracotta_bricks_15",
@@ -6073,7 +9537,15 @@
             "L": 14.9358,
             "a": 6.3738,
             "b": 8.4122
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1136,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_2": {
         "name": "terracotta_bricks_2",
@@ -6087,7 +9559,15 @@
             "L": 31.1203,
             "a": 21.0506,
             "b": -7.2664
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1088,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_3": {
         "name": "terracotta_bricks_3",
@@ -6101,7 +9581,15 @@
             "L": 53.0232,
             "a": 8.1834,
             "b": -14.2424
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1088,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_4": {
         "name": "terracotta_bricks_4",
@@ -6115,7 +9603,15 @@
             "L": 39.0522,
             "a": 9.6616,
             "b": 33.6592
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1088,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_5": {
         "name": "terracotta_bricks_5",
@@ -6129,7 +9625,15 @@
             "L": 27.8757,
             "a": -6.5111,
             "b": 16.559
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1104,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_6": {
         "name": "terracotta_bricks_6",
@@ -6143,7 +9647,15 @@
             "L": 29.9536,
             "a": 23.9907,
             "b": 5.4613
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1104,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_7": {
         "name": "terracotta_bricks_7",
@@ -6157,7 +9669,15 @@
             "L": 21.5088,
             "a": 4.4349,
             "b": 7.3246
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1104,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_8": {
         "name": "terracotta_bricks_8",
@@ -6171,7 +9691,15 @@
             "L": 33.196,
             "a": 9.2076,
             "b": 0.8466
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1104,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_bricks_9": {
         "name": "terracotta_bricks_9",
@@ -6185,7 +9713,15 @@
             "L": 23.8385,
             "a": 2.1883,
             "b": -5.5664
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1120,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingle": {
         "name": "terracotta_shingle",
@@ -6199,7 +9735,15 @@
             "L": 53.9403,
             "a": 20.152,
             "b": 22.0474
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1136,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles": {
         "name": "terracotta_shingles",
@@ -6213,7 +9757,15 @@
             "L": 53.9403,
             "a": 20.152,
             "b": 22.0474
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1152,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_0": {
         "name": "terracotta_shingles_0",
@@ -6227,7 +9779,15 @@
             "L": 62.8922,
             "a": 8.2247,
             "b": 4.2131
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1152,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_1": {
         "name": "terracotta_shingles_1",
@@ -6241,7 +9801,15 @@
             "L": 36.4855,
             "a": 21.5927,
             "b": 27.7078
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1152,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_10": {
         "name": "terracotta_shingles_10",
@@ -6255,7 +9823,15 @@
             "L": 32.3944,
             "a": 19.3801,
             "b": -5.3324
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1184,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_11": {
         "name": "terracotta_shingles_11",
@@ -6269,7 +9845,15 @@
             "L": 24.6053,
             "a": 10.4863,
             "b": -14.9846
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1200,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_12": {
         "name": "terracotta_shingles_12",
@@ -6283,7 +9867,15 @@
             "L": 21.3244,
             "a": 7.2388,
             "b": 9.176
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1200,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_13": {
         "name": "terracotta_shingles_13",
@@ -6297,7 +9889,15 @@
             "L": 30.7156,
             "a": -7.5563,
             "b": 16.6288
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1200,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_14": {
         "name": "terracotta_shingles_14",
@@ -6311,7 +9911,15 @@
             "L": 32.2051,
             "a": 27.0876,
             "b": 15.3537
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1200,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_15": {
         "name": "terracotta_shingles_15",
@@ -6325,7 +9933,15 @@
             "L": 14.9358,
             "a": 6.3738,
             "b": 8.4122
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1216,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_2": {
         "name": "terracotta_shingles_2",
@@ -6339,7 +9955,15 @@
             "L": 50.3869,
             "a": 27.6408,
             "b": -1.9102
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1152,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_3": {
         "name": "terracotta_shingles_3",
@@ -6353,7 +9977,15 @@
             "L": 48.4192,
             "a": 7.3094,
             "b": -14.8758
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1168,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_4": {
         "name": "terracotta_shingles_4",
@@ -6367,7 +9999,15 @@
             "L": 63.2927,
             "a": 10.9894,
             "b": 53.7419
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1168,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_5": {
         "name": "terracotta_shingles_5",
@@ -6381,7 +10021,15 @@
             "L": 37.1097,
             "a": -10.0457,
             "b": 22.6781
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1168,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_6": {
         "name": "terracotta_shingles_6",
@@ -6395,7 +10043,15 @@
             "L": 48.8138,
             "a": 33.3709,
             "b": 14.5527
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1168,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_7": {
         "name": "terracotta_shingles_7",
@@ -6409,7 +10065,15 @@
             "L": 24.1392,
             "a": 3.8215,
             "b": 9.0621
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1184,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_8": {
         "name": "terracotta_shingles_8",
@@ -6423,7 +10087,15 @@
             "L": 53.6732,
             "a": 9.6585,
             "b": 9.7177
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1184,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_terracotta_shingles_9": {
         "name": "terracotta_shingles_9",
@@ -6437,7 +10109,15 @@
             "L": 31.6315,
             "a": 1.4367,
             "b": -4.8843
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1184,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_tnt_bottom": {
         "name": "tnt_bottom",
@@ -6451,7 +10131,15 @@
             "L": 59.0204,
             "a": 0.0034,
             "b": -0.0067
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1216,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_tnt_side": {
         "name": "tnt_side",
@@ -6465,7 +10153,15 @@
             "L": 82.7646,
             "a": 0.0045,
             "b": -0.0089
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1216,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_tnt_top": {
         "name": "tnt_top",
@@ -6479,7 +10175,15 @@
             "L": 59.0204,
             "a": 0.0034,
             "b": -0.0067
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1216,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_tuff_block": {
         "name": "tuff_block",
@@ -6493,7 +10197,15 @@
             "L": 54.7092,
             "a": -0.7715,
             "b": 4.5804
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1232,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_warped_planks": {
         "name": "warped_planks",
@@ -6507,7 +10219,15 @@
             "L": 35.4391,
             "a": -20.1566,
             "b": 1.1191
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1232,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_black": {
         "name": "wool_colored_black",
@@ -6521,7 +10241,15 @@
             "L": 10.7145,
             "a": 1.9375,
             "b": 0.702
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1232,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_blue": {
         "name": "wool_colored_blue",
@@ -6535,7 +10263,15 @@
             "L": 25.0908,
             "a": 23.0828,
             "b": -45.2645
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1232,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_brown": {
         "name": "wool_colored_brown",
@@ -6549,7 +10285,15 @@
             "L": 22.2227,
             "a": 10.0634,
             "b": 16.5208
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1248,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_cyan": {
         "name": "wool_colored_cyan",
@@ -6563,7 +10307,15 @@
             "L": 36.9257,
             "a": -10.4244,
             "b": -17.7769
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1248,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_gray": {
         "name": "wool_colored_gray",
@@ -6577,7 +10329,15 @@
             "L": 29.7247,
             "a": 0.0021,
             "b": -0.0041
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1248,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_green": {
         "name": "wool_colored_green",
@@ -6591,7 +10351,15 @@
             "L": 28.8857,
             "a": -16.2288,
             "b": 24.6743
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1248,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_light_blue": {
         "name": "wool_colored_light_blue",
@@ -6605,7 +10373,15 @@
             "L": 59.7834,
             "a": 5.2929,
             "b": -34.2521
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1264,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_lime": {
         "name": "wool_colored_lime",
@@ -6619,7 +10395,15 @@
             "L": 53.2641,
             "a": -45.9935,
             "b": 43.1098
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1264,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_magenta": {
         "name": "wool_colored_magenta",
@@ -6633,7 +10417,15 @@
             "L": 47.7438,
             "a": 58.624,
             "b": -41.3172
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1264,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_orange": {
         "name": "wool_colored_orange",
@@ -6647,7 +10439,15 @@
             "L": 62.5576,
             "a": 30.53,
             "b": 47.399
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1264,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_pink": {
         "name": "wool_colored_pink",
@@ -6661,7 +10461,15 @@
             "L": 60.3336,
             "a": 35.0597,
             "b": 2.118
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1280,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_purple": {
         "name": "wool_colored_purple",
@@ -6675,7 +10483,15 @@
             "L": 43.2722,
             "a": 51.0786,
             "b": -54.0093
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1280,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_red": {
         "name": "wool_colored_red",
@@ -6689,7 +10505,15 @@
             "L": 32.8082,
             "a": 37.8083,
             "b": 22.3805
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1280,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_silver": {
         "name": "wool_colored_silver",
@@ -6703,7 +10527,15 @@
             "L": 67.6499,
             "a": -2.1217,
             "b": -0.7481
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1280,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_white": {
         "name": "wool_colored_white",
@@ -6717,7 +10549,15 @@
             "L": 84.1985,
             "a": 0.0045,
             "b": -0.009
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 0,
+            "y": 1296,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_wool_colored_yellow": {
         "name": "wool_colored_yellow",
@@ -6731,7 +10571,15 @@
             "L": 75.195,
             "a": -10.4879,
             "b": 67.5313
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1296,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_yellow_concrete": {
         "name": "yellow_concrete",
@@ -6745,7 +10593,15 @@
             "L": 75.7087,
             "a": 12.9625,
             "b": 76.0598
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1296,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_yellow_concrete_powder": {
         "name": "yellow_concrete_powder",
@@ -6759,7 +10615,15 @@
             "L": 82.4611,
             "a": -3.6998,
             "b": 71.7281
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 48,
+            "y": 1296,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_yellow_terracotta_bricks": {
         "name": "yellow_terracotta_bricks",
@@ -6773,7 +10637,15 @@
             "L": 39.0522,
             "a": 9.6616,
             "b": 33.6592
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 16,
+            "y": 1312,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     },
     "minecraft_yellow_terracotta_shingles": {
         "name": "yellow_terracotta_shingles",
@@ -6787,6 +10659,14 @@
             "L": 63.2927,
             "a": 10.9894,
             "b": 53.7419
-        }
+        },
+        "resolution": 16,
+        "sprite_coords": {
+            "x": 32,
+            "y": 1312,
+            "w": 16,
+            "h": 16
+        },
+        "sprite_image": "sprites_16x16.png"
     }
 }
