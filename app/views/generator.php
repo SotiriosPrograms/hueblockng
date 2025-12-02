@@ -161,6 +161,9 @@ $json_sprite_meta = json_encode($sprite_meta);
                     $spriteFile = $block['sprite_image'];
                     $scaleFactor = 80 / $res;
                     
+                    // 🛑 CORRECTION URL POUR LE RENDU DU DÉGRADÉ
+                    $spriteFileUrl = (str_ends_with($spriteFile, '.png')) ? $spriteFile : $spriteFile . '.png';
+                    
                     $infoString = htmlspecialchars(json_encode([
                         'name' => $block['name'],
                         'category' => $block['category'],
@@ -176,7 +179,7 @@ $json_sprite_meta = json_encode($sprite_meta);
                         
                         <div class="block-sprite-preview <?= $res === 16 ? 'pixel-texture' : 'smooth-texture' ?>"
                              style="
-                                background-image: url('public/textures/<?= $spriteFile ?>');
+                                background-image: url('public/textures/<?= $spriteFileUrl ?>');
                                 background-position: -<?= $coords['x'] * $scaleFactor ?>px -<?= $coords['y'] * $scaleFactor ?>px;
                                 transform: scale(<?= $scaleFactor ?>);
                                 width: <?= $res ?>px; 
@@ -220,9 +223,9 @@ $json_sprite_meta = json_encode($sprite_meta);
                             $spriteFile = $block['sprite_image'];
                             $spriteMeta = $sprite_meta[$spriteFile];
                             
-                            // 🛑 CORRECTION ICI: Utilisation du nom du fichier exact (avec .png)
-                            // Le nom de l'image sur le serveur est sprites_32x32.png
+                            // 🛑 CORRECTION URL POUR LE RENDU MODAL
                             $spriteFileUrl = (str_ends_with($spriteFile, '.png')) ? $spriteFile : $spriteFile . '.png';
+                            $scaleModal = 64 / $res; 
                             ?>
                             <div class="grid-block-item" 
                                  data-key="<?= $key ?>" 
@@ -240,7 +243,7 @@ $json_sprite_meta = json_encode($sprite_meta);
                                         background-size: <?= $spriteMeta['w'] ?>px <?= $spriteMeta['h'] ?>px; 
                                         width: <?= $res ?>px; 
                                         height: <?= $res ?>px;
-                                        transform: scale(<?= 64 / $res ?>); /* Mise à l'échelle pour afficher 64px */
+                                        transform: scale(<?= $scaleModal ?>); 
                                      ">
                                 </div>
                             </div>
@@ -274,12 +277,10 @@ $json_sprite_meta = json_encode($sprite_meta);
         }
         
         function initializeSequentialLoading() {
-            // NOTE: Maintenant, nous ciblons les conteneurs de sprite dans la modale
-            const images = document.querySelectorAll('#blockSelectorModal .block-sprite-preview');
+            const images = document.querySelectorAll('.lazy-load-texture');
             
             if (imageQueue.length === 0) {
-                // Remplir la queue avec les éléments de sprite pour forcer leur chargement
-                imageQueue = Array.from(images).filter(img => img.getAttribute('data-src')); 
+                imageQueue = Array.from(images).filter(img => img.getAttribute('data-src'));
                 processImageQueue();
             }
         }
@@ -392,7 +393,8 @@ $json_sprite_meta = json_encode($sprite_meta);
                 const coords = block.sprite_coords;
                 const spriteFile = block.sprite_image;
                 const scaleFactor = 80 / res; 
-                
+                const spriteFileUrl = (spriteFile.endsWith('.png')) ? spriteFile : spriteFile + '.png'; // Sécurité
+
                 htmlContent += `
                     <div class="block-result" 
                          data-block-info='${infoString}'
@@ -401,7 +403,7 @@ $json_sprite_meta = json_encode($sprite_meta);
                         
                         <div class="block-sprite-preview ${res === 16 ? 'pixel-texture' : 'smooth-texture'}"
                              style="
-                                background-image: url('public/textures/${spriteFile}');
+                                background-image: url('public/textures/${spriteFileUrl}');
                                 background-position: -${coords.x * scaleFactor}px -${coords.y * scaleFactor}px;
                                 transform: scale(${scaleFactor});
                                 width: ${res}px; 
@@ -439,12 +441,13 @@ $json_sprite_meta = json_encode($sprite_meta);
             const name = blockElement.getAttribute('data-name');
             
             const scaleFactor = 44 / res; 
+            const spriteFileUrl = (spriteFile.endsWith('.png')) ? spriteFile : spriteFile + '.png';
 
             const previewDiv = document.getElementById(currentSelectionSide + 'BlockVisual');
             previewDiv.innerHTML = `
                 <div class="block-sprite-preview ${res == 16 ? 'pixel-texture' : 'smooth-texture'}"
                     style="
-                        background-image: url('public/textures/${spriteFile}');
+                        background-image: url('public/textures/${spriteFileUrl}');
                         background-position: -${x * scaleFactor}px -${y * scaleFactor}px;
                         transform: scale(${scaleFactor});
                         width: ${res}px; 
