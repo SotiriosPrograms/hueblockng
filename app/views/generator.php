@@ -28,7 +28,7 @@ $json_sprite_meta = json_encode($sprite_meta);
     </div>
     
     <header class="app-header">
-        <svg width="260" height="70" viewBox="0 0 260 70" xmlns="http://www.w3.org/2000/svg">
+        <svg width="350" height="70" viewBox="0 0 350 70" xmlns="http://www.w3.org/2000/svg">
             <g transform="translate(10, 10)">
                 <defs>
                     <linearGradient id="gradientHue" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -219,6 +219,10 @@ $json_sprite_meta = json_encode($sprite_meta);
                             $coords = $block['sprite_coords'];
                             $spriteFile = $block['sprite_image'];
                             $spriteMeta = $sprite_meta[$spriteFile];
+                            
+                            // 🛑 CORRECTION ICI: Utilisation du nom du fichier exact (avec .png)
+                            // Le nom de l'image sur le serveur est sprites_32x32.png
+                            $spriteFileUrl = (str_ends_with($spriteFile, '.png')) ? $spriteFile : $spriteFile . '.png';
                             ?>
                             <div class="grid-block-item" 
                                  data-key="<?= $key ?>" 
@@ -226,12 +230,12 @@ $json_sprite_meta = json_encode($sprite_meta);
                                  data-res="<?= $res ?>" 
                                  data-x="<?= $coords['x'] ?>" 
                                  data-y="<?= $coords['y'] ?>"
-                                 data-sprite-file="<?= $spriteFile ?>"
+                                 data-sprite-file="<?= $spriteFileUrl ?>"
                                  onclick="selectBlock(this)">
                                 
                                 <div class="block-sprite-preview grid-item-preview <?= $res === 16 ? 'pixel-texture' : 'smooth-texture' ?>"
                                      style="
-                                        background-image: url('public/textures/<?= $spriteFile ?>');
+                                        background-image: url('public/textures/<?= $spriteFileUrl ?>');
                                         background-position: -<?= $coords['x'] ?>px -<?= $coords['y'] ?>px;
                                         background-size: <?= $spriteMeta['w'] ?>px <?= $spriteMeta['h'] ?>px; 
                                         width: <?= $res ?>px; 
@@ -270,10 +274,12 @@ $json_sprite_meta = json_encode($sprite_meta);
         }
         
         function initializeSequentialLoading() {
-            const images = document.querySelectorAll('.lazy-load-texture');
+            // NOTE: Maintenant, nous ciblons les conteneurs de sprite dans la modale
+            const images = document.querySelectorAll('#blockSelectorModal .block-sprite-preview');
             
             if (imageQueue.length === 0) {
-                imageQueue = Array.from(images).filter(img => img.getAttribute('data-src'));
+                // Remplir la queue avec les éléments de sprite pour forcer leur chargement
+                imageQueue = Array.from(images).filter(img => img.getAttribute('data-src')); 
                 processImageQueue();
             }
         }
