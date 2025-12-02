@@ -10,13 +10,17 @@ class HueBlockController {
     }
 
     public function index() {
-        $blocks_sorted = $this->model->getBlocksByCategory(); 
+        // NOUVEAU: Récupère les blocs ET les métadonnées de la sprite sheet
+        $blocks_data = $this->model->getBlocksByCategory(); 
+        $blocks_sorted = $blocks_data['blocks']; 
+        $sprite_meta = $blocks_data['meta']; // Pour l'injection JS
+        
         $gradientResult = []; 
         $startKey = '';
         $endKey = '';
         $startHex = '#00bcd4'; 
         $endHex = '#ff7f50';   
-        $mode = 'block';       // MODE BLOC PAR DÉFAUT
+        $mode = 'block';       
         $steps = 10;
         $steps_preset = '10';
 
