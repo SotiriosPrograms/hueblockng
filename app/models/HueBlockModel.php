@@ -16,16 +16,16 @@ class HueBlockModel {
 
     /**
      * NOUVEAU: CHARGER LES MÉTADONNÉES DES SPRITES
-     * Corrigé: Ajoute la clé 'sprite_32x32' pour correspondre au nom dans le JSON de mapping.
+     * Corrigé: Utilise des valeurs fixes basées sur la génération TexturePacker (64x1344 et 128x1344).
      */
     private function loadSpriteMetadata() {
         // Clé officielle pour le 16x16
         $this->sprite_meta['sprites_16x16.png'] = ['w' => 64, 'h' => 1344];
         
-        // CORRECTION: Ajout de la clé 'sprite_32x32' (sans 's' final) pour correspondre au log de TexturePacker.
+        // CORRECTION: Ajout de la clé 'sprite_32x32' pour couvrir les noms de fichiers sans 's' final.
         $this->sprite_meta['sprite_32x32'] = ['w' => 128, 'h' => 1344]; 
         
-        // Ajout de la clé correcte 'sprites_32x32.png' au cas où le JSON est corrigé.
+        // Clé officielle pour le 32x32 (au cas où le JSON est corrigé)
         $this->sprite_meta['sprites_32x32.png'] = ['w' => 128, 'h' => 1344]; 
     }
     
