@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Classe HueBlockModel
- * Gère le chargement des données de blocs, les conversions de couleurs (RVB -> Lab),
- * le calcul de la distance chromatique (Delta E 2000) et la logique de tri.
- */
 class HueBlockModel {
     private $blockDatabase = [];
     private $dataFile = __DIR__ . '/../../data/hueblocks_ng_data.json'; 
@@ -21,13 +16,17 @@ class HueBlockModel {
 
     /**
      * NOUVEAU: CHARGER LES MÉTADONNÉES DES SPRITES
-     * Charge les dimensions totales des Sprite Sheets pour le calcul du background-size.
-     * Corrigé: Utilise des valeurs fixes basées sur la génération TexturePacker (64x1344 et 128x1344).
+     * Corrigé: Ajoute la clé 'sprite_32x32' pour correspondre au nom dans le JSON de mapping.
      */
     private function loadSpriteMetadata() {
-        // Dimensions des Sprite Sheets
+        // Clé officielle pour le 16x16
         $this->sprite_meta['sprites_16x16.png'] = ['w' => 64, 'h' => 1344];
-        $this->sprite_meta['sprites_32x32.png'] = ['w' => 128, 'h' => 1344];
+        
+        // CORRECTION: Ajout de la clé 'sprite_32x32' (sans 's' final) pour correspondre au log de TexturePacker.
+        $this->sprite_meta['sprite_32x32'] = ['w' => 128, 'h' => 1344]; 
+        
+        // Ajout de la clé correcte 'sprites_32x32.png' au cas où le JSON est corrigé.
+        $this->sprite_meta['sprites_32x32.png'] = ['w' => 128, 'h' => 1344]; 
     }
     
     // --- Fonctions de Conversion RVB -> LAB ---
