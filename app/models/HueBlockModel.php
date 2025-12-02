@@ -1,40 +1,40 @@
 <?php
 
+/**
+ * Classe HueBlockModel
+ * Gère le chargement des données de blocs, les conversions de couleurs (RVB -> Lab),
+ * le calcul de la distance chromatique (Delta E 2000) et la logique de tri.
+ */
 class HueBlockModel {
     private $blockDatabase = [];
+    // Le chemin monte deux niveaux pour aller de app/models/ à la racine/data/
     private $dataFile = __DIR__ . '/../../data/hueblocks_ng_data.json'; 
-    private $sprite_meta = []; // NOUVEAU: Stocke les dimensions des sprite sheets
+    private $sprite_meta = []; 
 
     public function __construct() {
-        $this->loadBlockData();
-        $this->loadSpriteMetadata(); // NOUVEAU: Charge les infos sur les sprites
-    }
-
-    // --- NOUVELLE FONCTION: CHARGER LES MÉTADONNÉES DES SPRITES ---
-    private function loadSpriteMetadata() {
-        // TENTE DE LIRE LES DEUX FICHIERS DE MAPPING POUR OBTENIR LA TAILLE TOTALE
-        $map_files = [
-            'sprites_16x16.png' => 'sprite_map_16x16.json',
-            'sprites_32x32.png' => 'sprite_map_32x32.json'
-        ];
-        
-        foreach ($map_files as $sprite_name => $map_filename) {
-            // NOTE: Le chemin vers les fichiers de mapping doit être adapté si nécessaire
-            $map_path = os.path.join(BASE_DIR, $map_filename); 
-
-            // PUISQUE LE CHEMIN ABSOLU EST DIFFICILE DANS LES API, NOUS FAISONS UNE HYPOTHÈSE BASÉE SUR LES DONNÉES DU JSON
-            // Pour le moment, nous allons simplement utiliser les valeurs de vos fichiers de mapping (64x1344 et 128x1344)
-            // C'est une solution rapide, mais cela devrait être automatisé par un script Python séparé qui crée un fichier 'sprite_sizes.json'.
-            
-            if ($sprite_name === 'sprites_16x16.png') {
-                 $this->sprite_meta[$sprite_name] = ['w' => 64, 'h' => 1344];
-            } elseif ($sprite_name === 'sprites_32x32.png') {
-                 $this->sprite_meta[$sprite_name] = ['w' => 128, 'h' => 1344];
-            }
+        // Active les fonctions mathématiques avancées (pour Delta E 2000)
+        if (!defined('M_PI')) {
+            define('M_PI', pi());
         }
+        
+        $this->loadBlockData();
+        $this->loadSpriteMetadata();
     }
 
-    // --- Fonctions de Conversion RVB -> LAB (Inchagées) ---
+    /**
+     * NOUVEAU: CHARGER LES MÉTADONNÉES DES SPRITES
+     * Charge les dimensions totales des Sprite Sheets.
+     * Corrigé: Suppression des références Python (os).
+     */
+    private function loadSpriteMetadata() {
+        // Les dimensions sont fixées ici, car elles sont connues après la génération
+        // par TexturePacker (64x1344 et 128x1344)
+        
+        $this->sprite_meta['sprites_16x16.png'] = ['w' => 64, 'h' => 1344];
+        $this->sprite_meta['sprites_32x32.png'] = ['w' => 128, 'h' => 1344];
+    }
+    
+    // --- Fonctions de Conversion RVB -> LAB ---
     
     private function toLinear($c) {
         return ($c > 0.04045) ? pow(($c + 0.055) / 1.055, 2.4) : $c / 12.92;
@@ -51,10 +51,12 @@ class HueBlockModel {
         $r /= 255.0; $g /= 255.0; $b /= 255.0;
         $r = $this->toLinear($r); $g = $this->toLinear($g); $b = $this->toLinear($b);
 
+        // Référence D65 pour les coordonnées
         $X = $r * 0.4124 + $g * 0.3576 + $b * 0.1805;
         $Y = $r * 0.2126 + $g * 0.7152 + $b * 0.0722;
         $Z = $r * 0.0193 + $g * 0.1192 + $b * 0.9505;
 
+        // Normalisation par le point blanc D65
         $X /= 0.95047; $Y /= 1.00000; $Z /= 1.08883;
 
         $fx = $this->fThreshold($X); $fy = $this->fThreshold($Y); $fz = $this->fThreshold($Z);
@@ -118,7 +120,7 @@ class HueBlockModel {
         );
     }
     
-    // --- Fonctions de base (inchangées) ---
+    // --- Fonctions de base (Data) ---
     private function loadBlockData() {
         if (file_exists($this->dataFile)) {
             $jsonContent = file_get_contents($this->dataFile);
@@ -132,7 +134,8 @@ class HueBlockModel {
             $this->blockDatabase = $data;
 
         } else {
-            die("Erreur : Le fichier de données des blocs 'hueblocks_ng_data.json' n'a pas été trouvé ou est illisible.");
+            // C'est souvent la cause de l'erreur 500 si le chemin est incorrect
+            die("Erreur : Le fichier de données des blocs 'hueblocks_ng_data.json' n'a pas été trouvé ou est illisible. (Chemin testé: " . $this->dataFile . ")");
         }
     }
 
@@ -153,11 +156,11 @@ class HueBlockModel {
         }
         ksort($sorted); 
         
-        // NOUVEAU : Ajouter les métadonnées de la sprite sheet au tableau retourné
+        // Retourne les blocs ET les métadonnées de la sprite sheet
         return ['blocks' => $sorted, 'meta' => $this->sprite_meta];
     }
     
-    // --- Fonctions de génération (inchangées) ---
+    // --- Fonctions de génération de dégradé ---
     
     private function hexToRgb($hexColor) {
         $hexColor = ltrim($hexColor, '#');
@@ -196,10 +199,9 @@ class HueBlockModel {
         $gradientBlocks = [];
         $steps = max(2, (int)$steps); 
         
-        // --- LOGIQUE DE PRIORITÉ ROUGE PUR (inchangée) ---
+        // --- LOGIQUE DE PRIORITÉ (Exemple: pour s'assurer que le rouge pur est choisi) ---
         $PURE_RED_LAB = ['L' => 53.23, 'a' => 80.11, 'b' => 67.22]; 
         $PRIMARY_TARGETS = [['lab' => $PURE_RED_LAB, 'key' => 'minecraft_red_concrete', 'threshold_dE' => 8, 'max_dE_force' => 15 ]];
-        $FORCED_BLOCKS = ['minecraft_red_concrete']; // Liste des clés à vérifier
         // ---------------------------------------------
 
         for ($i = 0; $i < $steps; $i++) {
@@ -230,7 +232,7 @@ class HueBlockModel {
                 }
             }
 
-            // Recherche Lab normale
+            // Recherche Lab normale (si aucune règle de priorité n'a été appliquée)
             if (!$bestKey) {
                 foreach ($this->blockDatabase as $key => $block) {
                     $distance = $this->deltaE2000($targetLab, $block['lab']); 
