@@ -1,3 +1,9 @@
+<?php
+// Note: Ce code suppose que le contrôleur a déjà défini les variables $blocks_sorted et $sprite_meta.
+// Si vous utilisez le code du contrôleur ci-dessus, $blocks_data contient {blocks: [...], meta: [...]}.
+$json_blocks_data = json_encode($blocks_sorted);
+$json_sprite_meta = json_encode($sprite_meta);
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -5,9 +11,16 @@
     <title>GloryHueBlocks Generator</title>
     <meta name="description" content="Générateur de dégradés de blocs (HueBlocks) pour Minecraft et NationsGlory. Utilise l'algorithme Delta E 2000 pour une précision chromatique optimale.">
     <meta name="keywords" content="Minecraft, NationsGlory, HueBlocks, Gradient, Dégradé, Blocs, Delta E, Builder">
-    <link rel="stylesheet" href="public/css/styles.css">
-</head>
+    
+    </head>
 <body>
+    
+    <div id="splashScreen" class="splash-screen">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Chargement des ressources initiales...</p>
+        </div>
+    </div>
     
     <div id="legalBanner" class="legal-banner" style="display: none;">
         <p>En utilisant ce site, vous acceptez les conditions d'utilisation. GloryHueBlocks n'est affilié à Minecraft, Mojang ou NationsGlory. (V1)</p>
@@ -89,18 +102,7 @@
                     <div class="block-visual-selector" onclick="openBlockSelector('start')">
                         <div id="startBlockVisual" class="selected-block-preview">
                             <?php if ($startKey): ?>
-                                <?php 
-                                $startBlockData = reset($blocks_sorted); 
-                                foreach ($blocks_sorted as $category => $blocks):
-                                    if (isset($blocks[$startKey])):
-                                        $startBlockData = $blocks[$startKey];
-                                        $imgPath = 'public/textures/' . $startBlockData['category'] . '/' . $startBlockData['name'] . '.png';
-                                        echo "<img src=\"{$imgPath}\" class=\"pixel-texture\" alt=\"{$startBlockData['name']}\">";
-                                        break;
-                                    endif;
-                                endforeach;
-                                ?>
-                            <?php endif; ?>
+                                <?php endif; ?>
                         </div>
                         <button type="button" class="btn-select-block">Choisir un Bloc</button>
                     </div>
@@ -112,23 +114,13 @@
                     <div class="block-visual-selector" onclick="openBlockSelector('end')">
                         <div id="endBlockVisual" class="selected-block-preview">
                             <?php if ($endKey): ?>
-                                <?php 
-                                $endBlockData = reset($blocks_sorted); 
-                                foreach ($blocks_sorted as $category => $blocks):
-                                    if (isset($blocks[$endKey])):
-                                        $endBlockData = $blocks[$endKey];
-                                        $imgPath = 'public/textures/' . $endBlockData['category'] . '/' . $endBlockData['name'] . '.png';
-                                        echo "<img src=\"{$imgPath}\" class=\"pixel-texture\" alt=\"{$endBlockData['name']}\">";
-                                        break;
-                                    endif;
-                                endforeach;
-                                ?>
-                            <?php endif; ?>
+                                <?php endif; ?>
                         </div>
                         <button type="button" class="btn-select-block">Choisir un Bloc</button>
                     </div>
                     <input type="hidden" name="endBlock" id="endBlockKey" value="<?= htmlspecialchars($endKey) ?>">
                 </div>
+
             </div>
 
             <div class="control-group steps-selector-group">
@@ -155,18 +147,22 @@
                        oninput="updateCustomSteps()">
             </div>
             
-            <button type="submit" class="btn-generate">Générer le Dégradé</button>
+            <button type="button" class="btn-generate" onclick="submitFormAJAX(event)">Générer le Dégradé</button>
         </form>
         
         <hr class="separator">
 
-        <h2 class="section-title">Résultat du Dégradé (<?= count($gradientResult) ?> Blocs)</h2>
+        <h2 class="section-title">Résultat du Dégradé (<span id="blockCount"><?= count($gradientResult) ?></span> Blocs)</h2>
         <div id="gradientOutput" class="output-container">
             <?php if (!empty($gradientResult)): ?>
                 <?php foreach ($gradientResult as $block): ?>
                     <?php 
                     $rgb = $block['rgb'];
-                    $imagePath = 'public/textures/' . $block['category'] . '/' . $block['name'] . '.png';
+                    $coords = $block['sprite_coords'];
+                    $res = $block['resolution'];
+                    $spriteFile = $block['sprite_image'];
+
+                    $scaleFactor = 80 / $res;
                     
                     $infoString = htmlspecialchars(json_encode([
                         'name' => $block['name'],
@@ -181,7 +177,15 @@
                          onmouseover="showTooltip(event)"
                          onmouseout="hideTooltip()">
                         
-                        <img src="<?= $imagePath ?>" class="pixel-texture" alt="<?= htmlspecialchars($block['name']) ?>">
+                        <div class="block-sprite-preview <?= $res === 16 ? 'pixel-texture' : 'smooth-texture' ?>"
+                             style="
+                                background-image: url('public/textures/<?= $spriteFile ?>');
+                                background-position: -<?= $coords['x'] * $scaleFactor ?>px -<?= $coords['y'] * $scaleFactor ?>px;
+                                transform: scale(<?= $scaleFactor ?>);
+                                width: <?= $res ?>px; 
+                                height: <?= $res ?>px;
+                             ">
+                        </div>
                         
                         <span class="block-name"><?= htmlspecialchars($block['name']) ?></span>
                     </div>
@@ -213,14 +217,31 @@
                     <h4 class="category-title"><?= ucfirst($category) ?></h4>
                     <div class="category-grid">
                         <?php foreach ($blocks_in_category as $key => $block): ?>
-                            <?php $imagePath = 'public/textures/' . $block['category'] . '/' . $block['name'] . '.png'; ?>
+                            <?php 
+                            $res = $block['resolution'];
+                            $coords = $block['sprite_coords'];
+                            $spriteFile = $block['sprite_image'];
+                            ?>
                             <div class="grid-block-item" 
                                  data-key="<?= $key ?>" 
-                                 data-img="<?= $imagePath ?>"
                                  data-name="<?= htmlspecialchars($block['name']) ?>"
+                                 data-res="<?= $res ?>" 
+                                 data-x="<?= $coords['x'] ?>" 
+                                 data-y="<?= $coords['y'] ?>"
+                                 data-sprite-file="<?= $spriteFile ?>"
                                  onclick="selectBlock(this)">
                                 
-                                <img src="<?= $imagePath ?>" class="pixel-texture" alt="<?= htmlspecialchars($block['name']) ?>">
+                                <div class="block-sprite-preview grid-item-preview <?= $res === 16 ? 'pixel-texture' : 'smooth-texture' ?>"
+                                     style="
+                                        /* La position de la texture sera mise à jour par JS */
+                                        background-image: url('public/textures/<?= $spriteFile ?>');
+                                        background-position: -<?= $coords['x'] ?>px -<?= $coords['y'] ?>px;
+                                        background-size: <?= $sprite_meta[$spriteFile]['w'] ?>px <?= $sprite_meta[$spriteFile]['h'] ?>px; 
+                                        width: <?= $res ?>px; 
+                                        height: <?= $res ?>px;
+                                        transform: scale(<?= 64 / $res ?>); /* Mise à l'échelle pour afficher 64px */
+                                     ">
+                                </div>
                             </div>
                         <?php endforeach; ?>
                     </div>
@@ -230,7 +251,37 @@
     </div>
     
     <script>
+        // CODE JAVASCRIPT INTÉGRAL (incluant le Throttling, le Sprite Sheet rendering et l'AJAX)
+        const PHP_BLOCKS_DATA = <?= json_encode($blocks_sorted); ?>;
+        
         let currentSelectionSide = '';
+        const LOADING_DELAY_MS = 50; 
+        let imageQueue = [];
+
+        function processImageQueue() {
+            if (imageQueue.length === 0) {
+                return;
+            }
+
+            const lazyImage = imageQueue.shift(); 
+            const realSrc = lazyImage.getAttribute('data-src');
+
+            if (realSrc) {
+                lazyImage.src = realSrc;
+                lazyImage.removeAttribute('data-src'); 
+            }
+
+            setTimeout(processImageQueue, LOADING_DELAY_MS);
+        }
+        
+        function initializeSequentialLoading() {
+            const images = document.querySelectorAll('#blockSelectorModal .lazy-load-texture');
+            
+            if (imageQueue.length === 0) {
+                imageQueue = Array.from(images).filter(img => img.getAttribute('data-src'));
+                processImageQueue(); 
+            }
+        }
         
         function toggleMode(mode) {
             document.getElementById('blockSelection').style.display = (mode === 'block' ? 'flex' : 'none');
@@ -280,11 +331,101 @@
         }
 
 
-        // --- Fonctions de SÉLECTION DE BLOCS (Modale) ---
+        // --- LOGIQUE AJAX DE SOUMISSION ---
+        function submitFormAJAX(event) {
+            event.preventDefault(); 
+            
+            const outputContainer = document.getElementById('gradientOutput');
+            const form = document.querySelector('.controls');
+            const blockCountSpan = document.getElementById('blockCount');
 
+            // 1. Afficher l'écran de chargement
+            outputContainer.innerHTML = '<p class="loading-message">🚀 Calcul du dégradé en cours... Ceci peut prendre quelques secondes.</p>';
+            blockCountSpan.textContent = '...';
+            
+            // 2. Préparer les données
+            const formData = new FormData(form);
+            const data = {};
+            formData.forEach((value, key) => data[key] = value);
+            
+            if (data.steps_preset === 'custom') {
+                data.steps = document.getElementById('customStepsInput').value;
+            }
+
+            // 3. Appel AJAX au nouveau point d'entrée PHP (ajax_generate.php)
+            fetch('ajax_generate.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => {
+                
+                if (data.success && data.gradient.length > 0) {
+                    // 4. Succès : Afficher les nouveaux blocs
+                    displayGradientResults(data.gradient);
+                    blockCountSpan.textContent = data.gradient.length;
+                } else {
+                    // 5. Échec
+                    outputContainer.innerHTML = '<p class="error-message">❌ Erreur de génération. Vérifiez les sélections.</p>';
+                    blockCountSpan.textContent = '0';
+                }
+            })
+            .catch(error => {
+                outputContainer.innerHTML = '<p class="error-message">⚠️ Connexion perdue ou Time-out serveur. Veuillez réessayer.</p>';
+                blockCountSpan.textContent = '0';
+                console.error('AJAX Error:', error);
+            });
+        }
+
+        function displayGradientResults(gradientArray) {
+            const outputContainer = document.getElementById('gradientOutput');
+            let htmlContent = '';
+            
+            gradientArray.forEach(block => {
+                const infoString = JSON.stringify({
+                    'name': block.name,
+                    'category': block.category,
+                    'rgb': `(${block.rgb.r}, ${block.rgb.g}, ${block.rgb.b})`,
+                    'deltaE': block.deltaE
+                });
+
+                const res = block.resolution;
+                const coords = block.sprite_coords;
+                const spriteFile = block.sprite_image;
+                const scaleFactor = 80 / res; // Scale pour aller à 80px
+                
+                htmlContent += `
+                    <div class="block-result" 
+                         data-block-info='${infoString}'
+                         onmouseover="showTooltip(event)"
+                         onmouseout="hideTooltip()">
+                        
+                        <div class="block-sprite-preview ${res === 16 ? 'pixel-texture' : 'smooth-texture'}"
+                            style="
+                                background-image: url('public/textures/${spriteFile}');
+                                background-position: -${coords.x * scaleFactor}px -${coords.y * scaleFactor}px;
+                                transform: scale(${scaleFactor});
+                                width: ${res}px; 
+                                height: ${res}px;
+                             ">
+                        </div>
+                    </div>
+                `;
+            });
+            
+            htmlContent += '<button type="button" class="btn-copy-sequence" onclick="copySequence()">Copier la Séquence</button>';
+
+            outputContainer.innerHTML = htmlContent;
+        }
+
+        // --- Fonctions de Modale/Tooltip/Copy (inchangées) ---
         function openBlockSelector(side) {
             currentSelectionSide = side;
             document.getElementById('blockSelectorModal').style.display = 'block';
+            initializeSequentialLoading(); 
         }
 
         function closeBlockSelector() {
@@ -293,27 +434,34 @@
 
         function selectBlock(blockElement) {
             const key = blockElement.getAttribute('data-key');
-            const imgPath = blockElement.getAttribute('data-img');
-            const name = blockElement.getAttribute('data-name');
-
-            // 1. Mettre à jour l'image de prévisualisation
-            const previewDiv = document.getElementById(currentSelectionSide + 'BlockVisual');
-            previewDiv.innerHTML = `<img src="${imgPath}" class="pixel-texture" alt="${name}">`;
+            const res = blockElement.getAttribute('data-res');
+            const spriteFile = blockElement.getAttribute('data-sprite-file');
+            const x = blockElement.getAttribute('data-x');
+            const y = blockElement.getAttribute('data-y');
             
-            // 2. Mettre à jour le champ caché (pour la soumission du formulaire)
+            const scaleFactor = 80 / res; // Scale pour aller à 80px (Taille de l'aperçu)
+
+            // 1. Rendu du bloc dans la prévisualisation
+            const previewDiv = document.getElementById(currentSelectionSide + 'BlockVisual');
+            previewDiv.innerHTML = `
+                <div class="block-sprite-preview ${res == 16 ? 'pixel-texture' : 'smooth-texture'}"
+                    style="
+                        background-image: url('public/textures/${spriteFile}');
+                        background-position: -${x * scaleFactor}px -${y * scaleFactor}px;
+                        transform: scale(${scaleFactor});
+                        width: ${res}px; 
+                        height: ${res}px;
+                    ">
+                </div>
+            `;
+            
+            // 2. Mettre à jour le champ caché
             document.getElementById(currentSelectionSide + 'BlockKey').value = key;
 
-            // 3. Fermer la modale
             closeBlockSelector();
         }
         
-        // --- Fonctions Tooltip ---
-        const tooltip = document.getElementById('customTooltip');
-        const tooltipName = document.getElementById('tooltipName');
-        const tooltipCategory = document.getElementById('tooltipCategory');
-        const tooltipRgb = document.getElementById('tooltipRgb');
-        const tooltipDeltaE = document.getElementById('tooltipDeltaE');
-        
+        // ... (Le reste des fonctions JS : showTooltip, hideTooltip, copySequence, legalBanner, etc.) ...
         function showTooltip(event) {
             const blockElement = event.currentTarget;
             const infoString = blockElement.getAttribute('data-block-info');
@@ -338,8 +486,7 @@
         function hideTooltip() {
             tooltip.style.display = 'none';
         }
-        
-        // --- NOUVELLE FONCTION DE COPIE ---
+
         function copySequence() {
             const blockElements = document.querySelectorAll('#gradientOutput .block-result');
             let sequence = '';
@@ -348,7 +495,6 @@
                 const infoString = element.getAttribute('data-block-info');
                 if (infoString) {
                     const info = JSON.parse(infoString);
-                    // Format Minecraft: category:block_name
                     sequence += `${info.category.toLowerCase()}:${info.name} `; 
                 }
             });
@@ -366,10 +512,7 @@
                  alert('Aucun bloc à copier.');
             }
         }
-        // --- FIN FONCTION COPIE ---
-
-
-        // --- NOUVELLES FONCTIONS LÉGALES ---
+        
         function showLegalBanner() {
             if (localStorage.getItem('gloryhueblocks_legal_accepted') !== 'true') {
                 document.getElementById('legalBanner').style.display = 'flex';
@@ -380,55 +523,73 @@
             localStorage.setItem('gloryhueblocks_legal_accepted', 'true');
             document.getElementById('legalBanner').style.display = 'none';
         }
-        // --- FIN FONCTIONS LÉGALES ---
 
-
-        // --- Initialisation au Chargement ---
         function initializeBlockSelection() {
-            // Logique pour s'assurer que si des clés sont déjà dans le formulaire,
-            // l'image de prévisualisation s'affiche au démarrage.
             const startKey = document.getElementById('startBlockKey').value;
             const endKey = document.getElementById('endBlockKey').value;
             
-            // On ne peut initialiser les images que si la modale a les blocs chargés (ce qui est le cas ici)
+            // Reconstruit l'affichage des prévisualisations au démarrage
             const initializeVisuals = () => {
-                const itemStart = document.querySelector(`.grid-block-item[data-key="${startKey}"]`);
-                if (itemStart) {
-                    const previewDiv = document.getElementById('startBlockVisual');
-                    const imgPath = itemStart.getAttribute('data-img');
-                    const name = itemStart.getAttribute('data-name');
-                    previewDiv.innerHTML = `<img src="${imgPath}" class="pixel-texture" alt="${name}">`;
-                }
+                const updateVisual = (key, visualId) => {
+                    if (!key) return;
+                    const item = document.querySelector(`.grid-block-item[data-key="${key}"]`);
+                    if (item) {
+                        const previewDiv = document.getElementById(visualId);
+                        const res = item.getAttribute('data-res');
+                        const spriteFile = item.getAttribute('data-sprite-file');
+                        const x = item.getAttribute('data-x');
+                        const y = item.getAttribute('data-y');
+                        const scaleFactor = 44 / res; // Scale pour aller à 44px (Taille de l'aperçu)
 
-                const itemEnd = document.querySelector(`.grid-block-item[data-key="${endKey}"]`);
-                if (itemEnd) {
-                    const previewDiv = document.getElementById('endBlockVisual');
-                    const imgPath = itemEnd.getAttribute('data-img');
-                    const name = itemEnd.getAttribute('data-name');
-                    previewDiv.innerHTML = `<img src="${imgPath}" class="pixel-texture" alt="${name}">`;
-                }
+                        previewDiv.innerHTML = `
+                             <div class="block-sprite-preview ${res == 16 ? 'pixel-texture' : 'smooth-texture'}"
+                                style="
+                                    background-image: url('public/textures/${spriteFile}');
+                                    background-position: -${x * scaleFactor}px -${y * scaleFactor}px;
+                                    transform: scale(${scaleFactor});
+                                    width: ${res}px; 
+                                    height: ${res}px;
+                                ">
+                            </div>
+                        `;
+                    }
+                };
+                
+                updateVisual(startKey, 'startBlockVisual');
+                updateVisual(endKey, 'endBlockVisual');
             };
 
-            // On attend que le DOM soit complètement construit pour trouver les éléments
             setTimeout(initializeVisuals, 100); 
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            // Définit le mode par défaut au chargement (Blocs)
-            if (!document.querySelector('input[name="mode"]:checked')) {
-                document.getElementById('modeBlock').checked = true;
-            }
-            toggleMode(document.querySelector('input[name="mode"]:checked').value);
             
-            // Affiche l'input custom si nécessaire
-            const initialSteps = parseInt(document.getElementById('hiddenStepsInput').value);
-            if (initialSteps !== 10 && initialSteps !== 20) {
-                document.getElementById('customStepsInput').style.display = 'block';
-            }
-            
-            // Initialisation des images et affichage du bandeau
-            initializeBlockSelection(); 
-            showLegalBanner(); 
+            // 1. Démarrer le chargement des 400 textures en arrière-plan (séquentiellement)
+            initializeSequentialLoading(); 
+
+            // 2. Retarder les actions d'interface pour l'UX du Splash Screen
+            setTimeout(() => {
+                
+                // Masquer l'écran de chargement
+                const splash = document.getElementById('splashScreen');
+                splash.style.opacity = '0';
+                setTimeout(() => splash.style.display = 'none', 500); 
+
+                // Initialisation de l'UI
+                const modeInput = document.querySelector('input[name="mode"]:checked');
+                if (modeInput) {
+                    toggleMode(modeInput.value);
+                }
+                
+                const initialSteps = parseInt(document.getElementById('hiddenStepsInput').value);
+                if (initialSteps !== 10 && initialSteps !== 20) {
+                    document.getElementById('customStepsInput').style.display = 'block';
+                }
+                
+                initializeBlockSelection(); 
+                showLegalBanner(); 
+                
+            }, 800); // 🛑 TEMPS DE RETARD (800ms)
         });
     </script>
 </body>
