@@ -11,8 +11,8 @@ $json_sprite_meta = json_encode($sprite_meta);
     <title>GloryHueBlocks Generator</title>
     <meta name="description" content="Générateur de dégradés de blocs (HueBlocks) pour Minecraft et NationsGlory. Utilise l'algorithme Delta E 2000 pour une précision chromatique optimale.">
     <meta name="keywords" content="Minecraft, NationsGlory, HueBlocks, Gradient, Dégradé, Blocs, Delta E, Builder">
-    
-    </head>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
 <body>
     
     <div id="splashScreen" class="splash-screen">
