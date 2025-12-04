@@ -15,18 +15,11 @@ class HueBlockModel {
     }
 
     /**
-     * NOUVEAU: CHARGER LES MÉTADONNÉES DES SPRITES
-     * Corrigé: Utilise des valeurs fixes basées sur la génération TexturePacker (64x1344 et 128x1344).
+     * CORRECTION: Charger les métadonnées des sprites avec les bonnes clés
      */
     private function loadSpriteMetadata() {
-        // Clé officielle pour le 16x16
         $this->sprite_meta['sprites_16x16.png'] = ['w' => 64, 'h' => 1344];
-        
-        // CORRECTION: Ajout de la clé 'sprite_32x32' pour couvrir les noms de fichiers sans 's' final.
-        $this->sprite_meta['sprite_32x32'] = ['w' => 128, 'h' => 1344]; 
-        
-        // Clé officielle pour le 32x32 (au cas où le JSON est corrigé)
-        $this->sprite_meta['sprites_32x32.png'] = ['w' => 128, 'h' => 1344]; 
+        $this->sprite_meta['sprites_32x32.png'] = ['w' => 128, 'h' => 1344];
     }
     
     // --- Fonctions de Conversion RVB -> LAB ---
@@ -39,9 +32,6 @@ class HueBlockModel {
         return ($t > 0.008856) ? pow($t, 1/3) : (7.787 * $t + 16/116);
     }
     
-    /**
-     * Convertit une couleur RVB (0-255) en espace CIE Lab (D65).
-     */
     private function rgbToLab($r, $g, $b) {
         $r /= 255.0; $g /= 255.0; $b /= 255.0;
         $r = $this->toLinear($r); $g = $this->toLinear($g); $b = $this->toLinear($b);
@@ -61,9 +51,6 @@ class HueBlockModel {
         return ['L' => $L, 'a' => $a, 'b' => $b];
     }
     
-    /**
-     * Calcule la distance de couleur Delta E 2000 (CIE DE2000).
-     */
     private function deltaE2000($lab1, $lab2) {
         $kL = 1.0; $kC = 1.0; $kH = 1.0;
         $L1 = $lab1['L']; $a1 = $lab1['a']; $b1 = $lab1['b'];
@@ -123,6 +110,11 @@ class HueBlockModel {
                 if (!isset($block['lab'])) {
                      die("Erreur de données : Le bloc {$key} ne contient pas de données 'lab'. Veuillez relancer le script Python de fusion.");
                 }
+                
+                // 🔧 CORRECTION: Ajouter automatiquement sprite_image si manquant
+                if (!isset($block['sprite_image'])) {
+                    $block['sprite_image'] = ($block['resolution'] == 16) ? 'sprites_16x16.png' : 'sprites_32x32.png';
+                }
             }
             $this->blockDatabase = $data;
 
@@ -135,15 +127,10 @@ class HueBlockModel {
         return $this->blockDatabase;
     }
     
-    /**
-     * Retourne les blocs triés par catégorie ET les métadonnées de la Sprite Sheet.
-     */
     public function getBlocksByCategory() {
         $sorted = [];
         foreach ($this->blockDatabase as $key => $block) {
-            if (isset($block['sprite_image'])) {
-                $sorted[$block['category']][$key] = $block;
-            }
+            $sorted[$block['category']][$key] = $block;
         }
         ksort($sorted); 
         
@@ -182,22 +169,16 @@ class HueBlockModel {
         return $this->processGradient($startLab, $endLab, $steps);
     }
     
-    /**
-     * Coeur de l'algorithme : Interpolation Lab et recherche Delta E 2000 avec règles de priorité.
-     */
     private function processGradient($startLab, $endLab, $steps) {
         $gradientBlocks = [];
         $steps = max(2, (int)$steps); 
         
-        // --- LOGIQUE DE PRIORITÉ ROUGE PUR ---
         $PURE_RED_LAB = ['L' => 53.23, 'a' => 80.11, 'b' => 67.22]; 
         $PRIMARY_TARGETS = [['lab' => $PURE_RED_LAB, 'key' => 'minecraft_red_concrete', 'threshold_dE' => 8, 'max_dE_force' => 15 ]];
-        // ---------------------------------------------
 
         for ($i = 0; $i < $steps; $i++) {
             $t = $i / ($steps - 1); 
 
-            // Interpolation Lab
             $targetL = $startLab['L'] + ($endLab['L'] - $startLab['L']) * $t;
             $targetA = $startLab['a'] + ($endLab['a'] - $startLab['a']) * $t;
             $targetB = $startLab['b'] + ($endLab['b'] - $startLab['b']) * $t;
@@ -207,7 +188,6 @@ class HueBlockModel {
             $minDistance = INF;
             $bestKey = null;
 
-            // VÉRIFICATION DES RÈGLES DE PRIORITÉ 
             foreach ($PRIMARY_TARGETS as $rule) {
                 if ($this->deltaE2000($targetLab, $rule['lab']) < $rule['threshold_dE']) {
                     if (isset($this->blockDatabase[$rule['key']])) {
@@ -222,7 +202,6 @@ class HueBlockModel {
                 }
             }
 
-            // Recherche Lab normale
             if (!$bestKey) {
                 foreach ($this->blockDatabase as $key => $block) {
                     $distance = $this->deltaE2000($targetLab, $block['lab']); 
