@@ -63,7 +63,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_bark_jungle": {
         "name": "bark_jungle",
@@ -85,7 +85,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_bark_oak": {
         "name": "bark_oak",
@@ -107,7 +107,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_bark_spruce": {
         "name": "bark_spruce",
@@ -129,7 +129,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_blades_molten": {
         "name": "blades_molten",
@@ -151,7 +151,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_bricks_stone_small_smooth": {
         "name": "bricks_stone_small_smooth",
@@ -173,7 +173,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_bricks_white_small": {
         "name": "bricks_white_small",
@@ -195,7 +195,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_basalt": {
         "name": "brick_basalt",
@@ -217,7 +217,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_dark_red": {
         "name": "brick_dark_red",
@@ -239,7 +239,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_dun": {
         "name": "brick_dun",
@@ -261,7 +261,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_dun_cobble": {
         "name": "brick_dun_cobble",
@@ -283,7 +283,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_dun_ornate": {
         "name": "brick_dun_ornate",
@@ -305,7 +305,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_lannisport": {
         "name": "brick_lannisport",
@@ -327,7 +327,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_light_grey": {
         "name": "brick_light_grey",
@@ -349,7 +349,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_metal_normal_gold": {
         "name": "brick_metal_normal_gold",
@@ -371,7 +371,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_nether": {
         "name": "brick_nether",
@@ -393,7 +393,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_orange_large": {
         "name": "brick_orange_large",
@@ -415,7 +415,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_orange_small_side": {
         "name": "brick_orange_small_side",
@@ -437,7 +437,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_orange_small_top_ornate": {
         "name": "brick_orange_small_top_ornate",
@@ -459,7 +459,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_reach_light": {
         "name": "brick_reach_light",
@@ -481,7 +481,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_reach_light_pink": {
         "name": "brick_reach_light_pink",
@@ -503,7 +503,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_reach_pink": {
         "name": "brick_reach_pink",
@@ -525,7 +525,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_stone_large_unshaded": {
         "name": "brick_stone_large_unshaded",
@@ -547,7 +547,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_stone_small": {
         "name": "brick_stone_small",
@@ -569,7 +569,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_stone_small_mossy": {
         "name": "brick_stone_small_mossy",
@@ -591,7 +591,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_stone_small_smooth": {
         "name": "brick_stone_small_smooth",
@@ -613,7 +613,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_stormlands_large": {
         "name": "brick_stormlands_large",
@@ -635,7 +635,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_stormlands_small": {
         "name": "brick_stormlands_small",
@@ -657,7 +657,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_whiteharbor_granite": {
         "name": "brick_whiteharbor_granite",
@@ -679,7 +679,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_whiteharbor_granite_top": {
         "name": "brick_whiteharbor_granite_top",
@@ -701,7 +701,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_white_small": {
         "name": "brick_white_small",
@@ -723,7 +723,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_winterfell_granite": {
         "name": "brick_winterfell_granite",
@@ -745,7 +745,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_brick_winterfell_granite_top": {
         "name": "brick_winterfell_granite_top",
@@ -767,7 +767,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_column_block_marble_side": {
         "name": "column_block_marble_side",
@@ -789,7 +789,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_dates_side": {
         "name": "dates_side",
@@ -811,7 +811,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brick_crossed": {
         "name": "daub_brick_crossed",
@@ -833,7 +833,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brick_left": {
         "name": "daub_brick_left",
@@ -855,7 +855,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brick_open": {
         "name": "daub_brick_open",
@@ -877,7 +877,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brick_right": {
         "name": "daub_brick_right",
@@ -899,7 +899,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brown_crossed": {
         "name": "daub_brown_crossed",
@@ -921,7 +921,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brown_left": {
         "name": "daub_brown_left",
@@ -943,7 +943,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brown_open": {
         "name": "daub_brown_open",
@@ -965,7 +965,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_brown_right": {
         "name": "daub_brown_right",
@@ -987,7 +987,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_plain_brown": {
         "name": "daub_plain_brown",
@@ -1009,7 +1009,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_plain_white": {
         "name": "daub_plain_white",
@@ -1031,7 +1031,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_red_crossed": {
         "name": "daub_red_crossed",
@@ -1053,7 +1053,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_red_left": {
         "name": "daub_red_left",
@@ -1075,7 +1075,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_red_open": {
         "name": "daub_red_open",
@@ -1097,7 +1097,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_red_right": {
         "name": "daub_red_right",
@@ -1119,7 +1119,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_white_crossed": {
         "name": "daub_white_crossed",
@@ -1141,7 +1141,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_white_left": {
         "name": "daub_white_left",
@@ -1163,7 +1163,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_white_open": {
         "name": "daub_white_open",
@@ -1185,7 +1185,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_daub_white_right": {
         "name": "daub_white_right",
@@ -1207,7 +1207,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_dirt": {
         "name": "dirt",
@@ -1229,7 +1229,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_dirt_dusty": {
         "name": "dirt_dusty",
@@ -1251,7 +1251,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_dirt_leaf_cover": {
         "name": "dirt_leaf_cover",
@@ -1273,7 +1273,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_dirt_pine_cover": {
         "name": "dirt_pine_cover",
@@ -1295,7 +1295,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_food_squash_side": {
         "name": "food_squash_side",
@@ -1317,7 +1317,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_gravel": {
         "name": "gravel",
@@ -1339,7 +1339,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_gravel_reach": {
         "name": "gravel_reach",
@@ -1361,7 +1361,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_keystone_grey": {
         "name": "keystone_grey",
@@ -1383,7 +1383,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_keystone_netherbrick": {
         "name": "keystone_netherbrick",
@@ -1405,7 +1405,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_leather_block_leather": {
         "name": "leather_block_leather",
@@ -1427,7 +1427,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_log_palm": {
         "name": "log_palm",
@@ -1449,7 +1449,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_marble_ornate": {
         "name": "marble_ornate",
@@ -1471,7 +1471,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_metal_block_bronzeoxidized": {
         "name": "metal_block_bronzeoxidized",
@@ -1493,7 +1493,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_metal_block_iron": {
         "name": "metal_block_iron",
@@ -1515,7 +1515,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_metal_block_ironoxidized": {
         "name": "metal_block_ironoxidized",
@@ -1537,7 +1537,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_metal_block_steel": {
         "name": "metal_block_steel",
@@ -1559,7 +1559,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_mud": {
         "name": "mud",
@@ -1581,7 +1581,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_piston_top": {
         "name": "piston_top",
@@ -1603,7 +1603,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_casterly_crimson": {
         "name": "plaster_casterly_crimson",
@@ -1625,7 +1625,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_dornish_dark": {
         "name": "plaster_dornish_dark",
@@ -1647,7 +1647,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_dornish_light": {
         "name": "plaster_dornish_light",
@@ -1669,7 +1669,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_lannisport_orange": {
         "name": "plaster_lannisport_orange",
@@ -1691,7 +1691,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_lannisport_yellow": {
         "name": "plaster_lannisport_yellow",
@@ -1713,7 +1713,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_oldtown_brown": {
         "name": "plaster_oldtown_brown",
@@ -1735,7 +1735,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_oldtown_brown_brick": {
         "name": "plaster_oldtown_brown_brick",
@@ -1757,7 +1757,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_oldtown_purple": {
         "name": "plaster_oldtown_purple",
@@ -1779,7 +1779,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_plaster_oldtown_purple_brick": {
         "name": "plaster_oldtown_purple_brick",
@@ -1801,7 +1801,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_bricks_large": {
         "name": "sandstone_bricks_large",
@@ -1823,7 +1823,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_brown_dark": {
         "name": "sandstone_brown_dark",
@@ -1845,7 +1845,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_monochrome": {
         "name": "sandstone_monochrome",
@@ -1867,7 +1867,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_monochrome_dark": {
         "name": "sandstone_monochrome_dark",
@@ -1889,7 +1889,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_monochrome_mossy": {
         "name": "sandstone_monochrome_mossy",
@@ -1911,7 +1911,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_normal": {
         "name": "sandstone_normal",
@@ -1933,7 +1933,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_normal_dark": {
         "name": "sandstone_normal_dark",
@@ -1955,7 +1955,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_normal_dark_mossy": {
         "name": "sandstone_normal_dark_mossy",
@@ -1977,7 +1977,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_ornate": {
         "name": "sandstone_ornate",
@@ -1999,7 +1999,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_red": {
         "name": "sandstone_red",
@@ -2021,7 +2021,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_red_coarse": {
         "name": "sandstone_red_coarse",
@@ -2043,7 +2043,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_red_coarse_ornate": {
         "name": "sandstone_red_coarse_ornate",
@@ -2065,7 +2065,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_terracotta": {
         "name": "sandstone_terracotta",
@@ -2087,7 +2087,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_terracotta_dull": {
         "name": "sandstone_terracotta_dull",
@@ -2109,7 +2109,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_terracotta_engraved": {
         "name": "sandstone_terracotta_engraved",
@@ -2131,7 +2131,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_terracotta_light": {
         "name": "sandstone_terracotta_light",
@@ -2153,7 +2153,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_terracotta_light_mossy": {
         "name": "sandstone_terracotta_light_mossy",
@@ -2175,7 +2175,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_vivid": {
         "name": "sandstone_vivid",
@@ -2197,7 +2197,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_vivid_dark": {
         "name": "sandstone_vivid_dark",
@@ -2219,7 +2219,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sandstone_vivid_mossy": {
         "name": "sandstone_vivid_mossy",
@@ -2241,7 +2241,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sand_pinkorange": {
         "name": "sand_pinkorange",
@@ -2263,7 +2263,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sand_red": {
         "name": "sand_red",
@@ -2285,7 +2285,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sand_terracotta": {
         "name": "sand_terracotta",
@@ -2307,7 +2307,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_sand_wet": {
         "name": "sand_wet",
@@ -2329,7 +2329,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_slate_black": {
         "name": "slate_black",
@@ -2351,7 +2351,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_slate_blue": {
         "name": "slate_blue",
@@ -2373,7 +2373,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_slate_brown": {
         "name": "slate_brown",
@@ -2395,7 +2395,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_slate_green": {
         "name": "slate_green",
@@ -2417,7 +2417,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_slate_lannisport": {
         "name": "slate_lannisport",
@@ -2439,7 +2439,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_slate_red": {
         "name": "slate_red",
@@ -2461,7 +2461,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_soil_dried": {
         "name": "soil_dried",
@@ -2483,7 +2483,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_bedrock": {
         "name": "stone_bedrock",
@@ -2505,7 +2505,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble": {
         "name": "stone_cobble",
@@ -2527,7 +2527,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_dark": {
         "name": "stone_cobble_dark",
@@ -2549,7 +2549,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_mossy": {
         "name": "stone_cobble_mossy",
@@ -2571,7 +2571,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_mossy_unshaded": {
         "name": "stone_cobble_mossy_unshaded",
@@ -2593,7 +2593,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_northern": {
         "name": "stone_cobble_northern",
@@ -2615,7 +2615,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_northern_icy": {
         "name": "stone_cobble_northern_icy",
@@ -2637,7 +2637,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_reach_pink": {
         "name": "stone_cobble_reach_pink",
@@ -2659,7 +2659,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_stormlands": {
         "name": "stone_cobble_stormlands",
@@ -2681,7 +2681,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_stormlands_dark": {
         "name": "stone_cobble_stormlands_dark",
@@ -2703,7 +2703,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_stormlands_mossy": {
         "name": "stone_cobble_stormlands_mossy",
@@ -2725,7 +2725,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_unshaded": {
         "name": "stone_cobble_unshaded",
@@ -2747,7 +2747,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_cobble_whiteharbor": {
         "name": "stone_cobble_whiteharbor",
@@ -2769,7 +2769,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_dorne": {
         "name": "stone_dorne",
@@ -2791,7 +2791,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_eastern_islands": {
         "name": "stone_eastern_islands",
@@ -2813,7 +2813,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_north": {
         "name": "stone_north",
@@ -2835,7 +2835,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_ocean_iron_islands": {
         "name": "stone_ocean_iron_islands",
@@ -2857,7 +2857,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_reach": {
         "name": "stone_reach",
@@ -2879,7 +2879,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_red_mountains": {
         "name": "stone_red_mountains",
@@ -2901,7 +2901,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_river": {
         "name": "stone_river",
@@ -2923,7 +2923,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_slab_top": {
         "name": "stone_slab_top",
@@ -2945,7 +2945,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_stormlands": {
         "name": "stone_stormlands",
@@ -2967,7 +2967,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_vale": {
         "name": "stone_vale",
@@ -2989,7 +2989,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_westerlands": {
         "name": "stone_westerlands",
@@ -3011,7 +3011,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_stone_winterfell_carving": {
         "name": "stone_winterfell_carving",
@@ -3033,7 +3033,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_thatch_dark": {
         "name": "thatch_dark",
@@ -3055,7 +3055,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_thatch_light": {
         "name": "thatch_light",
@@ -3077,7 +3077,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_black": {
         "name": "wood_black",
@@ -3099,7 +3099,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_blue": {
         "name": "wood_blue",
@@ -3121,7 +3121,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_carving_northern": {
         "name": "wood_carving_northern",
@@ -3143,7 +3143,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_floor_ornate": {
         "name": "wood_floor_ornate",
@@ -3165,7 +3165,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_gray": {
         "name": "wood_gray",
@@ -3187,7 +3187,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_green": {
         "name": "wood_green",
@@ -3209,7 +3209,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_northern": {
         "name": "wood_northern",
@@ -3231,7 +3231,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_panelling_oak": {
         "name": "wood_panelling_oak",
@@ -3253,7 +3253,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_panelling_spruce": {
         "name": "wood_panelling_spruce",
@@ -3275,7 +3275,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_purple": {
         "name": "wood_purple",
@@ -3297,7 +3297,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_red": {
         "name": "wood_red",
@@ -3319,7 +3319,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_white": {
         "name": "wood_white",
@@ -3341,7 +3341,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wood_yellow": {
         "name": "wood_yellow",
@@ -3363,7 +3363,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_black": {
         "name": "wool_colored_black",
@@ -3385,7 +3385,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_blue": {
         "name": "wool_colored_blue",
@@ -3407,7 +3407,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_brown": {
         "name": "wool_colored_brown",
@@ -3429,7 +3429,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_cyan": {
         "name": "wool_colored_cyan",
@@ -3451,7 +3451,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_dirty_white": {
         "name": "wool_colored_dirty_white",
@@ -3473,7 +3473,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_gray": {
         "name": "wool_colored_gray",
@@ -3495,7 +3495,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_green": {
         "name": "wool_colored_green",
@@ -3517,7 +3517,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_light_blue": {
         "name": "wool_colored_light_blue",
@@ -3539,7 +3539,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_light_brown": {
         "name": "wool_colored_light_brown",
@@ -3561,7 +3561,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_light_gray": {
         "name": "wool_colored_light_gray",
@@ -3583,7 +3583,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_orange": {
         "name": "wool_colored_orange",
@@ -3605,7 +3605,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_pink": {
         "name": "wool_colored_pink",
@@ -3627,7 +3627,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_purple": {
         "name": "wool_colored_purple",
@@ -3649,7 +3649,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_red": {
         "name": "wool_colored_red",
@@ -3671,7 +3671,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_white": {
         "name": "wool_colored_white",
@@ -3693,7 +3693,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "westeros_wool_colored_yellow": {
         "name": "wool_colored_yellow",
@@ -3715,7 +3715,7 @@
             "w": 32,
             "h": 32
         },
-        "sprite_image": "sprite_32x32"
+        "sprite_image": "sprite_32x32.png"
     },
     "minecraft_amethyst_block": {
         "name": "amethyst_block",
