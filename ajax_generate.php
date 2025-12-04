@@ -111,7 +111,7 @@ try {
         if (!isset($block['sprite_image'])) {
             $block['sprite_image'] = ($block['resolution'] == 16) 
                 ? 'sprites_16x16.png' 
-                : 'sprites_32x32.png';
+                : 'sprite_32x32.png';
         }
     }
     unset($block); // Libère la référence
