@@ -19,7 +19,7 @@ class HueBlockModel {
      */
     private function loadSpriteMetadata() {
         $this->sprite_meta['sprites_16x16.png'] = ['w' => 64, 'h' => 1344];
-        $this->sprite_meta['sprites_32x32.png'] = ['w' => 128, 'h' => 1344];
+        $this->sprite_meta['sprite_32x32.png'] = ['w' => 128, 'h' => 1344];
     }
     
     // --- Fonctions de Conversion RVB -> LAB ---
@@ -113,7 +113,7 @@ class HueBlockModel {
                 
                 // 🔧 CORRECTION: Ajouter automatiquement sprite_image si manquant
                 if (!isset($block['sprite_image'])) {
-                    $block['sprite_image'] = ($block['resolution'] == 16) ? 'sprites_16x16.png' : 'sprites_32x32.png';
+                    $block['sprite_image'] = ($block['resolution'] == 16) ? 'sprites_16x16.png' : 'sprite_32x32.png';
                 }
             }
             $this->blockDatabase = $data;
